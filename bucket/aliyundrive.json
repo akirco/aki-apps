@@ -8,7 +8,7 @@
     },
 
     "url": "https://aki-1258833316.cos.ap-shanghai.myqcloud.com/aDrive.exe#/aDrive-2.3.4.7z",
-    "hash": "sha512:32e000571b7e27b58ba4e04e9107e086b88a2fe72c065a0d8829f7a2fc797e71c85d5d36b54a6504c20446b520145731bfd3081dc4e63a1072c87469e615f97e",
+    "hash": "sha512:F213EEC6C8AC23617F2FDBAFB7BE4F5DFB7D46E357E0413999097BE646D7BDB7FB766A74C9E907EAFA1C2D5AA1DEB03A690D3268D971F73C297D82B72E79676A",
     "post_install": [
         "@('$PLUGINSDIR', '$TEMP') | ForEach-Object {",
         "    Remove-Item \"$dir\\$_\" -Recurse -Force",
