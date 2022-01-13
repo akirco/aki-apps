@@ -1,5 +1,5 @@
 {
-    "version": "2.2.9",
+    "version": "2.3.4",
     "description": "The official client for Alibaba's cloud dirve service",
     "homepage": "https://www.aliyundrive.com/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.aliyundrive.com/protocol/service"
     },
 
-    "url": "https://yunpan.aliyun.com/downloads/apps/desktop/aDrive?spm=aliyundrive.index.0.0.2d836020DguXKU&file=aDrive.exe",
+    "url": "https://aki-1258833316.cos.ap-shanghai.myqcloud.com/aDrive.exe#/aDrive-2.3.4.7z",
     "hash": "sha512:32e000571b7e27b58ba4e04e9107e086b88a2fe72c065a0d8829f7a2fc797e71c85d5d36b54a6504c20446b520145731bfd3081dc4e63a1072c87469e615f97e",
     "post_install": [
         "@('$PLUGINSDIR', '$TEMP') | ForEach-Object {",
