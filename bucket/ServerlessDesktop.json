@@ -3,7 +3,6 @@
     "homepage": "https://serverlessdevs.resume.net.cn/zh-cn/desktop/index.html",
     "description": "tencent ServerlessDesktop",
     "url": "https://github.com/Casuor/AkiWinApps/releases/download/ServerlessDesktop/ServerlessDesktop.zip",
-    "extract_dir": "ServerlessDesktop",
     "hash": "sha256:6311d4fe8182706189f39f2e775f6d059d8462866ac0e94e48f00ba4136ba2c2",
     "license": "MIT",
     "shortcuts": [
@@ -11,5 +10,10 @@
             "ServerlessDesktop.exe",
             "ServerlessDesktop"
         ]
+    ],
+    "post_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+        "Remove-Item \"$dir\\`$_15_\" -Force -Recurse",
+        "Remove-Item \"$dir\\`$R5\" -Force -Recurse"
     ]
 }
