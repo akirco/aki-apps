@@ -1,0 +1,37 @@
+{
+    "version": "1.56.2",
+    "description": "Sync files and directories to and from mulitple cloud / FTP / HTTP hosters.",
+    "homepage": "https://rclone.org",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rclone/rclone/releases/download/v1.56.2/rclone-v1.56.2-windows-amd64.zip",
+            "hash": "24affae5bf7188361d794c1a44445d719c3b7a511d69ba1e29f6cf7c97850030",
+            "extract_dir": "rclone-v1.56.2-windows-amd64"
+        },
+        "32bit": {
+            "url": "https://github.com/rclone/rclone/releases/download/v1.56.2/rclone-v1.56.2-windows-386.zip",
+            "hash": "c307a8440f2c388425525b39d5ecfcd801c747330ed73d28e04cf65dc71caaa1",
+            "extract_dir": "rclone-v1.56.2-windows-386"
+        }
+    },
+    "bin": "rclone.exe",
+    "checkver": {
+        "github": "https://github.com/rclone/rclone"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rclone/rclone/releases/download/v$version/rclone-v$version-windows-amd64.zip",
+                "extract_dir": "rclone-v$version-windows-amd64"
+            },
+            "32bit": {
+                "url": "https://github.com/rclone/rclone/releases/download/v$version/rclone-v$version-windows-386.zip",
+                "extract_dir": "rclone-v$version-windows-386"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "homepage": "https://pan.baidu.com/download",
+    "description": "百度网盘PC版 ",
+    "version": "7.10.1.2",
+    "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.10.1.2.exe#dl.7z",
+    "hash": "c0d4e8fad9ee21a2cf2ac583d51dc6d139c0b802675f8811b97e1011a9bb97d0",
+    "bin": "BaiduNetdisk.exe",
+    "persist": "users",
+    "post_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
+        "Remove-Item \"$dir\\`$TEMP\" -Recurse"
+    ],
+    "checkver": {
+        "url": "https://pan.baidu.com/disk/cmsdata?do=client",
+        "regex": "BaiduNetdisk_(\\d+.\\d+.\\d+.\\d+).exe"
+    },
+    "autoupdate": {
+        "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_$version.exe#dl.7z"
+    },
+    "shortcuts": [
+        [
+            "BaiduNetdisk.exe",
+            "百度网盘"
+        ]
+    ]
+}

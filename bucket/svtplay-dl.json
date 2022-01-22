@@ -1,0 +1,32 @@
+{
+    "version": "4.8",
+    "description": "Video downloader from various sites",
+    "homepage": "https://svtplay-dl.se",
+    "license": "MIT",
+    "suggest": {
+        "ffmpeg": "ffmpeg"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://svtplay-dl.se/download/4.8/svtplay-dl-amd64.zip",
+            "hash": "c48bcac40d8ed9e97317f1875bb672d97cf0812a73b2ba41dfd5304802788130"
+        },
+        "32bit": {
+            "url": "https://svtplay-dl.se/download/4.8/svtplay-dl-win32.zip",
+            "hash": "58b72d1bfab123b360dfddf16ab7df6a5c65000d97ad6218efac9e558c0e7120"
+        }
+    },
+    "extract_dir": "svtplay-dl",
+    "bin": "svtplay-dl.exe",
+    "checkver": ">Currently v([\\d.]+)\\s+\\(",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://svtplay-dl.se/download/$version/svtplay-dl-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://svtplay-dl.se/download/$version/svtplay-dl-win32.zip"
+            }
+        }
+    }
+}
