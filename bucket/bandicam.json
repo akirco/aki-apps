@@ -1,5 +1,6 @@
 {
     "version": "4.5.3",
+    "license": "MIT",
     "description": "Bandicam Edition, 班迪录屏，游戏/屏幕录制工具",
     "homepage": "https://casuor.top",
     "url": "https://aki-1258833316.cos.ap-shanghai.myqcloud.com/bandicam.7z",
@@ -16,9 +17,5 @@
             "BandicamPortable.exe",
             "..\\Bandicam\\班迪录屏"
         ]
-    ],
-    "checkver": {
-        "encode": "UTF-8",
-        "re": "Bandicam ?v?([\\d.]+)"
-    }
+    ]
 }
