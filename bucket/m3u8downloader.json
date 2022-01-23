@@ -1,10 +1,10 @@
 {
-    "homepage": "https://github.com/bawangxx/XZVoice",
-    "description": "Free and open source text-to-speech software",
-    "version": "1.1.0",
+    "version": "2.0.6",
+    "description": "M3U8-Downloader是基于Electron框架开发的一款可以下载、播放HLS视频流的APP",
+    "homepage": "https://tools.heisir.cn/HLSDownload/",
     "license": "no",
-    "url": "https://github.com/bawangxx/XZVoice/releases/download/v1.1.0/xzvoice-setup-1.1.0.exe#/dl.7z",
-    "hash": "sha256:a9178d52c033552df4f84703b473b922762f1ebee8ca843da61a79ba74225f45",
+    "url": "https://github.com/HeiSir2014/M3U8-Downloader/releases/download/v2.0.6/M3U8-Downloader-win-2.0.6.exe#/dl.7z",
+    "hash":"sha256:f76e7cb5c456d9c94d8f3571c4d491df28710fb9321ca037b164789544d3c423",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
@@ -13,12 +13,9 @@
         "script": [
             "if (!(Test-Path \"$persist_dir\\data\")) {",
             "    New-Item \"$persist_dir\\data\" -Type Directory -Force | Out-Null",
-            "    if (Test-Path \"$env:USERPROFILE\\xzvoice\") {",
-            "        Copy-Item -Path \"$env:USERPROFILE\\xzvoice\\*\" -Destination \"$persist_dir\\data\" -Recurse -Container",
-            "    }",
             "}",
-            "$runtimeCache = \"$env:APPDATA\\xzvoice\"",
-            "$runtimeCachePersist = \"$persist_dir\\xzvoice\"",
+            "$runtimeCache = \"$env:APPDATA\\M3U8-Downloader\"",
+            "$runtimeCachePersist = \"$persist_dir\\M3U8-Downloader\"",
             "if (Test-Path $runtimeCachePersist) {",
             "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
             "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
@@ -32,8 +29,8 @@
     },
     "uninstaller": {
         "script": [
-            "$runtimeCache = \"$env:APPDATA\\xzvoice\"",
-            "$runtimeCachePersist = \"$persist_dir\\xzvoice\"",
+            "$runtimeCache = \"$env:APPDATA\\M3U8-Downloader\"",
+            "$runtimeCachePersist = \"$persist_dir\\M3U8-Downloader\"",
             "if (!(Test-Path $runtimeCachePersist)) {",
             "    Move-Item $runtimeCache $runtimeCachePersist -Force",
             "} else {",
@@ -43,21 +40,14 @@
     },
     "shortcuts": [
         [
-            "AI配音专家.exe",
-            "AI配音专家"
+            "M3U8-Downloader.exe",
+            "M3U8-Downloader"
         ]
     ],
-    "persist": "data",
-    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/bawangxx/XZVoice/releases/download/v$version/xzvoice-setup-$version.exe#/dl.7z",
-                "hash": {
-                    "url": "https://github.com/bawangxx/XZVoice/releases/download/$version/sha256sum",
-                    "mode": "extract",
-                    "regex": "(?m)^exe: $sha256"
-                }
+                "url": "https://github.com/HeiSir2014/M3U8-Downloader/releases/download/v$version/M3U8-Downloader-win-$version.exe#/dl.7z"
             }
         }
     }

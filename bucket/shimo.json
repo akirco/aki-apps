@@ -1,0 +1,52 @@
+{
+        "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
+        "description": "A Windows GUI based on Clash",
+        "version": "0.19.5",
+        "license": "MIT",
+        "hash":"sha256:3d9700969c0e756ffd0b1db1b4530bcb4a7ed967d46106d9740e647512edad0b",
+        "architecture": {
+            "64bit": {
+                "url": "https://assets.shimonote.com/panther/shimo/release/win32/x64/%E7%9F%B3%E5%A2%A8%E6%96%87%E6%A1%A3_v2.5.6-release.f665a20_win32-x64.exe#/dl.7z",
+                "pre_install": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
+                ]
+            }
+        },
+        "installer": {
+            "script": [
+                "if (!(Test-Path \"$persist_dir\\data\")) {",
+                "    New-Item \"$persist_dir\\data\" -Type Directory -Force | Out-Null",
+                "}",
+                "$runtimeCache = \"$env:APPDATA\\shimo\"",
+                "$runtimeCachePersist = \"$persist_dir\\shimo\"",
+                "if (Test-Path $runtimeCachePersist) {",
+                "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+                "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+                "} else {",
+                "    if (Test-Path $runtimeCache) {",
+                "        Move-Item $runtimeCache $runtimeCachePersist -Force",
+                "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+                "    }",
+                "}"
+            ]
+        },
+        "uninstaller": {
+            "script": [
+                "$runtimeCache = \"$env:APPDATA\\shimo\"",
+                "$runtimeCachePersist = \"$persist_dir\\shimo\"",
+                "if (!(Test-Path $runtimeCachePersist)) {",
+                "    Move-Item $runtimeCache $runtimeCachePersist -Force",
+                "} else {",
+                "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+                "}"
+            ]
+        },
+        "shortcuts": [
+            [
+                "石墨文档.exe",
+                "石墨文档"
+            ]
+        ],
+        "persist": "data"
+    }

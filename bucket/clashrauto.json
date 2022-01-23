@@ -52,7 +52,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/download/$version/Clashr.Auto.Setup.$version.exe#/dl.7z",
+                "url": "https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/download/v$version/Clashr.Auto.Setup.$version.exe#/dl.7z",
                 "hash": {
                     "url": "https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/download/$version/sha256sum",
                     "mode": "extract",
