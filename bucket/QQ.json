@@ -1,29 +1,42 @@
 {
-    "homepage": "https://im.qq.com/",
-    "description": "QQ是腾讯QQ的简称，是于Internet的即时通信（IM）软件。",
-    "version": "9.2.2.26569",
-    "depends": [
-        "vcredist2010",
-        "vcredist2019"
+    "homepage": "https://im.qq.com/pcqq/",
+    "description": "An instant messaging software service developed by Tencent",
+    "license": "Freeware",
+    "version": "9.5.4.0",
+    "url": "https://dorado-api.deno.dev/appxqq?dl#/903DB504.46618D74B1ECA_9.5.4.0_x86__a99ra4d2cbcxa.appx.7z",
+    "hash": "sha1:9988eb4140bd5cfd7d94fb91229b5f9c0117eb0c",
+    "pre_install": [
+        "if ([Environment]::OSVersion.Version.Major -ne \"10\") {",
+        "    throw \"This app requires Windows 10 to work.\"",
+        "}",
+        "if ([Environment]::OSVersion.Version.Build -lt \"14393\") {",
+        "    throw \"This app requires at least Windows 10 version 1607 (build 14393) to work.\"",
+        "}"
     ],
-    "extract_dir": "QQ",
-    "url": "https://scoop-zapps.oss-cn-hangzhou.aliyuncs.com/QQ/QQ-9.2.2.26569.7z",
-    "hash": "f43711bed0014a452678b0101e66d27041504810006e71f884c971d17c4e1989",
-    "checkver": {
-        "url": "https://scoop-zapps.oss-cn-hangzhou.aliyuncs.com/QQ/QQ.latest",
-        "regex": "([\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "https://scoop-zapps.oss-cn-hangzhou.aliyuncs.com/QQ/QQ-$version.7z",
-        "hash": {
-            "url": "$url.sha256",
-            "regex": "$sha256"
-        }
+    "suggest": {
+        "vcruntime": "extras/vcredist2019"
     },
     "shortcuts": [
         [
-            "bin\\QQ.exe",
-            "腾讯QQ"
+            "QQ\\Bin\\QQScLauncher.exe",
+            "QQ桌面版"
         ]
+    ],
+    "checkver": {
+        "url": "https://dorado-api.deno.dev/appxqq",
+        "jsonpath": "$.version"
+    },
+    "autoupdate": {
+        "url": "https://dorado-api.deno.dev/appxqq?dl#/903DB504.46618D74B1ECA_$version_x86__a99ra4d2cbcxa.appx.7z",
+        "hash": {
+            "url": "https://dorado-api.deno.dev/appxqq",
+            "jsonpath": "$.sha1"
+        }
+    },
+    "notes": [
+        "Scoop doesn't persist your QQ data, by default they are stored in: ",
+        "'$env:USERPROFILE\\Documents\\Tencent Files'.",
+        "",
+        "Files produced at runtime leaves in '$env:APPDATA\\Tencent'."
     ]
 }

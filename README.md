@@ -3,4 +3,3 @@
 `scoop bucket add aki 'https://github.com/Casuor/AkiWinApps.git'`
 
 > 个人自用整合
-
