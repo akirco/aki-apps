@@ -6,57 +6,57 @@
 
 | 名称                       | 简介 |
 | -------------------------- | ---- |
-| handbrake-cli              |      |
-| xwtoolbox                  |      |
-| aria2                      |      |
-| gallery-dl                 |      |
-| nircmd                     |      |
-| wttop                      |      |
-| pup                        |      |
-| say                        |      |
-| lf                         |      |
-| mysql57                    |      |
-| gsudo                      |      |
-| gh                         |      |
-| dvm                        |      |
-| shim                       |      |
-| officetoolplus             |      |
-| dotnet-sdk                 |      |
-| xidel                      |      |
-| gradle4                    |      |
-| netch                      |      |
-| oss-browser                |      |
-| PowerSession               |      |
-| rainbow                    |      |
-| php                        |      |
-| silentcmd                  |      |
-| rclone                     |      |
+| handbrake-cli              |  A video transcoder with extensive support for multiple formats. (CLI version)    |
+| xwtoolbox                  |  小丸工具箱    |
+| aria2                      |  多线程下载    |
+| gallery-dl                 |  Command-line program to download image-galleries and -collections from several image hosting sites.    |
+| nircmd                     |  Execute various system wide tasks  |
+| wttop                      |  System monitor for the new Windows Terminal    |
+| pup                        |  Parsing HTML at the command line    |
+| say                        |  An approximation of say from macOS    |
+| lf                         |  终端的文件浏览器    |
+| mysql57                    |  mysql    |
+| gsudo                      |  a sudo with windows    |
+| gh                         |  github cli    |
+| dvm                        |  deno versions manager    |
+| shim                       |  Create shim for programs    |
+| officetoolplus             |  office安装利器    |
+| dotnet-sdk                 |  dotnet-sdk    |
+| xidel                      |  command line tool to download and extract data from HTML/XML pages as well as JSON APIs.    |
+| gradle4                    |  gradle4    |
+| netch                      |  Game accelerator    |
+| oss-browser                |  阿里云oss gui    |
+| PowerSession               |  Terminal session recorder    |
+| rainbow                    |  Print text in rainbow pattern.    |
+| php                        |  php    |
+| silentcmd                  |  Executes a batch file without opening the command prompt window    |
+| rclone                     |  Sync files and directories to and from mulitple cloud / FTP / HTTP hosters    |
 | vcredist2010               |      |
-| yuque                      |      |
-| gow                        |      |
-| jianyingpro                |      |
-| docker-cli                 |      |
-| format-factory             |      |
-| innounp                    |      |
-| msys2                      |      |
-| googlechrome               |      |
-| winfetch                   |      |
-| mysql                      |      |
-| vscode                     |      |
-| chromium                   |      |
-| nvm-windows                |      |
-| homedale                   |      |
-| optipng                    |      |
-| pastel                     |      |
-| WechatWork                 |      |
+| yuque                      |  语雀    |
+| gow                        |  Unix command line utilities installer for Windows    |
+| jianyingpro                |  剪映    |
+| docker-cli                 |  Unofficial build of Docker CLI for Windows    |
+| format-factory             |  格式工厂    |
+| innounp                    |  Inno Setup Unpacker    |
+| msys2                      |  A software distro and building platform for Windows    |
+| googlechrome               |  谷歌浏览器    |
+| winfetch                   |  系统信息    |
+| mysql                      |  mysql    |
+| vscode                     |  vscode    |
+| chromium                   |  chromium    |
+| nvm-windows                |  node versions manager    |
+| homedale                   |  wifi信号强度    |
+| optipng                    |  A PNG optimizer that recompresses image files to a smaller size, without losing any information.    |
+| pastel                     |  A command-line tool to generate, analyze, convert and manipulate colors    |
+| WechatWork                 |  企业微信    |
 | 7zip                       |      |
 | vim                        |      |
-| tokei                      |      |
-| bat2exe                    |      |
-| kate                       |      |
-| shellcheck                 |      |
-| micro                      |      |
-| mtn                        |      |
+| tokei                      |  Count your code, quickly.    |
+| bat2exe                    |  bat to exe    |
+| kate                       |  linux 常用编辑器    |
+| shellcheck                 |  Static analysis tool for shell scripts    |
+| micro                      |  A terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the full capabilities of modern terminals.    |
+| mtn                        |  Movie Thumbnailer - save thumbnails (screenshots) of movie or video files to image files.    |
 | terminus                   |      |
 | youtube-dl                 |      |
 | switchhosts                |      |
