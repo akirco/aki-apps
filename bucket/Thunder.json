@@ -1,4 +1,4 @@
-﻿{
+{
     "homepage": "https://www.mefcl.com/xunlei11/217",
     "version": "11.1.12.1692",
     "url": "https://scoop-zapps.oss-cn-hangzhou.aliyuncs.com/Thunder/Thunder-11.1.12.1692.exe#/setup.exe",
@@ -21,10 +21,5 @@
             "regex": "$sha256"
         }
     },
-    "shortcuts": [
-        [
-            "Program/Thunder.exe",
-            "迅雷11"
-        ]
-    ]
+    "shortcuts": [["Program/Thunder.exe", "迅雷11"]]
 }
