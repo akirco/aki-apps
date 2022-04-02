@@ -2,10 +2,10 @@
     "homepage": "https://lv.ulikecam.com/",
     "description": "Video editing application produced by ByteDance",
     "license": "Proprietary",
-    "version": "2.6.0.7223",
-    "url": "https://lf3-faceucdn-tos.pstatp.com/obj/faceu-packages/Jianying_pro_2_6_0_7223_jianyingpro_0.exe#/jianyingpro.7z",
-    "hash": "c3d6e8a3452d0fd4ba3d8df43780fcb523ea35a7880f3db8544287e367fa2c98",
-    "extract_dir": "JYPacket/2.6.0.7223",
+    "version": "2.8.5.7988",
+    "url": "https://lf3-faceucdn-tos.pstatp.com/obj/faceu-packages/Jianying_pro_2_8_5_7988_jianyingpro_0.exe#/jianyingpro.7z",
+    "hash": "2cf1ee4cf65b4a2c6b91020883170e365ab87154880da055fd69a71d454f6f0d",
+    "extract_dir": "JYPacket/2.8.5.7988",
     "shortcuts": [
         [
             "JianyingPro.exe",
