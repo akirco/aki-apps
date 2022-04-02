@@ -1,5 +1,5 @@
 {
-    "version": "2.0",
+    "version": "2.1",
     "description": "Sordum's Defender Control. Disable Windows Defender completely.",
     "homepage": "https://www.sordum.org/9480/",
     "license": {
@@ -8,10 +8,17 @@
     },
     "changelog": "ReadMe.txt",
     "url": "https://www.sordum.org/files/download/d-control/dControl.zip",
-    "hash": "7437d7db6f3911678a307f06634a26acaaea06778dd5c027f94dbad4c084db40",
+    "hash": "62442fd70bde2bf31b677447cb4216daeeeff48fcc0aac4495cabc30092a5533",
     "extract_dir": "dControl",
-    "pre_install": "$splat = @{ 'ExtractDir' = $manifest.extract_dir; 'Switches' = '-psordum'; 'Removal' = $true }\nExpand-7zipArchive \"$dir\\$fname\" @splat\nExpand-7zipArchive \"$dir\\dControl.zip\" @splat",
-    "shortcuts": ["dfControl.exe", "Sordum\\Defender Control"],
+    "pre_install": [
+        "$splat = @{ 'ExtractDir' = $manifest.extract_dir; 'Switches' = '-psordum'; 'Removal' = $true }",
+        "Expand-7zipArchive \"$dir\\$fname\" @splat",
+        "Expand-7zipArchive \"$dir\\dControl.zip\" @splat"
+    ],
+    "shortcuts": [
+        "dfControl.exe",
+        "Sordum\\Defender Control"
+    ],
     "persist": "dfControl.ini",
     "checkver": "Defender Control\\s*v([\\d.]+)",
     "autoupdate": {
