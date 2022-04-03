@@ -3,7 +3,7 @@
         "description": "A notes app",
         "version": "0.19.5",
         "license": "MIT",
-        "hash":"sha256:3d9700969c0e756ffd0b1db1b4530bcb4a7ed967d46106d9740e647512edad0b",
+        "hash":"sha256:c1a2ba0f97eacb962400cea4ba01ddfc0d0a1ee08afcc68d466d4e68618a22fb",
         "architecture": {
             "64bit": {
                 "url": "https://as.smvm.cn/panther/shimo/release/win32/x64/%E7%9F%B3%E5%A2%A8%E6%96%87%E6%A1%A3_v2.5.8-release.3a8635b_win32-x64.exe#/dl.7z",
