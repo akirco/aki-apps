@@ -1,12 +1,12 @@
 {
-    "version": "21.12.3-1-1626",
+    "version": "21.12.3-1-1627",
     "description": "Multi-document editor",
     "homepage": "https://kate-editor.org",
     "license": "LGPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Release_win64/1626/artifact/kate-21.12.3-1-1626-windows-msvc2019_64-cl.7z",
-            "hash": "e4eedce984b3b33b522d48c409afd26cae6cadc2add52171591e40156181fa38"
+            "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Release_win64/1627/artifact/kate-21.12.3-1-1627-windows-msvc2019_64-cl.7z",
+            "hash": "48f76f63679062011c5597f7445c0c4ff2ee4eda9f7b8de929b17fcbb3caffc4"
         }
     },
     "bin": "bin\\kate.exe",
