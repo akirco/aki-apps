@@ -1,5 +1,5 @@
 {
-    "version": "0.3.2",
+    "version": "0.3.0",
     "description": "Secure, fast & convenient password manager CLI with GPG & git sync",
     "homepage": "https://github.com/timvisee/prs",
     "license": "GPL-3.0-only",
@@ -13,8 +13,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/timvisee/prs/releases/download/v0.3.2/prs-v0.3.2-windows.exe#/prs.exe",
-            "hash": "8972d565707754cc960c1fb575cfb501d9deae21dc26d819980e597fa17886c4"
+            "url": "https://github.com/timvisee/prs/releases/download/v0.3.0/prs-v0.3.0-windows.exe#/prs.exe",
+            "hash": "d330f174422fa9d92e9b4c53715ea968e50cf64878c82e442dee337b55f04ead"
         }
     },
     "bin": "prs.exe",
