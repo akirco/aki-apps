@@ -1,7 +1,7 @@
 {
-    "url": "http://scoop-zapps.ziiyc.com/NavicatPremium/NavicatPremium-12.0.22.0.7z",
-    "hash": "a3267cd4b934c636b153bafcfd5ce3c70d30333ba16471b5b2bc40d3d4832a0f",
-    "version": "12.0.22.0",
+    "url": "http://scoop-zapps.ziiyc.com/NavicatPremium/NavicatPremium-8.7z",
+    "hash": "5745e8c9f9a1c8087718eb69780977599df87c27cdc901f6677ffdc520b00ea8",
+    "version": "8",
     "checkver": {
         "url": "http://scoop-zapps.ziiyc.com/NavicatPremium/NavicatPremium.latest",
         "regex": "([\\d.]+)"
