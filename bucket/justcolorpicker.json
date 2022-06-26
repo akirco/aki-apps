@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://annystudio.com/jcpicker.exe",
-            "hash": "55503ed4934df60fc514453d56cd2495753cc980d6d03cc1ab6b55f07206322e"
+            "hash": "8634f2304a89ccad7422a8f42c9319f78fe0165ad3af27145000f2a8425a1631"
         }
     },
     "bin": "jcpicker.exe",
