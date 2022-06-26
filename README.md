@@ -57,52 +57,52 @@
 | shellcheck                 |  Static analysis tool for shell scripts    |
 | micro                      |  A terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the full capabilities of modern terminals.    |
 | mtn                        |  Movie Thumbnailer - save thumbnails (screenshots) of movie or video files to image files.    |
-| terminus                   |      |
-| youtube-dl                 |      |
-| switchhosts                |      |
-| EasyContextMenu            |      |
-| monolith                   |      |
-| neteasemusic               |      |
-| topgrade                   |      |
-| touch                      |      |
-| unzip                      |      |
-| httpstat                   |      |
-| wechat                     |      |
-| memreduct                  |      |
-| postman                    |      |
-| nmap-portable              |      |
-| pypy3                      |      |
-| f2                         |      |
-| itch                       |      |
-| figma                      |      |
-| anaconda3                  |      |
-| lsd                        |      |
-| potplayer                  |      |
-| yq                         |      |
-| flutter-cn                 |      |
-| GitNote                    |      |
-| powertoys                  |      |
-| svtplay-dl                 |      |
+| terminus                   |  A terminal for a more modern age    |
+| youtube-dl                 |   Download videos from YouTube.com (and a few more sites) using command line.   |
+| switchhosts                |  Hosts management & switching    |
+| EasyContextMenu            |  Sordum's Easy Context Menu. Add useful commands to the right context menus.    |
+| monolith                   | Saves complete web pages as a single HTML file.     |
+| neteasemusic               | 网易云音乐     |
+| topgrade                   | Upgrade everything, keep your system up to date by detecting which tools you use and run their appropriate package managers.    |
+| touch                      | A port of the Unix touch command.（创建文件）     |
+| unzip                      | Unzip compression utility     |
+| httpstat                   | curl(1) statistics visualizer（可视化的curl）     |
+| wechat                     | 微信     |
+| memreduct                  | 内存清理     |
+| postman                    | api调试工具     |
+| nmap-portable              | Network exploration and security auditing utility.     |
+| pypy3                      | A fast, compliant alternative implementation of the Python language.     |
+| f2                         | 快速安全地批量重命名文件和目录。（cli）     |
+| itch                       | 玩 itch.io 游戏的最佳方式     |
+| figma                      | 设计工具     |
+| anaconda3                  | The most popular Python distribution for data science     |
+| lsd                        | The next gen ls command    |
+| potplayer                  | 播放器     |
+| yq                         | A portable command-line YAML processor     |
+| flutter-cn                 | flutter     |
+| GitNote                    | Note Application sync via git,which support html and markdwon both     |
+| powertoys                  | windows增强工具     |
+| svtplay-dl                 | Video downloader from various sites     |
 | python                     |      |
-| neovim                     |      |
-| you-get                    |      |
-| fx                         |      |
-| neofetch                   |      |
-| nginx                      |      |
-| DNSAngel                   |      |
-| hwmonitor                  |      |
+| neovim                     | neovim     |
+| you-get                    | 视频下载器     |
+| fx                         | Terminal JSON viewer     |
+| neofetch                   | A command-line system information tool written in bash 3.2+     |
+| nginx                      | An HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server.     |
+| DNSAngel                   | Sordum's DNS Angel. Filter and block vast and uncensored content on the internet.     |
+| hwmonitor                  | 硬件监视工具    |
 | vcredist2015               |      |
-| WXQQ_RevokeMsgPatcher      |      |
-| aliyundrive                |      |
-| lepton                     |      |
-| QQ                         |      |
-| composer                   |      |
-| libwebp                    |      |
-| memo                       |      |
-| notion                     |      |
+| WXQQ_RevokeMsgPatcher      | 微信小插件     |
+| aliyundrive                | 阿里云盘     |
+| lepton                     | Lepton 是一个基于 GitHub Gist 的代码片段管理器     |
+| QQ                         | qq     |
+| composer                   | php包管理器     |
+| libwebp                    | Encodes and decodes WebP image files.     |
+| memo                       | 使用 GitHub Gists 做更智能的笔记。     |
+| notion                     | The all-in-one workspace for your notes, tasks, wikis, and databases.     |
 | vcredist2019               |      |
-| nexusfont                  |      |
-| x264                       |      |
+| nexusfont                  | Best font manager for Windows     |
+| x264                       | H.264/MPEG-4 AVC video encoder     |
 | justcolorpicker            |      |
 | gdrive                     |      |
 | m3u8downloader             |      |
