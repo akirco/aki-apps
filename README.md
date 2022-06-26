@@ -103,33 +103,33 @@
 | vcredist2019               |      |
 | nexusfont                  | Best font manager for Windows     |
 | x264                       | H.264/MPEG-4 AVC video encoder     |
-| justcolorpicker            |      |
-| gdrive                     |      |
-| m3u8downloader             |      |
-| koodo-reader               |      |
-| rufus                      |      |
-| sox                        |      |
-| wechatdevtools             |      |
-| unbound                    |      |
-| xh                         |      |
-| youtube-dl-gui             |      |
-| BaiduNetdisk               |      |
-| scrcpy-gui                 |      |
-| trash                      |      |
-| bandicam                   |      |
-| wxwork                     |      |
-| chromedriver               |      |
-| everything                 |      |
-| FixWin10                   |      |
-| fzf                        |      |
-| fu                         |      |
-| kodi                       |      |
-| ncspot                     |      |
-| m4a-to-mp3-converter       |      |
-| pngquant                   |      |
-| pwsh                       |      |
-| termscp                    |      |
-| tomcat8                    |      |
+| justcolorpicker            | 取色器，建议用powertoys     |
+| gdrive                     | Command line utility for interacting with Google Drive.     |
+| m3u8downloader             | M3U8下载利器     |
+| koodo-reader               | A cross-platform ebook reader     |
+| rufus                      | 装机必备     |
+| sox                        | Command line utility that can convert various formats of computer audio files into other formats.     |
+| wechatdevtools             | 微信开发者工具     |
+| unbound                    | 一个验证的、递归的、缓存的 DNS 解析器     |
+| xh                         | Friendly and fast tool for sending HTTP requests     |
+| youtube-dl-gui             | youtube-dl的gui     |
+| BaiduNetdisk               | 百度网盘     |
+| scrcpy-gui                 | scrcpy的gui，开源投屏工具     |
+| trash                      | 删除文件目录命令行     |
+| bandicam                   | 班迪录屏     |
+| wxwork                     | 企业微信     |
+| chromedriver               | 自动化测试工具     |
+| everything                 | 全局搜索工具     |
+| FixWin10                   | 修理windows10的一些小问题     |
+| fzf                        | 一个通用的命令行模糊查找器     |
+| fu                         | Cross-platform app to upload images/files in Clipboard to a remote server     |
+| kodi                       | Kodi is an award-winning free and open source software media player and entertain     |
+| ncspot                     |  ncurses Spotify client written in Rust     |
+| m4a-to-mp3-converter       |  m4a-to-mp3-converter    |
+| pngquant                   |  A command-line utility for lossy compression of PNG images    |
+| pwsh                       | pwsh     |
+| termscp                    | Terminal UI file explorer with SCP/SFTP/FTP support     |
+| tomcat8                    | tomcat8     |
 | upx                        |      |
 | yarn                       |      |
 | highlight                  |      |
