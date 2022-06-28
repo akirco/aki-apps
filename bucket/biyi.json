@@ -10,13 +10,5 @@
         }
     },
     "innosetup": true,
-    "shortcuts": [["biyi.exe", "biyi"]],
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/biyidev/biyi/releases/download/$version/biyi-$version+11-windows-setup.exe#/dl.7z"
-            }
-        }
-    }
+    "shortcuts": [["biyi.exe", "biyi"]]
 }
