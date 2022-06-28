@@ -304,3 +304,9 @@
 | unxutils                   |      |
 | nu                         |      |
 | wavpack                    |      |
+| aofv                       | 基金收益查看工具    |
+| bcut                       | 必剪  |
+| biyi                       | 比译    |
+| dim2clear                  | 图像画质增强     |
+| landrop                    | 传输文件     |
+| tubabox                    | 图吧工具箱     |
