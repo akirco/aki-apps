@@ -43,12 +43,5 @@
             ]
         }
     },
-    "persist": "Config\\Config.ini",
-    "checkver": {
-        "url": "http://www.chuyu.me/en/",
-        "regex": "version\\s+([\\w.]+)\\s+\\(\\d+"
-    },
-    "autoupdate": {
-        "url": "https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v$version/Dism++$version.zip"
-    }
+    "persist": "Config\\Config.ini"
 }
