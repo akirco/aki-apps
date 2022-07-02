@@ -1,8 +1,76 @@
-# Scoop aki Bucket [![Build status](https://ci.appveyor.com/api/projects/status/d5iwp9kc5xr3b0fr?svg=true)](https://ci.appveyor.com/project/Casuor/akiwinapps)
+# Scoop Bucket aki  [![Build status](https://ci.appveyor.com/api/projects/status/d5iwp9kc5xr3b0fr?svg=true)](https://ci.appveyor.com/project/Casuor/akiwinapps)
 
 `scoop bucket add aki 'https://github.com/akirco/aki-apps.git'`
 
-> 个人自用整合
+> pwsh settings
+
+```ps1
+ #Microsoft.PowerShell_profile.ps1
+ # initial oh-my-posh themes
+ oh-my-posh --init --shell pwsh --config "$(scoop prefix oh-my-posh)\themes\negligible.omp.json" | Invoke-Expression
+ # initial scoop auto complete
+ Import-Module "$($(Get-Item $(Get-Command scoop).Path).Directory.Parent.FullName)\modules\scoop-completion"
+ 
+ # scoop search 
+ # Invoke-Expression (&scoop-search --hook)
+ 
+ # initial terminal icons
+ Import-Module Terminal-Icons
+ 
+ # ls
+ Set-Alias ll ls
+ 
+ # scoop
+ Set-Alias sco scoop
+ 
+ # 清屏Ctrl+L
+ Set-Alias c cls
+ 
+ # kate
+ Set-Alias k kate
+ 
+ # 删除文件或目录
+ Set-Alias t trash
+ 
+ # 终端的播放器
+ Set-Alias mpx mpxplay
+
+ # nvim
+ Set-Alias vm nvim
+ 
+ # scoop search
+ Set-Alias sos scoop-search
+ 
+ # git
+ Set-Alias lg lazygit
+ 
+ # 打包网页到一个html
+ Set-Alias mon monolith
+ 
+ # 创建文件
+ Set-Alias h touch
+ 
+ # 终端的系统监视器
+ Set-Alias n ntop  
+ 
+ # 重命名
+ Set-Alias f2 rnr
+ 
+ # 二维码发送文件 
+ Set-Alias qr qrcp
+ 
+ #alias function
+ function pscoop {start -FilePath 'F:\OS Scoop'}
+
+ function otmp {start -FilePath 'C:\Users\Canary\AppData\Local'}
+
+ # extras
+ Enable-PoshTooltips
+ Enable-PoshTransientPrompt
+```
+
+
+> 个人自用整合应用清单
 
 | 名称                       | 简介 |
 | -------------------------- | ---- |
