@@ -10,7 +10,7 @@
     "architecture": {
         "64bit": {
             "url": "https://aki-1258833316.cos.ap-shanghai.myqcloud.com/typora_0.11.18_64bit_setup.exe",
-            "hash": "ac1c8c8ed2e7c19e469d22a4f54428e9caa3e9af6934c98c75f19be04883aab5"
+            "hash": "51ddc37ddac94eeb0d92d0fef6fea02cf9339628472c9ddf7c3e13a7694be738"
         }
     },
     "innosetup": true,
