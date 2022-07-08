@@ -1,0 +1,20 @@
+{
+    "version": "6.1.1",
+    "description": "Display real-time trends of Chinese funds in the menubar",
+    "homepage": "https://www.aliyundrive.com/",
+    "license": "LGPL-3.0-only",
+
+    "url": "https://github.com/1zilc/fishing-funds/releases/download/v6.1.1/Fishing-Funds-Setup-6.1.1.exe",
+    "hash": "sha512:F213EEC6C8AC23617F2FDBAFB7BE4F5DFB7D46E357E0413999097BE646D7BDB7FB766A74C9E907EAFA1C2D5AA1DEB03A690D3268D971F73C297D82B72E79676A",
+    "post_install": [
+        "@('$PLUGINSDIR', '$TEMP') | ForEach-Object {",
+        "    Remove-Item \"$dir\\$_\" -Recurse -Force",
+        "}"
+    ],
+    "shortcuts": [
+        [
+            "FishingFunds.exe",
+            "FishingFunds"
+        ]
+    ]
+}
