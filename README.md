@@ -75,6 +75,7 @@
 | 名称                       | 简介 |
 | -------------------------- | ---- |
 | handbrake-cli              |  A video transcoder with extensive support for multiple formats. (CLI version)    |
+| fishing funds              |  看基金app    |
 | xwtoolbox                  |  小丸工具箱    |
 | aria2                      |  多线程下载    |
 | gallery-dl👍                 |  Command-line program to download image-galleries and -collections from several image hosting sites.    |
