@@ -5,8 +5,8 @@
     "version": "1.4",
     "url": "https://aki-1258833316.cos.ap-shanghai.myqcloud.com/dim2clear_v1.4.7z",
     "pre_install": [
-        "Move-Item -Path \"$dir\\dim2clear*\\*\" -Destination \"$dir\"",
-        "Remove-Item \"$dir\\dim2clear\" -Force -Recurse"
+        "Move-Item -Path \"$dir\\dim2clear_v1.4*\\*\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\dim2clear_v1.4\" -Force -Recurse"
     ],
     "bin": "dim2clear.exe",
     "shortcuts": [["dim2clear.exe", "dim2clear"]]
