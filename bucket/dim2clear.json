@@ -3,7 +3,7 @@
     "description": "Real-ESRGAN的GUI实现，画质增强app",
     "hash": "sha256:934ab6638e3ef0f85a46e9975aa5933e2007140c209724b2fb00ed9c3326ed2f",
     "version": "1.3",
-    "url": "https://aki-1258833316.cos.ap-shanghai.myqcloud.com/dim2clear.7z",
+    "url": "https://aki-1258833316.cos.ap-shanghai.myqcloud.com/dim2clear_v1.4.7z",
     "pre_install": [
         "Move-Item -Path \"$dir\\dim2clear*\\*\" -Destination \"$dir\"",
         "Remove-Item \"$dir\\dim2clear\" -Force -Recurse"
