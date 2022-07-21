@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/ClashrAuto/Clashr-Auto-Desktop",
     "description": "A Windows GUI based on Clashr",
-    "version": "2.2.10",
+    "version": "1.3.34",
     "license": "no",
-    "hash": "",
+    "hash": "1d9a8de968de9bac55bb0a6ad612e27e476011ec86a08555abb49ab3591f079b",
     "url": "https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/download/v1.3.34/Clashr.Auto.Setup.1.3.34.exe#/dl.7z",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -52,11 +52,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/download/v$version/Clashr.Auto-amd64.Setup.$version.exe#/dl.7z",
-                "hash": {
-                    "url": "https://raw.githubusercontent.com/ClashrAuto/Clashr-Auto-Desktop/master/sha.txt"
-                }
+                "url": "https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/download/v$version/Clashr.Auto-amd64.Setup.$version.exe#/dl.7z"
             }
+        },
+        "hash": {
+            "url": "https://raw.githubusercontent.com/ClashrAuto/Clashr-Auto-Desktop/master/sha.txt"
         }
     }
 }

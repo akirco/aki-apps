@@ -9,11 +9,6 @@
             "url": "https://github.com/macchrome/winchrome/releases/download/v100.0.4896.62-r972766-Win64/ungoogled-chromium-100.0.4896.62-1_Win64.7z",
             "hash": "sha1:68e74d66b58dd855ae0e2213ee96ca8d66d5050c",
             "extract_dir": "ungoogled-chromium-100.0.4896.62-1_Win64"
-        },
-        "32bit": {
-            "url": "https://github.com/macchrome/winchrome/releases/download/v100.0.4896.62-r972766-Win64/ungoogled-chromium-100.0.4896.62-1_Win32.7z",
-            "hash": "sha1:646ac004af4365b8b8c658754025469d1b991223",
-            "extract_dir": "ungoogled-chromium-100.0.4896.62-1_Win32"
         }
     },
     "bin": [
@@ -40,10 +35,6 @@
             "64bit": {
                 "url": "https://github.com/macchrome/winchrome/releases/download/v$matchChromeversion-r$matchBuild-Win64/ungoogled-chromium-$matchChromeversion$matchEnd_Win64.7z",
                 "extract_dir": "ungoogled-chromium-$matchChromeversion$matchEnd_Win64"
-            },
-            "32bit": {
-                "url": "https://github.com/macchrome/winchrome/releases/download/v$matchChromeversion-r$matchBuild-Win64/ungoogled-chromium-$matchChromeversion$matchEnd_Win32.7z",
-                "extract_dir": "ungoogled-chromium-$matchChromeversion$matchEnd_Win32"
             }
         },
         "hash": {
