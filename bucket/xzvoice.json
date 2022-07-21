@@ -2,7 +2,7 @@
     "homepage": "https://github.com/bawangxx/XZVoice",
     "description": "Free and open source text-to-speech software",
     "version": "1.1.0",
-    "license": "no",
+    "license": "No",
     "url": "https://github.com/bawangxx/XZVoice/releases/download/v1.1.0/xzvoice-setup-1.1.0.exe#/dl.7z",
     "hash": "",
     "pre_install": [
@@ -54,9 +54,9 @@
             "64bit": {
                 "url": "https://github.com/bawangxx/XZVoice/releases/download/v$version/xzvoice-setup-$version.exe#/dl.7z",
                 "hash": {
-                    "url": "https://github.com/bawangxx/XZVoice/releases/download/$version/sha256sum",
+                    "url": "https://github.com/bawangxx/XZVoice/releases/download/v1.1.0/latest.yml",
                     "mode": "extract",
-                    "regex": "(?m)^exe: $sha256"
+                    "regex": "sha512: $sha512"
                 }
             }
         }
