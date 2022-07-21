@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/antonmedv/fx/releases/download/$version/fx-windows_amd64.exe.zip"
+                "url": "https://github.com/antonmedv/fx/releases/download/$version/fx_windows_amd64.exe.zip"
             }
         }
     }
