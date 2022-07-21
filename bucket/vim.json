@@ -1,5 +1,5 @@
 {
-    "version": "8.2.2824",
+    "version": "9.0",
     "description": "A highly configurable text editor",
     "homepage": "https://www.vim.org",
     "license": "Vim",
@@ -8,12 +8,12 @@
         "vimtutor": "vimtutor"
     },
     "url": [
-        "https://ftp.nluug.nl/pub/vim/pc/gvim82.exe#/dl.7z",
+        "https://ftp.nluug.nl/pub/vim/pc/gvim90.exe#/dl.7z",
         "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
         "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/uninstall-context.reg"
     ],
     "hash": [
-        "md5:7d6ae2732e27b172f37b2ab097e2c2d4",
+        "57a5b0d3e42695eaeca962364cde3f257227e967436821b81c19434bf4e1042c",
         "16a29881837047d783e8556506c73bbb292bdfefe042d77564d3c166d92b9d98",
         "49225d3470bf4b397d3cab865eddca6e47610be356f812588588c2661a11557e"
     ],
