@@ -1,12 +1,12 @@
 {
-    "version": "20.0.2",
+    "version": "24.0.0",
     "description": "Terminal JSON viewer",
     "homepage": "https://github.com/antonmedv/fx",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/antonmedv/fx/releases/download/20.0.2/fx-win.exe.zip",
-            "hash": "bc4a988d72e86abe777f38a1c888d1f0b17ef7ddd07346c7d9c0a427961b4f3b"
+            "url": "https://github.com/antonmedv/fx/releases/download/24.0.0/fx_windows_amd64.exe",
+            "hash": "e663e5fae64f2b14ffdff837289fccb8f5b5f2156cb6012d9269ad87e38d9867"
         }
     },
     "pre_install": "Rename-Item \"$dir\\fx_windows_amd64.exe\" 'fx.exe'",
