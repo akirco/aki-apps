@@ -76,6 +76,7 @@
 | -------------------------- | ---- |
 | handbrake-cli              |  A video transcoder with extensive support for multiple formats. (CLI version)    |
 | fishing funds              |  看基金app    |
+| MouseInc                   |  不只是鼠标手势吧    |
 | xwtoolbox                  |  小丸工具箱    |
 | aria2                      |  多线程下载    |
 | gallery-dl👍                 |  Command-line program to download image-galleries and -collections from several image hosting sites.    |
@@ -199,7 +200,6 @@
 | pwsh                       |      |
 | termscp                    | Terminal UI file explorer with SCP/SFTP/FTP support     |
 | tomcat8                    |      |
-=======
 | justcolorpicker            | 取色器，建议用powertoys     |
 | gdrive                     | Command line utility for interacting with Google Drive.     |
 | m3u8downloader             | M3U8下载利器     |
