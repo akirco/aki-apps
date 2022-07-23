@@ -1,12 +1,12 @@
 {
         "homepage": "https://shimo.im/",
         "description": "A notes app",
-        "version": "0.19.5",
+        "version": "2.5.13",
         "license": "MIT",
-        "hash":"sha256:c1a2ba0f97eacb962400cea4ba01ddfc0d0a1ee08afcc68d466d4e68618a22fb",
+        "hash":"sha256:758DF4C633E7D38373813BBD109B1BED4A2B30FC3FD4017138EC66331C121EDA",
         "architecture": {
             "64bit": {
-                "url": "https://as.smvm.cn/panther/shimo/release/win32/x64/%E7%9F%B3%E5%A2%A8%E6%96%87%E6%A1%A3_v2.5.8-release.3a8635b_win32-x64.exe#/dl.7z",
+                "url": "https://as.smvm.cn/panther/shimo/release/win32/x64/%E7%9F%B3%E5%A2%A8%E6%96%87%E6%A1%A3_v2.5.13-release.66be574.shimo_win32-x64.exe#/dl.7z",
                 "pre_install": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                     "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
