@@ -10,12 +10,12 @@
     "architecture": {
         "64bit": {
             "url": "https://aki-1258833316.cos.ap-shanghai.myqcloud.com/typora.7z",
-            "hash": "958b1966c785bf4c272c268a9c42e2821f2df5017894b6645ea4a3ec2b318fe5"
+            "hash": "08456C0EFC87375B4A08CAF0249358FC748271ADFBA94189F4E2F8451B5E47DD"
         }
     },
     "pre_install": [
-        "Move-Item -Path \"$dir\\Typora*\\*\" -Destination \"$dir\"",
-        "Remove-Item \"$dir\\Typora*\" -Force -Recurse"
+        "Move-Item -Path \"$dir\\typora*\\*\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\typora*\" -Force -Recurse"
     ],
     "shortcuts": [
         [
