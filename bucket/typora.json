@@ -13,6 +13,10 @@
             "hash": "958b1966c785bf4c272c268a9c42e2821f2df5017894b6645ea4a3ec2b318fe5"
         }
     },
+    "pre_install": [
+        "Move-Item -Path \"$dir\\Typora*\\*\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\Typora*\" -Force -Recurse"
+    ],
     "shortcuts": [
         [
             "Typora.exe",
