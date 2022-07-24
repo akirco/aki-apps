@@ -1,5 +1,5 @@
 {
-    "version": "0.11.18",
+    "version": "1.0.2",
     "description": "A truly minimal markdown editor",
     "homepage": "https://typora.io",
     "license": {
@@ -9,11 +9,10 @@
     "notes": "This package is a last free version",
     "architecture": {
         "64bit": {
-            "url": "https://aki-1258833316.cos.ap-shanghai.myqcloud.com/typora_0.11.18_64bit_setup.exe",
+            "url": "https://aki-1258833316.cos.ap-shanghai.myqcloud.com/typora.7z",
             "hash": "51ddc37ddac94eeb0d92d0fef6fea02cf9339628472c9ddf7c3e13a7694be738"
         }
     },
-    "innosetup": true,
     "shortcuts": [
         [
             "Typora.exe",
