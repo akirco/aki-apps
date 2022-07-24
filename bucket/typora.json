@@ -15,7 +15,7 @@
     },
     "pre_install": [
         "Move-Item -Path \"$dir\\typora*\\*\" -Destination \"$dir\"",
-        "Remove-Item \"$dir\\typora*\" -Force -Recurse"
+        "Remove-Item \"$dir\\typora\" -Force -Recurse"
     ],
     "shortcuts": [
         [
