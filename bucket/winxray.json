@@ -1,0 +1,20 @@
+{
+    "version": "4.4",
+    "description": "基于xray核心的windows代理程序，采用aardio设计与开发！",
+    "homepage": "https://www.winxray.com/",
+    "license": "unlicense",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/TheMRLL/WinXray/releases/download/V4.4/WinXray.7z",
+            "hash": "ad4d8f363033b3e12e581b8272c293ec12dfcfaedfd829f5938b23b40c4278e4"
+        }
+    },
+    "extract_dir": "WinXray",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/TheMRLL/WinXray/releases/download/V$version/WinXray.7z"
+            }
+        }
+    }
+}

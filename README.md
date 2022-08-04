@@ -75,9 +75,10 @@
 | 名称                       | 简介 |
 | -------------------------- | ---- |
 | handbrake-cli              |  A video transcoder with extensive support for multiple formats. (CLI version)    |
-| fishing funds              |  看基金app    |
-| MouseInc                   |  不只是鼠标手势吧    |
-| xwtoolbox                  |  小丸工具箱    |
+| fishing funds 👍             |  看基金app    |
+| MouseInc 👍                  |  不只是鼠标手势吧    |
+| xwtoolbox👍                  |  小丸工具箱    |
+| winxray 👍                   |  除了clasr auto,觉得好用的代理神器    |
 | aria2                      |  多线程下载    |
 | gallery-dl👍                 |  Command-line program to download image-galleries and -collections from several image hosting sites.    |
 | nircmd👍                     |  Execute various system wide tasks  |
@@ -90,7 +91,7 @@
 | gh                         |  github cli    |
 | dvm                        |  deno versions manager    |
 | shim                       |  Create shim for programs    |
-| officetoolplus             |  office安装利器    |
+| officetoolplus👍             |  office安装利器    |
 | dotnet-sdk                 |  dotnet-sdk    |
 | xidel                      |  command line tool to download and extract data from HTML/XML pages as well as JSON APIs.    |
 | gradle4                    |  gradle4    |
@@ -101,7 +102,7 @@
 | php                        |  php    |
 | silentcmd 👍                 |  Executes a batch file without opening the command prompt window    |
 | rclone                     |  Sync files and directories to and from mulitple cloud / FTP / HTTP hosters    |
-| vcredist2010               |      |
+| vcredist2010               | 微软运行库     |
 | yuque                      |  语雀    |
 | gow                        |  Unix command line utilities installer for Windows    |
 | jianyingpro                |  剪映    |
@@ -119,8 +120,8 @@
 | optipng 👍                   |  A PNG optimizer that recompresses image files to a smaller size, without losing any information.    |
 | pastel                     |  A command-line tool to generate, analyze, convert and manipulate colors    |
 | WechatWork                 |  企业微信    |
-| 7zip                       |      |
-| vim                        |      |
+| 7zip                       |  压缩神器    |
+| vim                        |  vim    |
 | tokei                      |  Count your code, quickly.    |
 | bat2exe 👍                   |  bat to exe    |
 | kate                       |  linux 常用编辑器    |
@@ -153,7 +154,7 @@
 | GitNote                    | Note Application sync via git,which support html and markdwon both     |
 | powertoys                  | windows增强工具     |
 | svtplay-dl                 | Video downloader from various sites     |
-| python                     |      |
+| python                     | py解释器     |
 | neovim 👍                    | neovim     |
 | you-get 👍                   | 视频下载器     |
 | fx 👍                        | Terminal JSON viewer     |
@@ -170,7 +171,7 @@
 | libwebp👍                    | Encodes and decodes WebP image files.     |
 | memo                       | 使用 GitHub Gists 做更智能的笔记。     |
 | notion                     | The all-in-one workspace for your notes, tasks, wikis, and databases.     |
-| vcredist2019               |      |
+| vcredist2019               | 微软运行库     |
 | nexusfont                  | Best font manager for Windows     |
 | x264                       | H.264/MPEG-4 AVC video encoder     |
 | justcolorpicker            | 取色器，建议用powertoys     |
@@ -197,7 +198,7 @@
 | ncspot                     |  ncurses Spotify client written in Rust     |
 | m4a-to-mp3-converter👍       |  m4a-to-mp3-converter    |
 | pngquant👍                   |  A command-line utility for lossy compression of PNG images    |
-| pwsh                       |      |
+| pwsh                       | pwsh     |
 | termscp                    | Terminal UI file explorer with SCP/SFTP/FTP support     |
 | tomcat8                    |      |
 | justcolorpicker            | 取色器，建议用powertoys     |
@@ -235,7 +236,7 @@
 | scoop-completion           | scoop增强插件     |
 | go-cn                      | go sdk     |
 | marktext                   | 额，这个是编写习惯的问题还是？有些地方有违常理     |
-| vcredist2017               |      |
+| vcredist2017               | 微软运行库     |
 | apache                     | apache sever     |
 | gradle                     | An open-source build automation tool focused on flexibility and performance.     |
 | python39                   | 待更新    |
@@ -260,7 +261,7 @@
 | php74                      | php74     |
 | jetbrains-toolbox          | jetbrains toolbox     |
 | psutils                    | powershell命令行集合     |
-| vcredist2008               |      |
+| vcredist2008               | 微软运行库     |
 | qt-creator                 | qt设计器     |
 | ffmpeg                     | A complete, cross-platform solution to record, convert and stream audio and video     |
 | sudo                       | 管理员运行(like linux)     |
@@ -377,7 +378,7 @@
 | nsis                       | windows程序打包器     |
 | empty-recycle-bin          | 同trash     |
 | ShadowsocksR               | ShadowsocksR     |
-| vcredist2013               |      |
+| vcredist2013               | 微软运行库     |
 | which                      | 类linux which     |
 | wrangler                   | Cloudflare Workers project manager     |
 | adb                        | adb     |
@@ -392,7 +393,7 @@
 | aria-ng-gui                | aria-ng-gui     |
 | DefenderControl            | 禁用Windows defender     |
 | cowsay                     | cowsay     |
-| vcredist2022               |      |
+| vcredist2022               | 微软运行库     |
 | s 👍                         | 命令行搜索工具     |
 | youtube-dl-wpf             | youtube下载器     |
 | z   👍                       | 快速切换目录，根据历史记录     |
