@@ -9,7 +9,10 @@
             "hash": "ae52a53e6ab9925b4a0edae7576f4b0e3649a390cf90d61cc1cb7e1caf79b5a2"
         }
     },
-    "extract_dir": "WinXray",
+    "pre_install": [
+        "Move-Item -Path \"$dir\\WinXray*\\*\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\WinXray*\" -Force -Recurse"
+    ],
     "autoupdate": {
         "architecture": {
             "64bit": {
