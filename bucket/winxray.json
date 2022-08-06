@@ -11,7 +11,7 @@
     },
     "pre_install": [
         "Move-Item -Path \"$dir\\WinXray*\\*\" -Destination \"$dir\"",
-        "Remove-Item \"$dir\\WinXray*\" -Force -Recurse"
+        "Remove-Item \"$dir\\WinXray\" -Force -Recurse"
     ],
     "autoupdate": {
         "architecture": {
@@ -19,5 +19,6 @@
                 "url": "https://github.com/TheMRLL/WinXray/releases/download/V$version/WinXray.7z"
             }
         }
-    }
+    },
+    "shortcuts": [["WinXray.exe", "WinXray"]]
 }
