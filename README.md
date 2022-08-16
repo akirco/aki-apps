@@ -16,6 +16,20 @@
  
  # initial terminal icons
  Import-Module Terminal-Icons
+
+ # set GuiCompletion
+ Set-PSReadlineKeyHandler -Key DownArrow -ScriptBlock { Invoke-GuiCompletion }
+ 
+ # ...
+ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+ 
+ Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
+ 
+ #Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
+ 
+ Set-PSReadlineOption -PredictionSource History
+ 
+ Set-PSReadlineOption -ShowToolTip
  
  # ls
  Set-Alias ll ls
