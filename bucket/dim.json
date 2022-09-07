@@ -9,5 +9,9 @@
             "hash": "828BEB2949F7B622FA738194F03777F20D8C459130EDC8CA6739BFC027B771C0"
         }
     },
-    "bin": "dim.exe"
+    "pre_install": [
+        "Move-Item -Path \"$dir\\dim*\\*\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\dim\" -Force -Recurse"
+    ],
+    "bin": "dim.exe" 
 }
