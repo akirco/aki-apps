@@ -90,6 +90,7 @@
 | -------------------------- | ---- |
 | handbrake-cli              |  A video transcoder with extensive support for multiple formats. (CLI version)    |
 | fishing funds 👍             |  看基金app    |
+| dim 👍                    |  画质增强，基于[realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)封装的可交互cli    |
 | MouseInc 👍                  |  不只是鼠标手势吧    |
 | xwtoolbox👍                  |  小丸工具箱    |
 | winxray 👍                   |  除了clasr auto,觉得好用的代理神器    |
