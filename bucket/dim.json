@@ -13,20 +13,13 @@
         "Move-Item -Path \"$dir\\dim*\\*\" -Destination \"$dir\"",
         "Remove-Item \"$dir\\dim\" -Force -Recurse"
     ],
-    "bin": "dim.exe",
-    "installer": {
-        "script": [
-            "Write-Output 'dim path:'+$(scoop prefix dim)",
-            "$env:dim = $(scoop prefix dim)",
-            "[System.Environment]::SetEnvironmentVariable('dim',$env:dim,'User')",
-            "Write-Output 'EnvironmentVariable is Ok , enjoy it'"
-        ]
-    },
     "notes":[
         "please add the fllowing script to $Profile , if nothing, if you use windows PowerShell you can touch ",
         "'~\\Documents\\WindowsPowerShell\\Microsoft.PowerShell_profile.ps1'",
         "if you use PowerShell core, you can touch '~\\Documents\\PowerShell\\Microsoft.PowerShell_profile.ps1' ",
         "script:",
+        "$env:dim = $(scoop prefix dim)",
+        "[System.Environment]::SetEnvironmentVariable('dim',$env:dim,'User')",
         "'$Env:PATH += $env:dim+';'",
         "[System.Environment]::SetEnvironmentVariable('path',$Env:PATH,'User')'"
     ]
