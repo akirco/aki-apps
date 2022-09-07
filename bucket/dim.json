@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.extrameta.cn/dim.7z",
+            "url": "https://db-1258833316.cos.ap-shanghai.myqcloud.com/dim.7z",
             "hash": "828BEB2949F7B622FA738194F03777F20D8C459130EDC8CA6739BFC027B771C0"
         }
     },
