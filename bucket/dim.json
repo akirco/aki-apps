@@ -13,5 +13,14 @@
         "Move-Item -Path \"$dir\\dim*\\*\" -Destination \"$dir\"",
         "Remove-Item \"$dir\\dim\" -Force -Recurse"
     ],
-    "bin": "dim.exe" 
+    "bin": "dim.exe",
+    "installer": {
+        "script": [
+            "$current_path = Get-Location",
+            "Write-Output $current_path",
+            "$env:dim = $current_path",
+            "[System.Environment]::SetEnvironmentVariable('dim',$env:dim,'User')",
+            "Write-Output 'EnvironmentVariable is Ok , enjoy it'"
+        ]
+    }
 }
