@@ -1,0 +1,13 @@
+{
+    "version": "0.1.0",
+    "description": "realesrgan-ncnn-vulkan项目的可交互命令行",
+    "homepage": "https://github.com/akirco/aki-apps",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn.extrameta.cn/dim.7z",
+            "hash": "828BEB2949F7B622FA738194F03777F20D8C459130EDC8CA6739BFC027B771C0"
+        }
+    },
+    "bin": "dim.exe"
+}
