@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.fastgit.org/akirco/dim/releases/download/0.1.0/dim-win.7z",
-            "hash": "f1a354bd5078db1406958c420c49d8a49fae0c1be8b89f3bc8b7dc498c7d536c"
+            "hash": "FBE9D68EDD75A1FC29AAF30D37CA843EA0F980718BBE98BF60094B6D5AEDB1F3"
         }
     },
     "pre_install": [
