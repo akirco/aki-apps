@@ -5,8 +5,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://db-1258833316.cos.ap-shanghai.myqcloud.com/dim.7z",
-            "hash": "5AB2259846ABA34D3A5ADBE6457C2B1FDC979B16C97E6341A0D8C11683C1CCF6"
+            "url": "https://download.fastgit.org/akirco/dim/releases/download/0.1.0/dim-win.7z",
+            "hash": "f1a354bd5078db1406958c420c49d8a49fae0c1be8b89f3bc8b7dc498c7d536c"
         }
     },
     "pre_install": [
@@ -20,7 +20,7 @@
         "script:",
         "$env:dim = $(scoop prefix dim)",
         "[System.Environment]::SetEnvironmentVariable('dim',$env:dim,'User')",
-        "$Env:PATH += $env:dim+';",
+        "$Env:PATH += $env:dim+';'",
         "[System.Environment]::SetEnvironmentVariable('path',$Env:PATH,'User')"
     ]
 }

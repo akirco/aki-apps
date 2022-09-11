@@ -81,6 +81,13 @@
  # extras
  Enable-PoshTooltips
  Enable-PoshTransientPrompt
+
+
+ # set dim
+ $env:dim = $(scoop prefix dim)
+ [System.Environment]::SetEnvironmentVariable('dim',$env:dim,'User')
+ $Env:PATH += $env:dim+';'
+ [System.Environment]::SetEnvironmentVariable('path',$Env:PATH,'User')
 ```
 
 
@@ -90,7 +97,7 @@
 | -------------------------- | ---- |
 | handbrake-cli              |  A video transcoder with extensive support for multiple formats. (CLI version)    |
 | fishing funds 👍          |  看基金app    |
-| dim 👍                    |  开发阶段：画质增强，基于[realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)封装的可交互cli    |
+|[dim](https://github.com/akirco/dim) |画质增强，基于[realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)封装的可交互cli    |
 | MouseInc 👍                  |  不只是鼠标手势吧    |
 | xwtoolbox👍                  |  小丸工具箱    |
 | winxray 👍                   |  除了clasr auto,觉得好用的代理神器    |
