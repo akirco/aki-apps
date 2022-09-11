@@ -10,8 +10,8 @@
         }
     },
     "pre_install": [
-        "Move-Item -Path \"$dir\\dim*\\*\" -Destination \"$dir\"",
-        "Remove-Item \"$dir\\dim\" -Force -Recurse"
+        "Move-Item -Path \"$dir\\dim-win*\\*\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\dim-win\" -Force -Recurse"
     ],
     "notes":[
         "please add the fllowing script to $Profile , if nothing, if you use windows PowerShell you can touch ",
