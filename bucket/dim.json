@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://db-1258833316.cos.ap-shanghai.myqcloud.com/dim.7z",
-            "hash": "91307D056B1D24B049D34C34E00931B84A594F73B64D1E32DFB7DE673C144D99"
+            "hash": "5AB2259846ABA34D3A5ADBE6457C2B1FDC979B16C97E6341A0D8C11683C1CCF6"
         }
     },
     "pre_install": [
