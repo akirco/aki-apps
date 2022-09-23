@@ -14,8 +14,8 @@
         "    ensure \"$dir\\Portable Settings\" | Out-Null",
         "    Set-Content \"$dir\\Portable Settings\\audacity.cfg\" '[Update]', 'DefaultUpdatesChecking=0' -Encoding Ascii",
         "}",
-        "Move-Item -Path \"$dir\\audacity-win-3.2.0-64bit*\\*\" -Destination \"$dir\"",
-        "Remove-Item \"$dir\\audacity-win-3.2.0-64bit\" -Force -Recurse"
+        "Move-Item -Path \"$dir\\audacity-win-$version-x64*\\*\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\audacity-win-$version-x64\" -Force -Recurse"
     ],
     "shortcuts": [
         [
