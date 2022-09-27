@@ -1,16 +1,17 @@
 {
-    "version": "5.14.1",
+    "version": "11.1.0",
     "description": "A prompt theme engine for any shell",
     "homepage": "https://ohmyposh.dev",
     "license": "GPL-3.0-only",
     "notes": "Refer to 'https://ohmyposh.dev/docs/windows#replace-your-existing-prompt' for shell specific configurations.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh3/releases/download/v5.14.1/posh-windows-wsl-amd64.7z",
-            "hash": "bc0bb6992ba5c3c09d3df623a2143a80d0dade156be99fe23fe40cc48ab797df"
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v11.1.0/install-amd64.exe",
+            "hash": "6C5599F83A58037A1C9DFABB1416481EF5A1AD1797B21A4C8BAE8B727BBE5340"
         }
     },
     "bin": "bin\\oh-my-posh.exe",
+    "innosetup": true,
     "persist": "themes",
     "checkver": {
         "github": "https://github.com/JanDeDobbeleer/oh-my-posh3"
@@ -18,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/JanDeDobbeleer/oh-my-posh3/releases/download/v$version/posh-windows-wsl-amd64.7z"
+                "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/install-amd64.exe"
             }
         },
         "hash": {
