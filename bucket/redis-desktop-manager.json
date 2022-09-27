@@ -27,7 +27,7 @@
         "github": "https://github.com/lework/RedisDesktopManager-Windows"
     },
     "autoupdate": {
-        "url": "https://github.com/lework/RedisDesktopManager-Windows/releases/download/$version/rdm-$version.zip"
+        "url": "https://github.com/lework/RedisDesktopManager-Windows/releases/download/$version/resp-$version.zip"
     },
     "notes": [
         "RDM is available on Microsoft Store: https://www.microsoft.com/store/apps/9NDK76ZVZ3TM",
