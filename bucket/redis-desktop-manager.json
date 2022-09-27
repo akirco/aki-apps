@@ -7,19 +7,14 @@
     "hash": "fc13ae25b5b3da8739da9f3ec7af56fefe3d9d224dcab59a2c93425c100876ad",
     "installer": {
         "script": [
-            "Get-ChildItem \"$dir\\rdm-*.exe\" | Rename-Item -NewName \"$dir\\installer.exe\"",
+            "Get-ChildItem \"$dir\\resp-*.exe\" | Rename-Item -NewName \"$dir\\installer.exe\"",
             "Expand-7zipArchive \"$dir\\installer.exe\" \"$dir\" | Out-Null",
             "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
             "Remove-Item \"$dir\\installer.exe\" | Out-Null"
         ]
     },
-    "bin": "rdm.exe",
-    "shortcuts": [
-        [
-            "rdm.exe",
-            "Redis Desktop Manager"
-        ]
-    ],
+    "bin": "resp.exe",
+    "shortcuts": [["resp.exe", "Redis Desktop Manager"]],
     "suggest": {
         "Visual C++ Redistributable": "extras/vcredist2019"
     },
