@@ -2,9 +2,9 @@
     "homepage": "https://github.com/ClashrAuto/Clashr-Auto-Desktop",
     "description": "A Windows GUI based on Clashr",
     "version": "2.3.15",
-    "license": "No",
-    "hash": "",
-    "url": "https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/download/v2.3.14/Clashr.Auto-amd64.Setup.2.3.14.exe#/dl.7z",
+    "license": "Unknown",
+    "url": "https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/download/v2.3.15/Clashr.Auto-amd64.Setup.2.3.15.exe#/dl.7z",
+    "hash": "D31AEC3F2DE3045ED8903070D94871B9F9DF1011D8BD949EC30148C33CADBD26",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
@@ -41,12 +41,7 @@
             "}"
         ]
     },
-    "shortcuts": [
-        [
-            "Clashr Auto.exe",
-            "Clashr Auto"
-        ]
-    ],
+    "shortcuts": [["Clashr Auto.exe", "Clashr Auto"]],
     "persist": "data",
     "checkver": "github",
     "autoupdate": {

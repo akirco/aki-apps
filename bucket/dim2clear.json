@@ -9,5 +9,6 @@
         "Remove-Item \"$dir\\dim2clear_v1.4\" -Force -Recurse"
     ],
     "bin": "dim2clear.exe",
-    "shortcuts": [["dim2clear.exe", "dim2clear"]]
+    "shortcuts": [["dim2clear.exe", "dim2clear"]],
+    "notes": ["如确实执行程序，请注意关闭windows杀毒软件后重试！"]
 }

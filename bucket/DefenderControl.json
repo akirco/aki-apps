@@ -8,17 +8,14 @@
     },
     "changelog": "ReadMe.txt",
     "url": "https://www.sordum.org/files/download/d-control/dControl.zip",
-    "hash": "62442fd70bde2bf31b677447cb4216daeeeff48fcc0aac4495cabc30092a5533",
+    "hash": "280EF33D0C94594E8D4B88FA07B44D1C65807CB4C1DCBB69FE53B4C684BCCD5B",
     "extract_dir": "dControl",
     "pre_install": [
         "$splat = @{ 'ExtractDir' = $manifest.extract_dir; 'Switches' = '-psordum'; 'Removal' = $true }",
         "Expand-7zipArchive \"$dir\\$fname\" @splat",
         "Expand-7zipArchive \"$dir\\dControl.zip\" @splat"
     ],
-    "shortcuts": [
-        "dfControl.exe",
-        "Sordum\\Defender Control"
-    ],
+    "shortcuts": ["dfControl.exe", "Sordum\\Defender Control"],
     "persist": "dfControl.ini",
     "checkver": "Defender Control\\s*v([\\d.]+)",
     "autoupdate": {
