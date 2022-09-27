@@ -11,7 +11,7 @@
     "hash": "280EF33D0C94594E8D4B88FA07B44D1C65807CB4C1DCBB69FE53B4C684BCCD5B",
     "extract_dir": "dControl",
     "pre_install": [
-        "$splat = @{ 'ExtractDir' = $manifest.extract_dir; 'Switches' = '-psordum'; 'Removal' = $true }",
+        "$splat = @{ 'ExtractDir' = $manifest.extract_dir; 'Switches' = '-p sordum'; 'Removal' = $true }",
         "Expand-7zipArchive \"$dir\\$fname\" @splat",
         "Expand-7zipArchive \"$dir\\dControl.zip\" @splat"
     ],
