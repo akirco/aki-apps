@@ -1,4 +1,4 @@
-# Scoop Bucket aki  [![Build status](https://ci.appveyor.com/api/projects/status/d5iwp9kc5xr3b0fr?svg=true)](https://ci.appveyor.com/project/Casuor/akiwinapps)
+# Scoop Bucket `aki`
 
 `scoop bucket add aki 'https://github.com/akirco/aki-apps.git'`
 
@@ -91,7 +91,7 @@
 ```
 
 
-> 个人自用整合应用清单
+> app list
 
 | 名称                       | 简介 |
 | -------------------------- | ---- |
