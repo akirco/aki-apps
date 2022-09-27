@@ -1,24 +1,26 @@
 {
+    "version": "2.10.4.200396",
     "homepage": "https://music.163.com/",
-    "description": "The official NetEase Cloud Music client.",
-    "version": "2.9.9.199909",
-    "license": {
-        "identifier": "EULA",
-        "url": "https://music.163.com/html/web2/service.html"
+    "license": "Freeware",
+    "url": "https://d1.music.126.net/dmusic/NeteaseCloudMusic_Music_official_2.10.4.200396.exe#/dl.7z",
+    "hash": "36ac04ec1c35cdb13cdbcfb4a8cba00ab0a3ec4dc18e177610553251a5b97d7d",
+    "installer": {
+        "script": [
+            "Move-Item \"$dir\\redist_packages\\*\" \"$dir\" -Force",
+            "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\redist_packages\" -Force -Recurse"
+        ]
     },
-    "url": "https://d1.music.126.net/dmusic/cloudmusicsetup2.9.9.199909.exe#/dl.7z",
-    "hash": "dfa07efeb984fe10dc2527461a4ea34121f3d8b42b5cda6ee61beabec12e9e2e",
-    "pre_install": [
-        "Move-Item -Path \"$dir\\redist_packages*\\*\" -Destination \"$dir\"",
-        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    "shortcuts": [
+        [
+            "cloudmusic.exe",
+            "NeteaseMusic"
+        ]
     ],
-    "shortcuts": [["cloudmusic.exe", "网易云音乐"]],
     "checkver": {
-        "script": "return (iwr -useb 'https://music.163.com/api/pc/package/download/latest' -Method Head).Headers['x-nos-object-name']",
-        "regex": "cloudmusicsetup(?<version>[\\d.]+\\d)(?<bug>.*?).exe"
+        "url": "https://api.nicoconi.com/updater/neteasemusic",
+        "regex": "https://d1.music.126.net/dmusic/NeteaseCloudMusic_Music_official_([\\d.]+\\d)\\.exe"
     },
     "autoupdate": {
-        "url": "https://d1.music.126.net/dmusic/cloudmusicsetup$version$matchBug.exe#/dl.7z"
-    },
-    "notes": "Scoop doesn't persist your CloudMusic data, they are still storaged in '%LOCALAPPDATA%\\Netease\\CloudMusic'."
+        "url": "https://d1.music.126.net/dmusic/NeteaseCloudMusic_Music_official_$version.exe#/dl.7z"
+    }
 }
