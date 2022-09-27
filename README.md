@@ -74,9 +74,9 @@
  Set-Alias qr qrcp
  
  #alias function
- function pscoop {start -FilePath 'F:\OS Scoop'}
+ function scoop_home {start -FilePath $(scoop prefix scoop)}
 
- function otmp {start -FilePath 'C:\Users\Canary\AppData\Local'}
+ function localdata {start -FilePath $env:userprofile\appdata\Local}
 
  # extras
  Enable-PoshTooltips
