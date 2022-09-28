@@ -7,26 +7,17 @@
         "url": "https://www.sordum.org/eula/"
     },
     "url": "https://www.sordum.org/files/easy-context-menu/ec_menu.zip",
-    "hash": "51e9346c351865952090d2036fd3ef535834d9ef47427030013f03ce761678bf",
+    "hash": "7fda0f551fd769b150d1519c614131e2d610a2d98769f87ff654e3cd6de76167",
     "extract_dir": "EcMenu_v1.6",
     "architecture": {
         "64bit": {
-            "bin": [
-                "EcMenu_x64.exe",
-                "EcMenu"
-            ],
-            "shortcuts": [
-                "EcMenu_x64.exe",
-                "Sordum\\Easy Context Menu"
-            ]
+            "bin": ["EcMenu_x64.exe", "EcMenu"],
+            "shortcuts": ["EcMenu_x64.exe", "Sordum\\Easy Context Menu"]
         },
         "32bit": {
             "bin": "EcMenu.exe",
             "shortcuts": "",
-            "0": [
-                "EcMenu.exe",
-                "Sordum\\Easy Context Menu"
-            ]
+            "0": ["EcMenu.exe", "Sordum\\Easy Context Menu"]
         }
     },
     "persist": "Files\\EcMenu.ini",
