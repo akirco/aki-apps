@@ -14,17 +14,12 @@
         }
     },
     "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse",
-    "shortcuts": [
-        [
-            "SwitchHosts.exe",
-            "SwitchHosts"
-        ]
-    ],
+    "shortcuts": [["SwitchHosts.exe", "SwitchHosts"]],
     "checkver": {
         "github": "https://github.com/oldj/SwitchHosts",
-        "regex": "SwitchHosts_windows_installer_([\\d.]+)\\.exe"
+        "regex": "SwitchHosts v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/oldj/SwitchHosts/releases/download/v$matchHead/SwitchHosts_installer_$version.exe#/dl.7z"
+        "url": "https://github.com/oldj/SwitchHosts/releases/download/v$matchHead/SwitchHosts_windows_installer_$version.exe#/dl.7z"
     }
 }
