@@ -4,7 +4,7 @@
     "hash": "sha256:ea1ecb505472d69ff6d2a4d0533d0d9974a9271b8cfe32c1ba840e3c85981a9b",
     "license":"Unlicense",
     "version": "1.2.8",
-    "url": "https://github.com/akirco/aki-apps/releases/download/ClashDotNet_Backup/Clash.NET.1.2.8.X64.7Z",
+    "url": "http://qiniu.extrameta.cn/apps/Clash.NET.1.2.8.x64.7z",
     "pre_install": [
         "Move-Item -Path \"$dir\\Clash .NET*\\*\" -Destination \"$dir\"",
         "Remove-Item \"$dir\\Clash .NET*\" -Force -Recurse"
