@@ -9,20 +9,15 @@
             "hash": "0fec65da399172f889b67c3ec320aa30cb43ac23ce87ccf1e4f93c6302315ac3"
         }
     },
-    "shortcuts": [
-        [
-            "RegExp.exe",
-            "RegExp"
-        ]
-    ],
+    "shortcuts": [["RegExp.exe", "RegExp"]],
     "checkver": {
-        "url": "https://github.com/zodiacon/RegExp/releases",
-        "regex": "download/v([\\d.]+)/"
+        "url": "https://github.com/zodiacon/TotalRegistry/releases/latest",
+        "regex": "Total Registry v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/zodiacon/RegExp/releases/download/v$version/RegExp.exe"
+                "url": "https://github.com/zodiacon/TotalRegistry/releases/download/v$version/TotalReg.exe"
             }
         }
     }
