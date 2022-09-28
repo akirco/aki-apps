@@ -15,7 +15,10 @@
         "Expand-7zipArchive \"$dir\\$fname\" @splat",
         "Expand-7zipArchive \"$dir\\dControl.zip\" @splat"
     ],
-    "shortcuts": ["dfControl.exe", "Sordum\\Defender Control"],
+    "shortcuts": [
+        "dfControl.exe",
+        "Sordum\\Defender Control"
+    ],
     "persist": "dfControl.ini",
     "checkver": "Defender Control\\s*v([\\d.]+)",
     "autoupdate": {

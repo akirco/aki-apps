@@ -8,5 +8,10 @@
         "Move-Item -Path \"$dir\\Windows10Manager_v3.3.5*\\*\" -Destination \"$dir\"",
         "Remove-Item \"$dir\\Windows10Manager_v3.3.5*\" -Force -Recurse"
     ],
-    "shortcuts": [["Windows10Manager.exe", "Windows10 Manager"]]
+    "shortcuts": [
+        [
+            "Windows10Manager.exe",
+            "Windows10 Manager"
+        ]
+    ]
 }

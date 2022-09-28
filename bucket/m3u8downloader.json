@@ -4,7 +4,7 @@
     "homepage": "https://tools.heisir.cn/HLSDownload/",
     "license": "no",
     "url": "https://github.com/HeiSir2014/M3U8-Downloader/releases/download/v2.0.7/M3U8-Downloader-win_x64-2.0.7.exe#/dl.7z",
-    "hash":"sha256:f76e7cb5c456d9c94d8f3571c4d491df28710fb9321ca037b164789544d3c423",
+    "hash": "sha256:f76e7cb5c456d9c94d8f3571c4d491df28710fb9321ca037b164789544d3c423",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"

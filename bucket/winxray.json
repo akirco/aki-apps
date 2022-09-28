@@ -16,5 +16,10 @@
             }
         }
     },
-    "shortcuts": [["WinXray.exe", "WinXray"]]
+    "shortcuts": [
+        [
+            "WinXray.exe",
+            "WinXray"
+        ]
+    ]
 }

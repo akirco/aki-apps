@@ -14,7 +14,12 @@
         ]
     },
     "bin": "resp.exe",
-    "shortcuts": [["resp.exe", "Redis Desktop Manager"]],
+    "shortcuts": [
+        [
+            "resp.exe",
+            "Redis Desktop Manager"
+        ]
+    ],
     "suggest": {
         "Visual C++ Redistributable": "extras/vcredist2019"
     },

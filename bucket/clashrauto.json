@@ -41,7 +41,12 @@
             "}"
         ]
     },
-    "shortcuts": [["Clashr Auto.exe", "Clashr Auto"]],
+    "shortcuts": [
+        [
+            "Clashr Auto.exe",
+            "Clashr Auto"
+        ]
+    ],
     "persist": "data",
     "checkver": "github",
     "autoupdate": {

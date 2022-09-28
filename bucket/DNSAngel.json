@@ -9,7 +9,10 @@
     "url": "https://www.sordum.org/files/dns-angel/DnsAngel.zip",
     "hash": "2577f2f7b236e60b21b4c30493b2a7537a7fc5cab8721e0f589290bd0f9afd5d",
     "extract_dir": "DnsAngel",
-    "shortcuts": ["DnsAngel.exe", "Sordum\\DNS Angel"],
+    "shortcuts": [
+        "DnsAngel.exe",
+        "Sordum\\DNS Angel"
+    ],
     "persist": "DnsAngel.ini",
     "checkver": "Dns Angel\\s*v([\\d.]+)",
     "autoupdate": {

@@ -13,7 +13,7 @@
         "Move-Item -Path \"$dir\\dim-win*\\*\" -Destination \"$dir\"",
         "Remove-Item \"$dir\\dim-win\" -Force -Recurse"
     ],
-    "notes":[
+    "notes": [
         "please add the fllowing script to $Profile , if nothing, if you use windows PowerShell you can touch ",
         "'~\\Documents\\WindowsPowerShell\\Microsoft.PowerShell_profile.ps1'",
         "if you use PowerShell core, you can touch '~\\Documents\\PowerShell\\Microsoft.PowerShell_profile.ps1' ",

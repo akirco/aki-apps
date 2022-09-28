@@ -1,4 +1,4 @@
-﻿{
+{
     "homepage": "https://bcut.bilibili.cn/",
     "description": "必剪，B站出品，没啥不同",
     "version": "2.7.0",
@@ -10,5 +10,10 @@
         }
     },
     "innosetup": true,
-    "shortcuts": [["BCUT.exe", "必剪"]]
+    "shortcuts": [
+        [
+            "BCUT.exe",
+            "必剪"
+        ]
+    ]
 }

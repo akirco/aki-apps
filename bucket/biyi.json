@@ -1,4 +1,4 @@
-﻿{
+{
     "homepage": "https://biyidev.com/",
     "description": "便捷的翻译和词典应用",
     "version": "0.4.0",
@@ -10,5 +10,10 @@
         }
     },
     "innosetup": true,
-    "shortcuts": [["biyi.exe", "biyi"]]
+    "shortcuts": [
+        [
+            "biyi.exe",
+            "biyi"
+        ]
+    ]
 }
