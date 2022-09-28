@@ -8,12 +8,7 @@
     },
     "url": "https://github.com/dream7180/foobox-cn/releases/download/6.1.6.11.2/foobox_6.1.6.11.2.zip",
     "hash": "989c87969722ef31274a84e5d6c32c1d632a93b353dff031b176678e91bd06d6",
-    "shortcuts": [
-        [
-            "foobar2000.exe",
-            "Foobox"
-        ]
-    ],
+    "shortcuts": [["foobar2000.exe", "Foobox"]],
     "pre_install": "Expand-7zipArchive \"$dir\\*oobox*.exe\" \"$dir\"",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\", \"$dir\\*oobox*.exe\" -Force -Recurse",
     "persist": [
@@ -26,7 +21,7 @@
     ],
     "checkver": {
         "url": "https://github.com/dream7180/foobox-cn/releases/latest",
-        "regex": "/download/(?<tag>.*?)/foobox-(.*?).7z"
+        "regex": "v([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/dream7180/foobox-cn/releases/download/$matchTag/foobox-$version.7z"
