@@ -8,14 +8,8 @@
     },
     "url": "https://github.com/dream7180/foobox-cn/releases/download/6.6.12/foobox-6.6.12.7z",
     "hash": "6225d10bb4b0db7eaa67345446f99915765b245ee7ec5adff63985b431e9a403",
-    "shortcuts": [
-        [
-            "foobar2000.exe",
-            "Foobox"
-        ]
-    ],
-    "pre_install": "Expand-7zipArchive \"$dir\\*oobox*.exe\" \"$dir\"",
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\", \"$dir\\*oobox*.exe\" -Force -Recurse",
+    "shortcuts": [["foobar2000.exe", "Foobox"]],
+    "pre_install": "Move-Item -Path \"$dir\\foobar2000*\\*\" -Destination \"$dir\"",
     "persist": [
         "configuration",
         "library",
