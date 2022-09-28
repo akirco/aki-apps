@@ -1,7 +1,7 @@
 {
-    "homepage": "https://biyidev.com/",
-    "description": "便捷的翻译和词典应用",
     "version": "0.4.0",
+    "description": "便捷的翻译和词典应用",
+    "homepage": "https://biyidev.com/",
     "license": "AGPL",
     "architecture": {
         "64bit": {

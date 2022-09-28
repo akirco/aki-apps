@@ -1,11 +1,11 @@
 {
     "version": "3.0.2",
     "description": "为资源管理器属性加上Hash校验",
+    "homepage": "https://github.com/namazso/OpenHashTab",
     "depends": [
         "sudo",
         "innounp"
     ],
-    "homepage": "https://github.com/namazso/OpenHashTab",
     "architecture": {
         "64bit": {
             "installer": {

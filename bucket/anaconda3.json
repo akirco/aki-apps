@@ -1,8 +1,15 @@
 {
     "version": "2018.12",
-    "homepage": "https://www.anaconda.com/",
     "description": "The most popular Python distribution for data science",
+    "homepage": "https://www.anaconda.com/",
     "license": "BSD-3-Clause",
+    "notes": [
+        "Conda envs and pkgs are not persisted by Scoop, we advice to setup `envs_dirs` to use '~/.conda/envs'.",
+        "  https://conda.io/projects/conda/en/latest/user-guide/configuration/use-condarc.html#specify-environment-directories-envs-dirs",
+        "",
+        "To enable conda tab-completion autoload, run code below to add the shell hook:",
+        "Add-Content -Path $Profile -Value \"`n(& conda \"shell.powershell\" \"hook\") | Out-String | Invoke-Expression"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://repo.anaconda.com/archive/Anaconda3-2018.12-Windows-x86_64.exe",
@@ -35,7 +42,7 @@
     ],
     "checkver": {
         "url": "https://repo.anaconda.com/archive",
-        "re": "Anaconda3-(\\d{4}.[\\d.]+)-Windows",
+        "regex": "Anaconda3-(\\d{4}.[\\d.]+)-Windows",
         "reverse": true
     },
     "autoupdate": {
@@ -51,12 +58,5 @@
             "url": "$baseurl",
             "find": "$basename<.*\\s+<.*\\s+<.*\\s+<td>([a-fA-F0-9]{32})</td>"
         }
-    },
-    "notes": [
-        "Conda envs and pkgs are not persisted by Scoop, we advice to setup `envs_dirs` to use '~/.conda/envs'.",
-        "  https://conda.io/projects/conda/en/latest/user-guide/configuration/use-condarc.html#specify-environment-directories-envs-dirs",
-        "",
-        "To enable conda tab-completion autoload, run code below to add the shell hook:",
-        "Add-Content -Path $Profile -Value \"`n(& conda \"shell.powershell\" \"hook\") | Out-String | Invoke-Expression"
-    ]
+    }
 }

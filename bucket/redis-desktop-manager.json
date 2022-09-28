@@ -1,8 +1,15 @@
 {
-    "homepage": "https://redisdesktop.com/",
-    "description": "Cross-platform GUI management tool for Redis",
-    "license": "GPL-3.0-only",
     "version": "2022.4.2",
+    "description": "Cross-platform GUI management tool for Redis",
+    "homepage": "https://redisdesktop.com/",
+    "license": "GPL-3.0-only",
+    "notes": [
+        "RDM is available on Microsoft Store: https://www.microsoft.com/store/apps/9NDK76ZVZ3TM",
+        "Please consider supporting the author if possible, the price ¥49.00 is super fair!"
+    ],
+    "suggest": {
+        "Visual C++ Redistributable": "extras/vcredist2019"
+    },
     "url": "https://github.com/lework/RedisDesktopManager-Windows/releases/download/2022.4.2/resp-2022.4.2.zip",
     "hash": "fc13ae25b5b3da8739da9f3ec7af56fefe3d9d224dcab59a2c93425c100876ad",
     "installer": {
@@ -20,17 +27,10 @@
             "Redis Desktop Manager"
         ]
     ],
-    "suggest": {
-        "Visual C++ Redistributable": "extras/vcredist2019"
-    },
     "checkver": {
         "github": "https://github.com/lework/RedisDesktopManager-Windows"
     },
     "autoupdate": {
         "url": "https://github.com/lework/RedisDesktopManager-Windows/releases/download/$version/resp-$version.zip"
-    },
-    "notes": [
-        "RDM is available on Microsoft Store: https://www.microsoft.com/store/apps/9NDK76ZVZ3TM",
-        "Please consider supporting the author if possible, the price ¥49.00 is super fair!"
-    ]
+    }
 }

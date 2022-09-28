@@ -1,8 +1,17 @@
 {
-    "homepage": "https://im.qq.com/pcqq/",
-    "description": "An instant messaging software service developed by Tencent",
-    "license": "Freeware",
     "version": "9.5.4.0",
+    "description": "An instant messaging software service developed by Tencent",
+    "homepage": "https://im.qq.com/pcqq/",
+    "license": "Freeware",
+    "notes": [
+        "Scoop doesn't persist your QQ data, by default they are stored in: ",
+        "'$env:USERPROFILE\\Documents\\Tencent Files'.",
+        "",
+        "Files produced at runtime leaves in '$env:APPDATA\\Tencent'."
+    ],
+    "suggest": {
+        "vcruntime": "extras/vcredist2019"
+    },
     "url": "https://dorado-api.deno.dev/appxqq?dl#/903DB504.46618D74B1ECA_9.5.4.0_x86__a99ra4d2cbcxa.appx.7z",
     "hash": "sha1:9988eb4140bd5cfd7d94fb91229b5f9c0117eb0c",
     "pre_install": [
@@ -13,9 +22,6 @@
         "    throw \"This app requires at least Windows 10 version 1607 (build 14393) to work.\"",
         "}"
     ],
-    "suggest": {
-        "vcruntime": "extras/vcredist2019"
-    },
     "shortcuts": [
         [
             "QQ\\Bin\\QQScLauncher.exe",
@@ -32,11 +38,5 @@
             "url": "https://dorado-api.deno.dev/appxqq",
             "jsonpath": "$.sha1"
         }
-    },
-    "notes": [
-        "Scoop doesn't persist your QQ data, by default they are stored in: ",
-        "'$env:USERPROFILE\\Documents\\Tencent Files'.",
-        "",
-        "Files produced at runtime leaves in '$env:APPDATA\\Tencent'."
-    ]
+    }
 }

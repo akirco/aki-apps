@@ -1,7 +1,7 @@
 {
-    "homepage": "https://pan.baidu.com/download",
-    "description": "百度网盘PC版 ",
     "version": "7.20.2.2",
+    "description": "百度网盘PC版 ",
+    "homepage": "https://pan.baidu.com/download",
     "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.20.2.2.exe#dl.7z",
     "hash": "b27255830d91c053a772f2b22e197e2f254108ee3433aa525530f7952b392b0c",
     "bin": "BaiduNetdisk.exe",

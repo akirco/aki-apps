@@ -1,7 +1,7 @@
 {
-    "homepage": "https://shimo.im/",
-    "description": "A notes app",
     "version": "3.0.4",
+    "description": "A notes app",
+    "homepage": "https://shimo.im/",
     "license": "MIT",
     "architecture": {
         "64bit": {

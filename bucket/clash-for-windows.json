@@ -1,8 +1,9 @@
 {
-    "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
-    "description": "A Windows GUI based on Clash",
     "version": "0.20.4",
+    "description": "A Windows GUI based on Clash",
+    "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
     "license": "MIT",
+    "notes": "Clash for Windows data are now saved into '$persist_dir' and persisted by Scoop.",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.4/Clash.for.Windows.Setup.0.20.4.exe#/dl.7z",
@@ -80,6 +81,5 @@
                 }
             }
         }
-    },
-    "notes": "Clash for Windows data are now saved into '$persist_dir' and persisted by Scoop."
+    }
 }

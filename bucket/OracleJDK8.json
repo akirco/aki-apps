@@ -1,8 +1,8 @@
 {
-    "homepage": "https://www.oracle.com/technetwork/java/javase/overview/index.html",
-    "description": "Oracle JDK 8",
-    "license": "https://java.com/otnlicense",
     "version": "8u321",
+    "description": "Oracle JDK 8",
+    "homepage": "https://www.oracle.com/technetwork/java/javase/overview/index.html",
+    "license": "https://java.com/otnlicense",
     "architecture": {
         "64bit": {
             "url": "https://download.macromedia.com/pub/coldfusion/java/java8/8u321/jdk/jdk-8u321-windows-x64.exe#/dl.7z",

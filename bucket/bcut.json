@@ -1,7 +1,7 @@
 {
-    "homepage": "https://bcut.bilibili.cn/",
-    "description": "必剪，B站出品，没啥不同",
     "version": "2.7.0",
+    "description": "必剪，B站出品，没啥不同",
+    "homepage": "https://bcut.bilibili.cn/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {

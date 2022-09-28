@@ -1,10 +1,13 @@
 {
+    "version": "7.4.30",
     "homepage": "https://windows.php.net/",
     "license": {
         "identifier": "PHP-3.01",
         "url": "https://secure.php.net/license/"
     },
-    "version": "7.4.30",
+    "suggest": {
+        "vcredist": "extras/vcredist2017"
+    },
     "architecture": {
         "64bit": {
             "url": "https://windows.php.net/downloads/releases/php-7.4.30-Win32-VC15-x64.zip",
@@ -42,7 +45,7 @@
     ],
     "checkver": {
         "url": "https://windows.php.net/download/",
-        "re": "<h3 id=\"php-7.4\".*?>.*?\\(([\\d.-]+)\\)</h3>"
+        "regex": "<h3 id=\"php-7.4\".*?>.*?\\(([\\d.-]+)\\)</h3>"
     },
     "autoupdate": {
         "architecture": {
@@ -56,8 +59,5 @@
         "hash": {
             "url": "$baseurl/sha256sum.txt"
         }
-    },
-    "suggest": {
-        "vcredist": "extras/vcredist2017"
     }
 }
