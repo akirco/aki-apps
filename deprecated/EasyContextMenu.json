@@ -11,22 +11,12 @@
     "extract_dir": "EcMenu_v1.6",
     "architecture": {
         "64bit": {
-            "bin": [
-                "EcMenu_x64.exe",
-                "EcMenu"
-            ],
-            "shortcuts": [
-                "EcMenu_x64.exe",
-                "Sordum\\Easy Context Menu"
-            ]
+            "bin": ["EcMenu_x64.exe", "EcMenu"],
+            "shortcuts": ["EcMenu_x64.exe", "Easy Context Menu"]
         },
         "32bit": {
             "bin": "EcMenu.exe",
-            "shortcuts": "",
-            "0": [
-                "EcMenu.exe",
-                "Sordum\\Easy Context Menu"
-            ]
+            "shortcuts": ["EcMenu.exe", "Easy Context Menu"]
         }
     },
     "persist": "Files\\EcMenu.ini",
