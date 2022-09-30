@@ -1,8 +1,8 @@
-# Scoop Bucket `aki`
+## Scoop Bucket `aki`
 
 `scoop bucket add aki 'https://github.com/akirco/aki-apps.git'`
 
-> pwsh settings
+### pwsh settings
 
 ```ps1
  #Microsoft.PowerShell_profile.ps1
@@ -78,6 +78,14 @@
 
  function localdata {start -FilePath $env:userprofile\appdata\Local}
 
+ function _apps {
+    $apps = scoop.ps1 export | ConvertFrom-Json
+    foreach($item in $apps){
+        $app_list = $apps.apps | Format-Table
+        Write-Output $app_list
+    }
+ }
+
  # extras
  Enable-PoshTooltips
  Enable-PoshTransientPrompt
@@ -90,7 +98,7 @@
  [System.Environment]::SetEnvironmentVariable('path',$Env:PATH,'User')
 ```
 
-> app list
+### app list
 
 | AppName                              | description                                                                                                                                       |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
