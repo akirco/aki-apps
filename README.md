@@ -80,10 +80,8 @@
 
  function _apps {
     $apps = scoop.ps1 export | ConvertFrom-Json
-    foreach($item in $apps){
-        $app_list = $apps.apps | Format-Table
-        Write-Output $app_list
-    }
+    $app_list = $apps.apps | Format-Table
+    Write-Output $app_list
  }
 
  # extras
