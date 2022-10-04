@@ -89,11 +89,7 @@
  Enable-PoshTransientPrompt
 
 
- # set dim
- $env:dim = $(scoop prefix dim)
- [System.Environment]::SetEnvironmentVariable('dim',$env:dim,'User')
- $Env:PATH += $env:dim+';'
- [System.Environment]::SetEnvironmentVariable('path',$Env:PATH,'User')
+
 ```
 
 ### app list
