@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.fastgit.org/akirco/scoops/releases/download/0.1.0/scoops.7z",
-            "hash": "495B4A74E89DA7A736A262FAC6B0A0DDFB4686859C2D484F4376ADEE5AFEA918"
+            "hash": "78B2D858884F7995CB8CDD5D3CAC70EF4DE3A8BF9E9DDE6BDB32975570F6F56B"
         }
     },
     "bin": "scoops.exe"
