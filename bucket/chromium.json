@@ -11,22 +11,11 @@
             "extract_dir": "ungoogled-chromium-105.0.5195.54-1_Win64"
         }
     },
-    "bin": [
-        "chrome.exe",
-        [
-            "chrome.exe",
-            "chromium"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "chrome.exe",
-            "Chromium"
-        ]
-    ],
+    "bin": ["chrome.exe", ["chrome.exe", "chromium"]],
+    "shortcuts": [["chrome.exe", "Chromium"]],
     "checkver": {
         "github": "https://github.com/macchrome/winchrome/",
-        "regex": "/v(?<chromeVersion>[\\d.]+)-r(?<build>[\\d]+)-Win64/ungoogled-chromium-[\\d.]+(?<end>-\\d)_Win(32|64)\\.7z",
+        "regex": "/v(?<chromeVersion>[\\d.]+)-M([\\d.]+)-r(?<build>[\\d]+)-Win64/ungoogled-chromium-[\\d.]+(?<end>-\\d)_Win(32|64)\\.7z",
         "reverse": true,
         "replace": "${chromeVersion}-r${build}${end}"
     },
