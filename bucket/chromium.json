@@ -14,14 +14,14 @@
     "shortcuts": [["chrome.exe", "Chromium"]],
     "checkver": {
         "github": "https://github.com/macchrome/winchrome/",
-        "regex": "/v(?<chromeVersion>[\\d.]+)-M([\\d.]+)-r(?<build>[\\d]+)-Win64/ungoogled-chromium-[\\d.]+(?<end>-\\d)_Win(32|64)\\.7z",
+        "regex": "/v(?<chromeVersion>[\\d.]+)-M(?<matchedVersion>[\\d.]+)-r(?<build>[\\d]+)-Win64/ungoogled-chromium-[\\d.]+(?<end>-\\d)_Win(32|64)\\.7z",
         "reverse": true,
         "replace": "${chromeVersion}-r${build}${end}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/macchrome/winchrome/releases/download/v$matchChromeversion-r$matchBuild-Win64/ungoogled-chromium-$matchChromeversion$matchEnd_Win64.7z",
+                "url": "https://github.com/macchrome/winchrome/releases/download/v$matchChromeversion-M$matchedVersion-r$matchBuild-Win64/ungoogled-chromium-$matchChromeversion$matchEnd_Win64.7z",
                 "extract_dir": "ungoogled-chromium-$matchChromeversion$matchEnd_Win64"
             }
         },
