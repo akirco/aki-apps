@@ -1,10 +1,10 @@
 {
-    "version": "2.3.16",
+    "version": "2.3.17",
     "description": "A Windows GUI based on Clashr",
     "homepage": "https://github.com/ClashrAuto/Clashr-Auto-Desktop",
     "license": "Unknown",
-    "url": "https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/download/v2.3.16/Clashr.Auto-amd64.Setup.2.3.16.exe#/dl.7z",
-    "hash": "d05dbbe55bb53ec70190accb3881400933f0b6c374f2320e9153ce4b72c69308",
+    "url": "https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/download/v2.3.17/Clashr.Auto-amd64.Setup.2.3.17.exe#/dl.7z",
+    "hash": "44b9cfd4bc6f2b54bf9d204ab3dfb73616cb8e78ef920b2a6c3eb05d4de70dec",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
