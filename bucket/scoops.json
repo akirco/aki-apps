@@ -1,14 +1,14 @@
 {
-    "version": "0.1.0",
-    "description": "scoop search app",
-    "homepage": "https://github.com/akirco/scoops",
-    "license": "MIT",
-    "extract_dir": "scoops",
-    "architecture": {
-        "64bit": {
-            "url": "https://download.fastgit.org/akirco/scoops/releases/download/0.1.0/scoops.7z",
-            "hash": "78B2D858884F7995CB8CDD5D3CAC70EF4DE3A8BF9E9DDE6BDB32975570F6F56B"
-        }
-    },
-    "bin": "scoops.exe"
+  "version": "0.1.1",
+  "description": "scoop search app",
+  "homepage": "https://github.com/akirco/scoops",
+  "license": "MIT",
+  "extract_dir": "scoops",
+  "architecture": {
+    "64bit": {
+      "url": "https://download.fastgit.org/akirco/scoops/releases/download/0.1.1/scoops.7z",
+      "hash": "C800563B3CDF73B7909A9BC554AD088644A7854875D1DEDD73B80703576BEABE"
+    }
+  },
+  "bin": "scoops.exe"
 }
