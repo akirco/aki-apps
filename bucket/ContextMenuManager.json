@@ -16,10 +16,5 @@
         "url": "https://github.com/BluePointLilac/ContextMenuManager/releases/download/$version/ContextMenuManager.zip"
     },
     "persist": "Config",
-    "shortcuts": [
-        [
-            "ContextMenuManager.NET 4.0.exe",
-            "Windows右键管理"
-        ]
-    ]
+    "shortcuts": [["ContextMenuManager.NET.4.0.exe", "Windows右键管理"]]
 }
