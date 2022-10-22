@@ -16,16 +16,38 @@
         }
     },
     "extract_dir": "nvim-win64",
-    "bin": [
-        "bin\\nvim.exe",
-        "bin\\nvim-qt.exe"
-    ],
-    "shortcuts": [
-        [
-            "bin\\nvim-qt.exe",
-            "Neovim"
+    "installer": {
+        "script": [
+            "if (!(Test-Path \"$persist_dir\\nvim-config\")) {",
+            "    New-Item \"$persist_dir\\nvim-config\" -Type Directory -Force | Out-Null",
+            "}",
+            "$runtimeCache = \"$env:APPDATA\\..\\Local\\nvim\"",
+            "$runtimeCachePersist = \"$persist_dir\\nvim-config\"",
+            "if (Test-Path $runtimeCachePersist) {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "} else {",
+            "    if (Test-Path $runtimeCache) {",
+            "        Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "    }",
+            "}"
         ]
-    ],
+    },
+    "uninstaller": {
+        "script": [
+            "$runtimeCache = \"$env:APPDATA\\..\\Local\\nvim\"",
+            "$runtimeCachePersist = \"$persist_dir\\nvim-config\"",
+            "if (!(Test-Path $runtimeCachePersist)) {",
+            "    Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "} else {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "}"
+        ]
+    },
+    "bin": ["bin\\nvim.exe", "bin\\nvim-qt.exe"],
+    "shortcuts": [["bin\\nvim-qt.exe", "Neovim"]],
+    "persist": ["nvim-config"],
     "checkver": {
         "github": "https://github.com/neovim/neovim"
     },
