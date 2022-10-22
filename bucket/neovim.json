@@ -21,7 +21,7 @@
             "if (!(Test-Path \"$persist_dir\\nvim-config\")) {",
             "    New-Item \"$persist_dir\\nvim-config\" -Type Directory -Force | Out-Null",
             "}",
-            "$runtimeCache = \"$env:APPDATA\\..\\Local\\nvim\"",
+            "$runtimeCache = \"$env:LOCALAPPDATA\\nvim\"",
             "$runtimeCachePersist = \"$persist_dir\\nvim-config\"",
             "if (Test-Path $runtimeCachePersist) {",
             "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
@@ -36,7 +36,7 @@
     },
     "uninstaller": {
         "script": [
-            "$runtimeCache = \"$env:APPDATA\\..\\Local\\nvim\"",
+            "$runtimeCache = \"$env:LOCALAPPDATA\\nvim\"",
             "$runtimeCachePersist = \"$persist_dir\\nvim-config\"",
             "if (!(Test-Path $runtimeCachePersist)) {",
             "    Move-Item $runtimeCache $runtimeCachePersist -Force",
