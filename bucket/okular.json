@@ -1,12 +1,12 @@
 {
-    "version": "22.08.2-1182",
+    "version": "22.08.2-1183",
     "description": "Universal document viewer",
     "homepage": "https://okular.kde.org",
     "license": "LGPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Okular_Release_win64/1182/artifact/okular-22.08.2-1182-windows-msvc2019_64-cl.7z",
-            "hash": "b2750a2fb18845924a3507bd3891ac38f8fad14ca5def5de9f2ce0204417dda7"
+            "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Okular_Release_win64/1183/artifact/okular-22.08.2-1183-windows-msvc2019_64-cl.7z",
+            "hash": "53df6c3534a481ca0938cef1cd158c42e3f0913f9232a0832b2ea50321304995"
         }
     },
     "bin": "bin\\okular.exe",
