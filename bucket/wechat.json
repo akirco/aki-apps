@@ -6,8 +6,8 @@
         "identifier": "Proprietary",
         "url": "https://www.wechat.com/en/service_terms.html"
     },
-    "url": "https://webcdn.m.qq.com/spcmgr/download/WeChat3.7.6.44.exe#/dl.7z",
-    "hash": "134646155a7d878d86de2333276e8fed68804928117609d31d44d2468b85418c",
+    "url": "https://dldir1.qq.com/weixin/Windows/Beta/WeChatBeta.exe#/dl.7z",
+    "hash": "81fc5c98680648f6bef541b7cbfa8c67455c6f6e434a5021b45179c510952ff0",
     "installer": {
         "script": [
             "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$_15_\", \"$dir\\`$R5\" -Force -Recurse",
@@ -21,12 +21,7 @@
             "New-ItemProperty -Path $regpath -Name \"FileSavePath\" -Value \"$persist_dir\" -Force | Out-Null"
         ]
     },
-    "shortcuts": [
-        [
-            "wechat.exe",
-            "WeChat"
-        ]
-    ],
+    "shortcuts": [["wechat.exe", "WeChat"]],
     "persist": "WeChat Files",
     "uninstaller": {
         "script": [
