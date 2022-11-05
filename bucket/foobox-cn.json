@@ -1,14 +1,19 @@
 {
-    "version": "6.6.12",
+    "version": "6.6.13",
     "description": "基于 CUI 的 foobar2000 界面配置",
     "homepage": "https://github.com/dream7180/foobox-cn",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.foobar2000.org/license"
     },
-    "url": "https://github.com/dream7180/foobox-cn/releases/download/6.6.12/foobox-6.6.12.7z",
-    "hash": "6225d10bb4b0db7eaa67345446f99915765b245ee7ec5adff63985b431e9a403",
-    "shortcuts": [["foobar2000.exe", "Foobox"]],
+    "url": "https://github.com/dream7180/foobox-cn/releases/download/6.6.13/foobox-6.6.13.7z",
+    "hash": "01d31b9e866599b23eb3d9490462e5476de161acc6f2bb58df8df279f4af2cf3",
+    "shortcuts": [
+        [
+            "foobar2000.exe",
+            "Foobox"
+        ]
+    ],
     "pre_install": "Move-Item -Path \"$dir\\foobar2000*\\*\" -Destination \"$dir\"",
     "persist": [
         "configuration",
