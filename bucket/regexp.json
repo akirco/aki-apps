@@ -12,7 +12,7 @@
     "shortcuts": [["TotalReg.exe", "TotalReg"]],
     "checkver": {
         "url": "https://github.com/zodiacon/TotalRegistry/releases/latest",
-        "regex": "Total Registry v([\\d.]+)"
+        "regex": "v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

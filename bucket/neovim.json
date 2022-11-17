@@ -67,7 +67,8 @@
     "shortcuts": [["bin\\nvim-qt.exe", "Neovim"]],
     "persist": ["nvim-config", "nvim-data"],
     "checkver": {
-        "github": "https://github.com/neovim/neovim"
+        "url": "https://github.com/neovim/neovim/releases/latest",
+        "regex": "NVIM v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
