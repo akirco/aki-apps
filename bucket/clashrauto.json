@@ -41,12 +41,7 @@
             "}"
         ]
     },
-    "shortcuts": [
-        [
-            "Clashr Auto.exe",
-            "Clashr Auto"
-        ]
-    ],
+    "shortcuts": [["Clash Auto.exe", "Clash Auto"]],
     "persist": "data",
     "checkver": {
         "url": "https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/latest",
