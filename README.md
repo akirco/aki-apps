@@ -2,12 +2,11 @@
 
 `scoop bucket add aki 'https://github.com/akirco/aki-apps.git'`
 
-
-
 ### app list
 
 | AppName                              | description                                                                                                                                       |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| audacity                             | An easy-to-use, multi-track audio editor and recorder                                                                                             |
 | handbrake-cli                        | A video transcoder with extensive support for multiple formats. (CLI version)                                                                     |
 | fishing funds 👍                     | 看基金 app                                                                                                                                        |
 | [dim](https://github.com/akirco/dim) | 画质增强，基于[realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)封装的可交互 cli                                        |
@@ -348,4 +347,5 @@
 | alipan                               | 第三方的阿里云盘                                                                                                                                  |
 | OpenHashTab                          | 为资源管理器属性加上 Hash 校验                                                                                                                    |
 | yddict                               | 有道词典                                                                                                                                          |
-| scoops                               | scoop search app                                                                                                                                          |
+| scoops                               | scoop search app                                                                                                                                  |
+| windows11manager                     | windows 11 清理维护自定义软件                                                                                                                     |
