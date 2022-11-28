@@ -16,15 +16,12 @@
     "extract_dir": "Telegram",
     "pre_install": "Set-Content \"$dir\\telegram.cmd\" '@start \"Telegram\" /D \"%~dp0\" \"%~dp0Telegram.exe\" %*' -Encoding Ascii",
     "bin": "telegram.cmd",
-    "shortcuts": [
-        [
-            "Telegram.exe",
-            "Telegram"
-        ]
-    ],
+    "shortcuts": [["Telegram.exe", "Telegram"]],
     "persist": "tdata",
     "checkver": {
-        "github": "https://github.com/telegramdesktop/tdesktop"
+        "url": "https://api.github.com/repos/telegramdesktop/tdesktop/releases",
+        "jsonpath": "$..name",
+        "re": "tportable-x64.([\\d.]+).zip"
     },
     "autoupdate": {
         "architecture": {
