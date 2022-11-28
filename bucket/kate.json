@@ -10,20 +10,15 @@
         }
     },
     "bin": "bin\\kate.exe",
-    "shortcuts": [
-        [
-            "bin\\kate.exe",
-            "Kate"
-        ]
-    ],
+    "shortcuts": [["bin\\kate.exe", "Kate"]],
     "checkver": {
         "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Release_win64/lastSuccessfulBuild/artifact/",
-        "regex": "kate-([\\d.-]+)-windows-(?<lib>\\w+)-cl\\.7z"
+        "regex": "kate-([\\d.-]+)-windows-cl-(?<lib>\\w+)-x86_64\\.7z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Release_win64/$preReleaseVersion/artifact/kate-$version-windows-$matchLib-cl.7z"
+                "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Release_win64/$preReleaseVersion/artifact/kate-$version-windows-cl-$matchLib-x86_64.7z"
             }
         },
         "hash": {
