@@ -1,12 +1,12 @@
 {
-    "version": "1.10.0",
+    "version": "1.9.1",
     "description": "Lepton is a lean snippet manager based on GitHub Gist",
     "homepage": "http://hackjutsu.com/Lepton/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hackjutsu/Lepton/releases/download/v1.10.0/Lepton-1.10.0-win.7z",
-            "hash": "becb010f4e97e890984a962d60aca5a86b0f839de0d12d4bc773e335a7dc3f37"
+            "url": "https://github.com/hackjutsu/Lepton/releases/download/v1.9.1/Lepton-1.9.1-win.7z",
+            "hash": "b5e33ae19e86ba4899ace2cc533685eb8451dcf46092530a0c1c8b547606a17f"
         }
     },
     "shortcuts": [
