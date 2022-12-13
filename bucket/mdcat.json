@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/swsnr/mdcat/releases/download/mdcat-0.30.3/mdcat-0.30.3-x86_64-pc-windows-msvc.zip",
-            "hash": "ea5e9abfe9c92e95e7ac411ae68af6e234f0f17a10db597838a0f82e016f58e4"
+            "hash": "8cd675b90a4c95d1969616ce0d939c007d06b0624919645804bfe9d9f555d1e3"
         }
     },
     "bin": "mdcat.exe",
