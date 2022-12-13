@@ -17,22 +17,17 @@
         "Move-Item -Path \"$dir\\audacity-win-$version-x64*\\*\" -Destination \"$dir\"",
         "Remove-Item \"$dir\\audacity-win-$version-x64\" -Force -Recurse"
     ],
-    "shortcuts": [
-        [
-            "Audacity.exe",
-            "Audacity"
-        ]
-    ],
+    "shortcuts": [["Audacity.exe", "Audacity"]],
     "persist": "Portable Settings",
     "checkver": {
         "url": "https://fossies.org/windows/misc/",
-        "regex": "[Aa]udacity-win-([\\d.]+)-64bit\\.zip\""
+        "regex": "[Aa]udacity-win-([\\d.]+)-x64\\.zip\""
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://fossies.org/windows/misc/audacity-win-$version-64bit.zip",
-                "extract_dir": "audacity-win-$version-64bit"
+                "extract_dir": "audacity-win-$version-x64"
             }
         },
         "hash": {
