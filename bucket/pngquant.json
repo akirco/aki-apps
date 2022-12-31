@@ -10,5 +10,8 @@
     "checkver": {
         "url": "https://pngquant.org/releases.html",
         "regex": "pngquant-([\\d.]+)-src\\.tar\\.gz"
+    },
+    "autoupdate": {
+        "url": "https://pngquant.org/pngquant-windows.zip"
     }
 }
