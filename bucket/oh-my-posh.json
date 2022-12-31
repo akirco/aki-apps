@@ -14,7 +14,7 @@
     "innosetup": true,
     "persist": "themes",
     "checkver": {
-        "github": "https://github.com/JanDeDobbeleer/oh-my-posh3"
+        "github": "https://github.com/JanDeDobbeleer/oh-my-posh"
     },
     "autoupdate": {
         "architecture": {
