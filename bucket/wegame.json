@@ -10,6 +10,7 @@
         "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$SYSDIR\",\"$dir\\WeGameSetup.exe\" -Force -Recurse"
     ],
     "shortcuts": [["wegame.exe", "WeGame"]],
+    "persist": ["downloads", "games"],
     "checkver": {
         "url": "https://pc.qq.com/detail/1/detail_23761.html",
         "regex": "WeGameSetup([\\d.]+)_gjwegame_0_0.exe"
