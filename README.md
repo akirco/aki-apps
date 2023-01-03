@@ -9,6 +9,9 @@
 | audacity                             | An easy-to-use, multi-track audio editor and recorder                                                                                             |
 | handbrake-cli                        | A video transcoder with extensive support for multiple formats. (CLI version)                                                                     |
 | fishing funds 👍                     | 看基金 app                                                                                                                                        |
+| mi-assistant 👍                      | 小米助手                                                                                                                                          |
+| wegame 👍                            | 腾讯 Wegame.                                                                                                                                      |
+| fastbootEnhance 👍                   | A user-friendly Fastboot ToolBox & Payload Dumper for Windows.                                                                                    |
 | [dim](https://github.com/akirco/dim) | 画质增强，基于[realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)封装的可交互 cli                                        |
 | MouseInc 👍                          | 不只是鼠标手势吧                                                                                                                                  |
 | xwtoolbox👍                          | 小丸工具箱                                                                                                                                        |
