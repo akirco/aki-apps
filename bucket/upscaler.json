@@ -15,5 +15,13 @@
         "Remove-Item \"$dir\\`$PLUGINSDIR\"  -Force -Recurse",
         "Remove-Item \"$dir\\`$R0\" -Force -Recurse"
     ],
-    "shortcuts": [["upscaler.exe", "upscaler"]]
+    "shortcuts": [["upscaler.exe", "upscaler"]],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/akirco/upscaler/releases/download/v$version/upscaler-$version-setup.exe#/dl.7z"
+            }
+        }
+    }
 }
