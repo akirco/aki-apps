@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0-m1",
+    "version": "1.0.0-m2",
     "description": "The Maven (mvn) Daemon is based on GraalVM and allows for faster Maven builds.",
     "homepage": "https://github.com/apache/maven-mvnd",
     "license": "Apache-2.0",
@@ -14,9 +14,9 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/apache/maven-mvnd/releases/download/1.0.0-m1/maven-mvnd-1.0.0-m1-windows-amd64.zip",
-            "hash": "51bfd8d8bc12d965ffc0d5e5030815f94350238edb0d4eacede637a92e22e99d",
-            "extract_dir": "maven-mvnd-1.0.0-m1-windows-amd64"
+            "url": "https://github.com/apache/maven-mvnd/releases/download/1.0.0-m2/maven-mvnd-1.0.0-m2-windows-amd64.zip",
+            "hash": "8291c7fd3944031fd7b0de317998b86b2edd521fc0027cd0f7cf385d08586c36",
+            "extract_dir": "maven-mvnd-1.0.0-m2-windows-amd64"
         }
     },
     "env_add_path": "bin",
