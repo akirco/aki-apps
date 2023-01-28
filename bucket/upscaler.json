@@ -15,12 +15,8 @@
         "Remove-Item \"$dir\\`$PLUGINSDIR\"  -Force -Recurse",
         "Remove-Item \"$dir\\`$R0\" -Force -Recurse"
     ],
-    "shortcuts": [
-        [
-            "upscaler.exe",
-            "upscaler"
-        ]
-    ],
+    "shortcuts": [["upscaler.exe", "upscaler"]],
+    "persist": ["images"],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
