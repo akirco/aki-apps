@@ -2,7 +2,7 @@
     "homepage": "https://tim.qq.com/",
     "description": "An lightweight instant messaging software service developed by Tencent",
     "license": "Freeware",
-    "version": "3.4.5",
+    "version": "3.4.5.22071",
     "url": "https://webcdn.m.qq.com/spcmgr/download/TIM3.4.5.22071.exe#/dl.7z",
     "hash": "e92a4705964f2f572e376aa6634e6d487fba2dd3060f0f1c1991ab86350934e6",
     "installer": {
@@ -27,7 +27,12 @@
     "uninstaller": {
         "script": "Remove-Item \"$env:APPDATA\\Tencent\\TIM\" -Recurse -Force"
     },
-    "shortcuts": [["Bin\\QQScLauncher.exe", "TIM"]],
+    "shortcuts": [
+        [
+            "Bin\\QQScLauncher.exe",
+            "TIM"
+        ]
+    ],
     "checkver": {
         "url": "https://pc.qq.com/detail/18/detail_23258.html",
         "regex": "TIM([\\d.]+).exe"
