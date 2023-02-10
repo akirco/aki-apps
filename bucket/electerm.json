@@ -1,14 +1,19 @@
 {
-    "version": "2.5.10",
-    "description": "夸克网盘",
-    "homepage": "https://pan.quark.cn/",
-    "license": "Proprietary",
-    "url": "https://pdds-c1-cdn.uc.cn/82-4/stfile/2302/d15d6235efd778c30d21b247e964938e/QuarkCloudDrive-2.5.10-win-release1.exe?auth_key=1676601112-0-0-1ad7806b63ddc87412ce8ffc8fd3cebe&SESSID=639f383461935cccc8086be7574b3a08&ext=uc.exe#/dl.7z",
-    "hash": "sha512:edcb211dc59a52022d7f33dbf425e4369e9fca6c15b1ce8b5f2f4140fce6d36e75a5ff7d5a31c3c6bfccd3fb6add6a5fabb03705b0249927fe0fd678339f1db5",
-    "innosetup": true,
+    "version": "1.25.14",
+    "description": "Terminal/ssh/serial port/sftp client",
+    "homepage": "https://electerm.github.io/electerm/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/electerm/electerm/releases/download/v1.25.14/electerm-1.25.14-win-x64.tar.gz",
+            "hash": "f0a5ceaa4158adb8c0801de0de09dc2b79e74d46cfef1ad2983a3884b78d8b98",
+            "extract_dir": "electerm-1.25.14-win-x64"
+        }
+    },
+    "bin": "electerm.exe",
     "installer": {
         "script": [
-            "$runtimeCache = \"$env:APPDATA\\quark-cloud-drive\"",
+            "$runtimeCache = \"$env:APPDATA\\electerm\"",
             "$runtimeCachePersist = \"$persist_dir\\Cache\"",
             "if (Test-Path $runtimeCachePersist) {",
             "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
@@ -23,7 +28,7 @@
     },
     "uninstaller": {
         "script": [
-            "$runtimeCache = \"$env:APPDATA\\quark-cloud-drive\"",
+            "$runtimeCache = \"$env:APPDATA\\electerm\"",
             "$runtimeCachePersist = \"$persist_dir\\Cache\"",
             "if (!(Test-Path $runtimeCachePersist)) {",
             "    Move-Item $runtimeCache $runtimeCachePersist -Force",
@@ -32,5 +37,16 @@
             "}"
         ]
     },
-    "shortcuts": [["QuarkCloudDrive.exe", "QuarkCloudDrive"]]
+    "shortcuts": [["electerm.exe", "electerm"]],
+    "checkver": {
+        "github": "https://github.com/electerm/electerm"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/electerm/electerm/releases/download/v$version/electerm-$version-win-x64.tar.gz",
+                "extract_dir": "electerm-$version-win-x64"
+            }
+        }
+    }
 }
