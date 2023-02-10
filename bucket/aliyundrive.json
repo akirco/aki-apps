@@ -15,15 +15,25 @@
     ],
     "installer": {
         "script": [
+            "if (!(Test-Path \"$persist_dir\\Cache\")) {",
+            "    New-Item \"$persist_dir\\Cache\" -Type Directory -Force | Out-Null",
+            "}",
             "$runtimeCache = \"$env:APPDATA\\aDrive\"",
+            "$runtimeutForpcCache = \"$env:APPDATA\\utForpc\"",
             "$runtimeCachePersist = \"$persist_dir\\Cache\"",
             "if (Test-Path $runtimeCachePersist) {",
             "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "    Remove-Item $runtimeutForpcCache -Force -Recurse -ErrorAction SilentlyContinue",
             "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "    New-Item -Type Junction -Path $runtimeutForpcCache -Target $runtimeCachePersist | Out-Null",
             "} else {",
             "    if (Test-Path $runtimeCache) {",
             "        Move-Item $runtimeCache $runtimeCachePersist -Force",
             "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "    }",
+            "    if (Test-Path $runtimeutForpcCache) {",
+            "        Move-Item $runtimeutForpcCache $runtimeCachePersist -Force",
+            "        New-Item -Type Junction -Path $runtimeutForpcCache -Target $runtimeCachePersist | Out-Null",
             "    }",
             "}"
         ]
@@ -31,11 +41,14 @@
     "uninstaller": {
         "script": [
             "$runtimeCache = \"$env:APPDATA\\aDrive\"",
+            "$runtimeutForpcCache = \"$env:APPDATA\\utForpc\"",
             "$runtimeCachePersist = \"$persist_dir\\Cache\"",
             "if (!(Test-Path $runtimeCachePersist)) {",
             "    Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "    Move-Item $runtimeutForpcCache $runtimeCachePersist -Force",
             "} else {",
             "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "    Remove-Item $runtimeutForpcCache -Force -Recurse -ErrorAction SilentlyContinue",
             "}"
         ]
     },
