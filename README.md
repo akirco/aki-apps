@@ -1,3 +1,7 @@
+## get start with scoop
+
+[Reading dotfiles](https://github.com/akirco/dotfiles)
+
 ## Scoop Bucket `aki`
 
 `scoop bucket add aki 'https://github.com/akirco/aki-apps.git'`
@@ -103,7 +107,6 @@
 | WXQQ_RevokeMsgPatcher                | 微信小插件                                                                                                                                        |
 | aliyundrive                          | 阿里云盘                                                                                                                                          |
 | lepton                               | Lepton 是一个基于 GitHub Gist 的代码片段管理器                                                                                                    |
-| QQ                                   | qq                                                                                                                                                |
 | composer                             | php 包管理器                                                                                                                                      |
 | libwebp👍                            | Encodes and decodes WebP image files.                                                                                                             |
 | memo                                 | 使用 GitHub Gists 做更智能的笔记。                                                                                                                |
