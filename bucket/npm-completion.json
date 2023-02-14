@@ -11,5 +11,9 @@
     ],
     "psmodule": {
         "name": "npm-completion"
-    }
+    },
+    "notes": [
+        "Remember add `Import-Module npm-completion` to $Profile",
+        "This version maybe is deprecated about npm command."
+    ]
 }
