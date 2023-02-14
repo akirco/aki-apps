@@ -13,7 +13,7 @@
         "name": "npm-completion"
     },
     "notes": [
-        "Remember add `Import-Module npm-completion` to $Profile",
-        "This version maybe is deprecated about npm command."
+        "Remember add `Import-Module npm-completion` to $Profile.",
+        "This version maybe is outdated about npm command."
     ]
 }
