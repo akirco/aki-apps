@@ -37,7 +37,7 @@
                 "keep": true
             },
             "uninstaller": {
-                "file": "dockerInstall.exe",
+                "file": "Docker%20Desktop%20Installer.exe",
                 "args": ["uninstall", "--quiet"]
             }
         }
