@@ -11,6 +11,9 @@
 | AppName                              | description                                                                                                                                       |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | audacity                             | An easy-to-use, multi-track audio editor and recorder                                                                                             |
+| upscaler                             | 超分辨率 gui 版                                                                                                                                   |
+| docker-desktop                       | docker desktop for windows                                                                                                                        |
+| windows-terminal-quake               | windows-terminal 雷神模式                                                                                                                         |
 | handbrake-cli                        | A video transcoder with extensive support for multiple formats. (CLI version)                                                                     |
 | fishing funds 👍                     | 看基金 app                                                                                                                                        |
 | mi-assistant 👍                      | 小米助手                                                                                                                                          |
