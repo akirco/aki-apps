@@ -15,6 +15,6 @@
         "regex": "hime.*?([\\d.]+)-x64.exe"
     },
     "autoupdate": {
-        "url": "https://dl-hdslb-com/bili/bililive/win/Livehime-Win-beta-$version-x64.exe"
+        "url": "https://dl.hdslb.com/bili/bililive/win/Livehime-Win-beta-$version-x64.exe"
     }
 }
