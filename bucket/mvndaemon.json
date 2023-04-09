@@ -22,17 +22,17 @@
     "env_add_path": "bin",
     "checkver": {
         "url": "https://api.github.com/repos/apache/maven-mvnd/releases",
-        "jsonpath": "$..name",
-        "re": "maven-mvnd-([\\d.\\-\\w.]+)-windows-amd64.zip"
+        "jsonpath": "$..browser_download_url",
+        "re": "/(?<gap>[\\d.\\-\\w.]+)/maven-mvnd-(?<version>[\\d.\\-\\w.]+)-windows-amd64.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/apache/maven-mvnd/releases/download/$version/maven-mvnd-$version-windows-amd64.zip",
+                "url": "https://github.com/apache/maven-mvnd/releases/download/$matchGap/maven-mvnd-$matchVersion-windows-amd64.zip",
                 "hash": {
                     "url": "$url.sha256"
                 },
-                "extract_dir": "maven-mvnd-$version-windows-amd64"
+                "extract_dir": "maven-mvnd-$matchVersion-windows-amd64"
             }
         }
     }
