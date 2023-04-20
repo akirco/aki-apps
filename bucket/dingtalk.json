@@ -1,5 +1,5 @@
 {
-    "version": "7.0.10.3169101",
+    "version": "7.0.20.4199103",
     "description": "An all-in-one free communication and collaboration platform",
     "homepage": "https://www.dingtalk.com/",
     "license": {
@@ -7,8 +7,8 @@
         "url": "https://tms.dingtalk.com/markets/dingtalk/service-terms-zh"
     },
     "notes": "We don't persist your DingTalk data, they are still storaged in '%APPDATA%\\DingTalk'.",
-    "url": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.0.10.3169101.exe#/dl.7z",
-    "hash": "md5:c1c261131bae7246929cf1f407625871",
+    "url": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.0.20.4199103.exe#/dl.7z",
+    "hash": "md5:45f3d335b17c3dcada62a95e748e8d9a",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
     "installer": {
         "script": [
