@@ -10,6 +10,6 @@
     "env_add_path": ".",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/gerardog/gsudo/releases/download/v$version/gsudo.protable.zip"
+        "url": "https://github.com/gerardog/gsudo/releases/download/v$version/gsudo.portable.zip"
     }
 }
