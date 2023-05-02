@@ -13,6 +13,7 @@
 | audacity                             | An easy-to-use, multi-track audio editor and recorder                                                                                             |
 | upscaler                             | 超分辨率 gui 版                                                                                                                                   |
 | pure-live                            | 直播聚合 app                                                                                                                                      |
+| musicfox                             | 网易云音乐 TUI 版 app                                                                                                                             |
 | docker-desktop                       | docker desktop for windows                                                                                                                        |
 | windows-terminal-quake               | windows-terminal 雷神模式                                                                                                                         |
 | handbrake-cli                        | A video transcoder with extensive support for multiple formats. (CLI version)                                                                     |
@@ -254,7 +255,6 @@
 | tuya                                 | 图压，一款图片压缩软件                                                                                                                            |
 | ysyy                                 | 央视影音客户端                                                                                                                                    |
 | oxipng 👍                            | 多线程无损 PNG 优化器                                                                                                                             |
-| lx-music-desktop                     | 洛雪音乐                                                                                                                                          |
 | PDF-XChange-Viewer                   | PDF-XChange-Viewer                                                                                                                                |
 | electron-fiddle                      | electron-fiddle                                                                                                                                   |
 | n_m3u8dl-cli                         | m3u8 下载器                                                                                                                                       |
