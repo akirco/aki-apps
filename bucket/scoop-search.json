@@ -1,10 +1,10 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "scoop search local and remote app",
     "homepage": "https://github.com/akirco/shell-scripts/tree/master/scoop-search",
     "license": "MIT",
     "url": "https://raw.githubusercontent.com/akirco/shell-scripts/master/scoop-search/scoop-search.ps1",
-    "hash": "2a3664db575d4d84dba1ff14eea9551deae10417867436c9d112a95d393ecb25",
+    "hash": "55d10542068abc19798526a4e300dd260411df4548e31cdc07b7f098440ad96c",
     "pre_install": [
         "Rename-Item \"$dir\\scoop-search.ps1\" 'scoop-search.psm1'"
     ],
