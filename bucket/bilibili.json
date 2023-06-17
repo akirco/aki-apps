@@ -7,7 +7,6 @@
     "hash": "sha512:890c648ead6d5fae238c33dab99eea15c86d9096b650158fc658dd592f4c7ed62b2f1ab28b231751241f7436ba7a1c839891e2ba545c0faf91eb26ec0465d3eb",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-        "Move-Item -Path \"$dir\\`$PLUGINSDIR\\Uninstall 哔哩哔哩.exe\" -Destination \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
     ],
     "installer": {
@@ -36,12 +35,7 @@
             "Remove-Item $runtimeCachePersist -Force -Recurse -ErrorAction SilentlyContinue"
         ]
     },
-    "shortcuts": [
-        [
-            "哔哩哔哩.exe",
-            "bilibili"
-        ]
-    ],
+    "shortcuts": [["哔哩哔哩.exe", "bilibili"]],
     "checkver": {
         "url": "http://api.bilibili.com/x/elec-frontend/update/latest.yml",
         "regex": "bilibili-setup-v([\\d\\.]+)\\.exe"
