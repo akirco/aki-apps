@@ -37,15 +37,10 @@
             "}"
         ]
     },
-    "shortcuts": [
-        [
-            "cloudmusic.exe",
-            "NeteaseMusic"
-        ]
-    ],
+    "shortcuts": [["cloudmusic.exe", "NeteaseMusic"]],
     "checkver": {
         "url": "https://api.nicoconi.com/updater/neteasemusic",
-        "regex": "https://d1.music.126.net/dmusic/NeteaseCloudMusic_Music_official_([\\d.]+\\d)\\.exe"
+        "regex": "([\\d.]+(?:_[\\d.]+)?).exe"
     },
     "autoupdate": {
         "url": "https://d1.music.126.net/dmusic/NeteaseCloudMusic_Music_official_$version.exe#/dl.7z"
