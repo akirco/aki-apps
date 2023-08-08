@@ -1,13 +1,13 @@
 {
-    "version": "4.9.0",
+    "version": "4.9.2",
     "description": "The official client for Alibaba's cloud dirve service",
     "homepage": "https://www.aliyundrive.com/",
     "license": {
         "identifier": "EULA",
         "url": "https://www.aliyundrive.com/protocol/service"
     },
-    "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/update/4.9.0/win32/ia32/aDrive-4.9.0.exe#/aDrive-4.9.0.7z",
-    "hash": "sha512:00e297ec084559c8f1e7e39aba3b76d42983899f3ff3e85d496a0806ec1a0612dd92adf0f40662c11c34d5a72573eb2bc95149340876e9a20a48144589bab134",
+    "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/update/4.9.2/win32/ia32/aDrive-4.9.2.exe#/aDrive-4.9.2.7z",
+    "hash": "sha512:e2808b934a3134fe19fa46e0acc3d9eab451f9490f465cf177b422ac06343f7cfbc17dc20d16fba69dc35cd0c7a25ef9d9755bd6920868404f81a23669971283",
     "post_install": [
         "@('$PLUGINSDIR', '$TEMP') | ForEach-Object {",
         "    Remove-Item \"$dir\\$_\" -Recurse -Force",
@@ -52,7 +52,12 @@
             "}"
         ]
     },
-    "shortcuts": [["aDrive.exe", "阿里云盘"]],
+    "shortcuts": [
+        [
+            "aDrive.exe",
+            "阿里云盘"
+        ]
+    ],
     "checkver": {
         "script": "return (iwr -useb \"$($(iwr -useb 'https://www.aliyundrive.com/desktop/version/update.json' | ConvertFrom-Json).url)/win32/ia32/latest.yml\")",
         "regex": "version: ([\\d.]+)"
