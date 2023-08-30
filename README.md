@@ -6,6 +6,30 @@
 
 `scoop bucket add aki 'https://github.com/akirco/aki-apps.git'`
 
+### recommend
+
+1. [scoop utils](https://github.com/akirco/dotfiles/blob/master/powershell-profile/modules/scoop.psm1)
+
+```powershell
+scoop search rust
+
+# local app list (fast)
+# remote app list
+
+scoop add RepoName/appName
+scoop install remote/appName
+```
+
+2. [hosts](https://github.com/akirco/powershell/tree/master/hosts-editor)
+
+```powershll
+hosts -cat # cat local hosts file
+
+hosts -up  # fetch <521xueweihan/GitHub520> hosts file to update local hosts
+
+hosts -add <domain> # fetch domain IPV4&IPV6 from https://sites.ipaddress.com and append to local hosts
+```
+
 ### app list
 
 | AppName                              | description                                                                                                                                       |
@@ -13,7 +37,7 @@
 | audacity                             | An easy-to-use, multi-track audio editor and recorder                                                                                             |
 | upscaler                             | 超分辨率 gui 版                                                                                                                                   |
 | pure-live                            | 直播聚合 app                                                                                                                                      |
-| scoop-search                         | [scoop-search](https://github.com/akirco/shell-scripts)                                                                                           |
+| scoop-search                         | 增强版[scoop-search](https://github.com/akirco/shell-scripts)                                                                                     |
 | musicfox                             | 网易云音乐 TUI 版 app                                                                                                                             |
 | docker-desktop                       | docker desktop for windows                                                                                                                        |
 | windows-terminal-quake               | windows-terminal 雷神模式                                                                                                                         |
@@ -358,5 +382,4 @@
 | alipan                               | 第三方的阿里云盘                                                                                                                                  |
 | OpenHashTab                          | 为资源管理器属性加上 Hash 校验                                                                                                                    |
 | yddict                               | 有道词典                                                                                                                                          |
-
-| windows11manager | windows 11 清理维护自定义软件 |
+| windows11manager                     | windows 11 清理维护自定义软件                                                                                                                     |
