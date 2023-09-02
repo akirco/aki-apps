@@ -77,7 +77,7 @@
         ]
     },
     "bin": [
-        ["python.exe", "python3"],
+        ["python.exe", "python"],
         "Lib\\idlelib\\idle.bat",
         ["Lib\\idlelib\\idle.bat", "idle3"]
     ],
