@@ -1,5 +1,5 @@
 {
-    "version": "1.84.0",
+    "version": "1.83.0",
     "description": "Lightweight but powerful source code editor",
     "homepage": "https://code.visualstudio.com/",
     "license": {
@@ -22,12 +22,7 @@
         }
     },
     "env_add_path": "bin",
-    "shortcuts": [
-        [
-            "code.exe",
-            "Visual Studio Code"
-        ]
-    ],
+    "shortcuts": [["code.exe", "Visual Studio Code"]],
     "post_install": [
         "if (Test-Path \"$dir\\install-context.reg\") {",
         "  $codepath = \"$dir\\Code.exe\".Replace('\\', '\\\\')",
@@ -49,7 +44,7 @@
     "checkver": {
         "url": "https://code.visualstudio.com/sha?build=stable",
         "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].url",
-        "regex": "(?<domain>https://(.+))/stable/(?<release>\\w+)/VSCode-win32-x64-(?<version>[\\d.]+).zip",
+        "regex": "^https?://(?<domain>.*)/stable/(?<release>\\w+)/VSCode-win32-x64-(?<version>[\\d.]+).zip",
         "replace": "${4}"
     },
     "autoupdate": {
