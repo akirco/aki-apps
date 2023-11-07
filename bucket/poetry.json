@@ -12,8 +12,8 @@
             "python \"$dir\\$fname\" --version $version"
         ]
     },
-    "bin": ["\\venv\\Scripts\\poetry.exe"],
-    "post_install": ["poetry config cache-dir $dir\\envs"],
+    "bin": [["\\venv\\Scripts\\poetry.exe", "py"]],
+    "post_install": ["py config cache-dir $dir\\envs"],
     "env_set": {
         "POETRY_CACHE_DIR": "$dir\\envs"
     },
@@ -23,5 +23,6 @@
     },
     "autoupdate": {
         "url": "https://install.python-poetry.org#/install-poetry.py"
-    }
+    },
+    "notes": ["cache-dir: $dir\\envs", "poetry shim named `py`"]
 }
