@@ -13,6 +13,11 @@
         ]
     },
     "bin": ["\\venv\\Scripts\\poetry.exe"],
+    "post_install": ["poetry config cache-dir $dir\\envs"],
+    "env_set": {
+        "POETRY_CACHE_DIR": "$dir\\envs"
+    },
+    "persist": ["envs"],
     "checkver": {
         "github": "https://github.com/python-poetry/poetry/"
     },
