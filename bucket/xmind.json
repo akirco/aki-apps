@@ -1,29 +1,20 @@
 {
-    "version": "2023",
-    "homepage": "https://www.xmind.cn/",
-    "license": "shareware",
+    "version": "23.09.11172",
+    "description": "A full-featured mind mapping and brainstorming tool",
+    "homepage": "https://xmind.app/",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://xmind.app/terms/"
+    },
     "architecture": {
         "64bit": {
-            "url": "https://www.xmind.cn/zen/download/win64/#/dl.7z",
-            "hash": "586a8a952e2649f62cbb493d5c32d2e50f3625d8996e493ecd6c4afbb3b22b05",
+            "url": "https://dl3.xmind.net/Xmind-for-Windows-x64bit-23.09.11172-202310122259.exe#/dl.7z",
+            "hash": "0402cc0e0a8db101d91792a639059f3234f441570fbe15b052a3b139cb8ddf4b",
             "installer": {
-                "script": [
-                    "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
-                    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
-                    "Remove-Item \"$dir\\`$R0\" -Force -Recurse"
-                ]
-            }
-        },
-        "32bit": {
-            "url": "https://www.xmind.cn/zen/download/win32/#/dl.7z",
-            "hash": "7099f476850e2a3a3d1a71dac1635af914412556dc3b1b3048fc68cec239d2cd",
-            "installer": {
-                "script": [
-                    "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\" -Removal",
-                    "Remove-Item \"$dir\\`$PLUGINSDIR\" \"$dir\\`$R0\" -Force -Recurse"
-                ]
+                "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
             }
         }
     },
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse",
     "shortcuts": [["XMind.exe", "XMind"]]
 }
