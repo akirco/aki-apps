@@ -1,5 +1,5 @@
 {
-    "version": "2022.4",
+    "version": "2022.5",
     "description": "Cross-platform GUI management tool for Redis",
     "homepage": "https://redisdesktop.com/",
     "license": "GPL-3.0-only",
@@ -10,8 +10,8 @@
     "suggest": {
         "Visual C++ Redistributable": "extras/vcredist2019"
     },
-    "url": "https://github.com/lework/RedisDesktopManager-Windows/releases/download/2022.4/resp-2022.4.zip",
-    "hash": "86e6b5a49f052cf8b31d47a6ff8842806975792c3a96c219f960cbba474e084e",
+    "url": "https://github.com/lework/RedisDesktopManager-Windows/releases/download/2022.5/resp-2022.5.zip",
+    "hash": "957267d6d0566a9c320d602e1e9136ab015cb7a96e811789799250c20285bfbf",
     "installer": {
         "script": [
             "Get-ChildItem \"$dir\\resp-*.exe\" | Rename-Item -NewName \"$dir\\installer.exe\"",
