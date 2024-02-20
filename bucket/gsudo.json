@@ -1,10 +1,10 @@
 {
-    "version": "2.4.3",
+    "version": "2.4.4",
     "description": "A Sudo for Windows",
     "homepage": "https://github.com/gerardog/gsudo",
     "license": "MIT",
-    "url": "https://github.com/gerardog/gsudo/releases/download/v2.4.3/gsudo.portable.zip",
-    "hash": "d35e282ecb8d0d8b1e440f136c1b0983863b93496ff5b3c38b4c875608251836",
+    "url": "https://github.com/gerardog/gsudo/releases/download/v2.4.4/gsudo.portable.zip",
+    "hash": "1d7b47886fed85da45c98ddadb005e19bf702860f52817bbd552a120a6f127d5",
     "bin": [
         [
             "gsudo.exe",
