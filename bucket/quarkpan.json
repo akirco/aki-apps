@@ -38,14 +38,11 @@
     "shortcuts": [["QuarkCloudDrive.exe", "QuarkCloudDrive"]],
     "checkver": {
         "url": "https://pan.quark.cn/api/client_version",
-        "jsonpath": "$.data.winInstallerUrl",
-        "re": "^https?://pdds.quark.cn/download/stfile/(?<release>\\w+)/QuarkCloudDrive-v(?<version>[\\d.]+)-release-pckk@other_ch-(?<build>[\\d]+).exe",
-        "replace": "${2}"
+        "jsonpath": "$.data.clouddrive_backup_packages[0].winInstallerUrl",
+        "re": "pdds.quark.cn/download/stfile/(?<release>\\w+)/QuarkCloudDrive_v(?<version>[\\d.]+)_release_\\(Build(?<build>\\d+)-(?<timestamp>\\d+)\\).exe",
+        "replace": "${version}"
     },
     "autoupdate": {
-        "url": "https://pdds.quark.cn/download/stfile/$matchRelease/QuarkCloudDrive-v$matchVersion-release-pckk@other_ch-$matchBuild.exe#/dl.7z",
-        "hash": {
-            "jsonpath": "$.data.packages[?(@.platform == 'win32' @.appch == 'pckk@other_ch')].sha512"
-        }
+        "url": "https://pdds.quark.cn/download/stfile/$matchRelease/QuarkCloudDrive_v$matchVersion_release_(Build$matchBuild-$matchTimestamp).exe#/dl.7z"
     }
 }
