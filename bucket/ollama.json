@@ -1,11 +1,11 @@
 {
-    "version": "0.2.6",
+    "version": "0.2.7",
     "description": "Get up and running with large language models locally.",
     "homepage": "https://ollama.com/",
     "license": "MIT",
     "depends": "aki/innounpacker",
-    "url": "https://github.com/ollama/ollama/releases/download/v0.2.6/OllamaSetup.exe",
-    "hash": "cb45f611a670e8de0062cd12cb012f8396e3c7e922d530e67c507f562f4a5ede",
+    "url": "https://github.com/ollama/ollama/releases/download/v0.2.7/OllamaSetup.exe",
+    "hash": "84a5d6f9a049183086713decf2a17de5f09324f53a70879d269341b38d83a867",
     "pre_install": [
         "innounpack.exe -x -d\"$dir\" \"$dir\\OllamaSetup.exe\"",
         "Move-Item -Force -Path \"$dir\\{app}\\*\" -Destination \"$dir\"",
