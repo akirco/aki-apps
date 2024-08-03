@@ -1,13 +1,13 @@
 {
-    "version": "4.15.0",
+    "version": "6.1.0",
     "description": "The official client for Alibaba's cloud dirve service",
     "homepage": "https://www.aliyundrive.com/",
     "license": {
         "identifier": "EULA",
         "url": "https://www.aliyundrive.com/protocol/service"
     },
-    "url": "https://sw.pcmgr.qq.com/11aac7d8deee9f66ce08359998d30a86/668547e2/spcmgr/download/aDrive-4.15.0.exe#/aDrive-4.16.0.7z",
-    "hash": "sha512:7744f810f21b626a3ebcbbdb2303b0ac3f9fb3946a2729354b353c8bce1617f3095c6fb2a56162b5769d577c491655431cbfd34e8f0947f017a46f744e79754c",
+    "url": "https://sw.pcmgr.qq.com/fb9c0309ae76c89ab58ee1935b300a69/66ae2000/spcmgr/download/aDrive-6.1.0.exe#/aDrive-6.1.0.7z",
+    "hash": "sha512:6186b7862e53d66c1d5bae40b47d078d79cb586d2a1a2dfaa2ffbf0b1a56ab6b0cdea53550388b1c75966445e0263f74f1fc54a6ccaf7a2c65d09d33275db118",
     "post_install": [
         "@('$PLUGINSDIR', '$TEMP') | ForEach-Object {",
         "    Remove-Item \"$dir\\$_\" -Recurse -Force",
@@ -52,10 +52,5 @@
             "}"
         ]
     },
-    "shortcuts": [
-        [
-            "aDrive.exe",
-            "阿里云盘"
-        ]
-    ]
+    "shortcuts": [["aDrive.exe", "阿里云盘"]]
 }
