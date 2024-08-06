@@ -6,7 +6,7 @@
         "identifier": "EULA",
         "url": "https://www.aliyundrive.com/protocol/service"
     },
-    "url": "https://sw.pcmgr.qq.com/fb9c0309ae76c89ab58ee1935b300a69/66ae2000/spcmgr/download/aDrive-6.1.0.exe#/aDrive-6.1.0.7z",
+    "url": "https://sw.pcmgr.qq.com/2d50ab9258db39c4b4dae708d20067b0/66b18893/spcmgr/download/aDrive-6.1.0.exe#/aDrive-6.1.0.7z",
     "hash": "sha512:6186b7862e53d66c1d5bae40b47d078d79cb586d2a1a2dfaa2ffbf0b1a56ab6b0cdea53550388b1c75966445e0263f74f1fc54a6ccaf7a2c65d09d33275db118",
     "post_install": [
         "@('$PLUGINSDIR', '$TEMP') | ForEach-Object {",

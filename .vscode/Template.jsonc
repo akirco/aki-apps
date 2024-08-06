@@ -126,8 +126,7 @@
         "hash": { // Some vendors do not ship hashes
             "url": "https://ash258.com",
             "regex": "do not write regexes for hash algorithms, use variables ($md5, $sha1, $sha256, $sha512, $checksum)"
-        },
-        "note": "Note after autoupdate"
+        }
     }
     //#endregion Updating
 }
