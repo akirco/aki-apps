@@ -8,6 +8,11 @@ jobs:
     name: Excavate
     runs-on: windows-latest
     steps:
+    - name: Install and Import Module to convert yaml
+      shell: PowerShell
+      run: |
+          Install-Module "powershell-yaml" -Force
+          Import-Module "powershell-yaml"
     - uses: actions/checkout@main
     - name: Excavate
       uses: ScoopInstaller/GithubActions@main
