@@ -10,6 +10,7 @@
         "script": [
             "Write-Host `n",
             "$env:POETRY_HOME=\"$dir\"",
+            "$env:POETRY_CONFIG_DIR=\"$dir\\config\"",
             "python \"$dir\\$fname\" --version $version"
         ]
     },
@@ -21,8 +22,7 @@
     ],
     "post_install": "poetry config cache-dir $dir\\envs",
     "env_set": {
-        "POETRY_CACHE_DIR": "$dir\\envs",
-        "POETRY_CONFIG_DIR ": "$dir\\config"
+        "POETRY_CACHE_DIR": "$dir\\envs"
     },
     "persist": [
         "envs",
