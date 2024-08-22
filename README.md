@@ -8,7 +8,7 @@
 
 ## Recommend powershell module
 
-1. [scoop-search](https://github.com/akirco/dotfiles/blob/master/powershell-profile/modules/scoop.psm1)
+1. [scoop-search](https://github.com/akirco/dotfiles/blob/master/powershell/modules/scoop.psm1)
 
 > enhance scoop search ,add remote search and install remote mainfest file
 
@@ -34,7 +34,7 @@ hosts -up  # fetch <521xueweihan/GitHub520> hosts file to update local hosts
 hosts -add <domain> # fetch domain IPV4&IPV6 from https://sites.ipaddress.com and append to local hosts
 ```
 
-[More interesting module...](https://github.com/akirco/dotfiles/blob/master/powershell-profile/modules)
+[More interesting module...](https://github.com/akirco/dotfiles/blob/master/powershell/modules)
 
 ## app list
 
