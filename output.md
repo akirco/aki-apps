@@ -1,316 +1,314 @@
-| App                        | Description                                                                                                                                                                                                                                              |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 123pan                     | The official client for 123 cloud dirve service                                                                                                                                                                                                          |
-| 7zip                       | A multi-format file archiver with high compression ratios                                                                                                                                                                                                |
-| adb                        | Android SDK platform-tools includes tools that interface with the Android platform, such as adb, fastboot, and systrace                                                                                                                                  |
-| alipan                     | 一款第三方的阿里云盘客户端，支持 Windows、macOS                                                                                                                                                                                                          |
-| aliyundrive                | The official client for Alibaba's cloud dirve service                                                                                                                                                                                                    |
-| anaconda3                  | The most popular Python distribution for data science.                                                                                                                                                                                                   |
-| android-sdk                | A component for the Android SDK, which includes the complete set of development and debugging tools for Android.                                                                                                                                         |
-| aria-ng-gui                | An Aria2 GUI for Windows & Linux & MacOS.                                                                                                                                                                                                                |
-| aria2                      | Lightweight multi-protocol & multi-source command-line download utility                                                                                                                                                                                  |
-| audacity                   | An easy-to-use, multi-track audio editor and recorder                                                                                                                                                                                                    |
-| BaiduNetdisk               | 百度网盘 PC 版                                                                                                                                                                                                                                           |
-| bat2exe                    | A simple application which converts any windows batch file to a fully working executable .exe with an icon of your choice.                                                                                                                               |
-| bcut                       | 必剪，B 站出品，没啥不同                                                                                                                                                                                                                                 |
-| bilibili-livehime          | BiliBili Live Streaming tool                                                                                                                                                                                                                             |
-| bilibili                   | 哔哩哔哩客户端                                                                                                                                                                                                                                           |
-| biyi                       | 便捷的翻译和词典应用                                                                                                                                                                                                                                     |
-| bob                        | A version manager for neovim                                                                                                                                                                                                                             |
-| carnac                     | A utility to give some insight into how you use your keyboard.                                                                                                                                                                                           |
-| charles                    | An HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet.                                                                                            |
-| chromium                   | Browser aiming for safer, faster, and more stable way for all users to experience the web.                                                                                                                                                               |
-| clashrauto                 | A Windows GUI based on Clashr                                                                                                                                                                                                                            |
-| completion-predictor       | The CompletionPredictor is a PowerShell command line auto-completion plugin for the PSReadLine Predictive Intellisense feature.                                                                                                                          |
-| composer                   | Dependency Manager for PHP                                                                                                                                                                                                                               |
-| contextmenu-manager        | 一个纯粹的 Windows 右键菜单管理程序                                                                                                                                                                                                                      |
-| cosbrowser                 | COSBrowser is an official tool for accessing Tencent Cloud COS.                                                                                                                                                                                          |
-| cowsay                     | Cowsay generates an ASCII picture of a cow saying something provided by the user. If run with no arguments, it accepts standard input, word-wraps the message given at about 40 columns, and prints the cow saying the given message on standard output. |
-| cpu-z                      | System information software                                                                                                                                                                                                                              |
-| crow-translate             | A simple and lightweight translator that allows to translate and speak text.                                                                                                                                                                             |
-| cyberduck                  | Multiple protocols libre file transfer client                                                                                                                                                                                                            |
-| dark                       | WiX (Windows Installer XML) Toolset Decompiler                                                                                                                                                                                                           |
-| dart                       | SDK for the Dart programming language                                                                                                                                                                                                                    |
-| DefenderControl            | Sordum's Defender Control. Disable Windows Defender completely.                                                                                                                                                                                          |
-| deno                       | A secure runtime for JavaScript and TypeScript                                                                                                                                                                                                           |
-| dim                        | realesrgan-ncnn-vulkan,realesr-ncnn-vulkan 项目的可交互命令行                                                                                                                                                                                            |
-| dim2clear                  | Real-ESRGAN 的 GUI 实现，画质增强 app                                                                                                                                                                                                                    |
-| dingtalk                   | An all-in-one free communication and collaboration platform                                                                                                                                                                                              |
-| directoryPredictor         | The Directory Predictor permits live directory lookups for PSReadLine's auto-complete functionality.                                                                                                                                                     |
-| diskgenius                 | Utility for data recovery, disk partition management, backup & restore                                                                                                                                                                                   |
-| dismplusplus               | A gatis Windows utility similar to DISM, but with a GUI and based on CBS                                                                                                                                                                                 |
-| docker-desktop             | Docker Desktop. Open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.                                                                                          |
-| dog                        | Command-line DNS client                                                                                                                                                                                                                                  |
-| dotfiles                   | personal settings.                                                                                                                                                                                                                                       |
-| dp                         | A toy , bilibili downloader (only single video)                                                                                                                                                                                                          |
-| draw                       | Professional diagramming                                                                                                                                                                                                                                 |
-| dvm                        | Easy way to manage multiple active deno versions.                                                                                                                                                                                                        |
-| easywsl                    | easyWSL makes it way easier to use the wonders of WSL functionality on Windows 10 and 11 systems.                                                                                                                                                        |
-| electerm                   | Terminal/ssh/serial port/sftp client                                                                                                                                                                                                                     |
-| electron-fiddle            | Create and play with small Electron experiments                                                                                                                                                                                                          |
-| empty-recycle-bin          | Empty the Windows recycle bin                                                                                                                                                                                                                            |
-| everything                 | Locate files and folders by name instantly.                                                                                                                                                                                                              |
-| f2                         | Batch renaming files and directories quickly and safely.                                                                                                                                                                                                 |
-| far                        | A text-mode files and archives manager                                                                                                                                                                                                                   |
-| fastbootEnhance            | A user-friendly Fastboot ToolBox & Payload Dumper for Windows.                                                                                                                                                                                           |
-| fat32format                | FAT32 format tool that supports volumes greater than 32 GB                                                                                                                                                                                               |
-| feishu                     | Connect with teammates anytime and anywhere                                                                                                                                                                                                              |
-| ffmpeg                     | A complete, cross-platform solution to record, convert and stream audio and video.                                                                                                                                                                       |
-| fiddler                    | The free web debugging proxy for any browser, system or platform.                                                                                                                                                                                        |
-| figlet                     | Create large letters using ASCII art out of ordinary text.                                                                                                                                                                                               |
-| figma                      | Design, prototype, and gather feedback all in one place with Figma.                                                                                                                                                                                      |
-| filezilla                  | Fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.                                                                                                                       |
-| firefox-zh-cn              | Popular open source web browser. Cross-platform and available in many languages.                                                                                                                                                                         |
-| fishingfunds               | Display real-time trends of Chinese funds in the menubar                                                                                                                                                                                                 |
-| fl980                      | 东莞某厂键盘驱动                                                                                                                                                                                                                                         |
-| fleet                      | Hybrid IDE and text editor                                                                                                                                                                                                                               |
-| fluent-reader              | Modern desktop RSS reader                                                                                                                                                                                                                                |
-| flutter                    | Google's SDK for crafting beautiful, fast user experiences for mobile, web, and desktop                                                                                                                                                                  |
-| format-factory             | Multifunctional, multimedia file conversion tool                                                                                                                                                                                                         |
-| ftnn                       | Powerful tool facilitating trading and providing market information and data for Hong Kong, US and China A-Share Stocks                                                                                                                                  |
-| fu                         | Cross-platform app to upload images/files in Clipboard to a remote server                                                                                                                                                                                |
-| fx                         | Terminal JSON viewer                                                                                                                                                                                                                                     |
-| fzf                        | A general-purpose command-line fuzzy finder                                                                                                                                                                                                              |
-| gallery-dl                 | Command-line program to download image-galleries and -collections from several image hosting sites.                                                                                                                                                      |
-| gdrive                     | Command line utility for interacting with Google Drive.                                                                                                                                                                                                  |
-| gdu                        | A Fast Console Disk Usage Analyzer                                                                                                                                                                                                                       |
-| geekuninstaller            | Basic uninstaller though powerful and lightning fast.                                                                                                                                                                                                    |
-| gh                         | Official GitHub CLI                                                                                                                                                                                                                                      |
-| git-town                   | Git plugin, that adds Git commands that make collaborative software development more efficient and safe.                                                                                                                                                 |
-| git                        | Distributed version control system                                                                                                                                                                                                                       |
-| github                     | Extend your GitHub workflow beyond your browser.                                                                                                                                                                                                         |
-| gitomatic                  | A tool to monitor git repositories and automatically pull & push changes.                                                                                                                                                                                |
-| gitui                      | Terminal client for Git                                                                                                                                                                                                                                  |
-| glow                       | Markdown reader for the terminal with a TUI and encrypted cloud stash                                                                                                                                                                                    |
-| go-cn                      | An open source programming language that makes it easy to build simple, reliable, and efficient software.                                                                                                                                                |
-| gof                        | Fuzzy search tool written in Go                                                                                                                                                                                                                          |
-| googlechrome               | Fast, secure, and free web browser, built for the modern web.                                                                                                                                                                                            |
-| gow                        | Unix command line utilities installer for Windows.                                                                                                                                                                                                       |
-| gradle                     | An open-source build automation tool focused on flexibility and performance. (Source code and documentation boundled)                                                                                                                                    |
-| grex                       | A regular expression generator                                                                                                                                                                                                                           |
-| gsudo                      | A Sudo for Windows                                                                                                                                                                                                                                       |
-| handbrake-cli              | A video transcoder with extensive support for multiple formats. (CLI version)                                                                                                                                                                            |
-| hbuilderx                  | HBuilderX is a cross-platform GUI development tool.                                                                                                                                                                                                      |
-| helix                      | A post-modern modal text editor                                                                                                                                                                                                                          |
-| hellofont                  | HelloFont - Font tool for designers                                                                                                                                                                                                                      |
-| highlight                  | Converts source code to formatted text with syntax highlighting.                                                                                                                                                                                         |
-| hosts                      | cat,add,update hosts file with powershell.                                                                                                                                                                                                               |
-| httpstat                   | curl(1) statistics visualizer                                                                                                                                                                                                                            |
-| hub                        | An extension to command-line git that helps with everyday GitHub tasks without ever leaving the terminal.                                                                                                                                                |
-| hwmonitor                  | A hardware monitoring program that reads PC systems main health sensors : voltages, temperatures, fans speed.                                                                                                                                            |
-| imagine                    | 🖼️ PNG/JPEG optimization app for macOS, Windows and Linux.                                                                                                                                                                                               |
-| imewlconverter             | Input Method Editor word library converter                                                                                                                                                                                                               |
-| innounp                    | Inno Setup Unpacker                                                                                                                                                                                                                                      |
-| innounpacker               | Inno Setup Unpacker                                                                                                                                                                                                                                      |
-| jabba                      | Java Version Manager                                                                                                                                                                                                                                     |
-| jetbrains-toolbox          | Toolbox App. A control panel for all JetBrains tools.                                                                                                                                                                                                    |
-| jianyingpro                | Video editing application produced by ByteDance                                                                                                                                                                                                          |
-| kate                       | Multi-document editor                                                                                                                                                                                                                                    |
-| kodi                       | Kodi is an award-winning free and open source software media player and entertainment hub for digital media                                                                                                                                              |
-| koodo-reader               | A cross-platform ebook reader                                                                                                                                                                                                                            |
-| landrop                    | Drop any files to any devices on LAN.                                                                                                                                                                                                                    |
-| lepton                     | Lepton is a lean snippet manager based on GitHub Gist                                                                                                                                                                                                    |
-| lf                         | A terminal file manager written in Go                                                                                                                                                                                                                    |
-| libwebp                    | Encodes and decodes WebP image files.                                                                                                                                                                                                                    |
-| linear-desktop             | Linear is a better way to build products                                                                                                                                                                                                                 |
-| listen1desktop             | One for all free music in China                                                                                                                                                                                                                          |
-| llvm                       | Collection of modular and reusable compiler and toolchain technologies.                                                                                                                                                                                  |
-| lsd                        | The next gen ls command                                                                                                                                                                                                                                  |
-| lwc                        | A live-updating version of the UNIX wc command.                                                                                                                                                                                                          |
-| m4a-to-mp3-converter       | M4a to MP3 converter                                                                                                                                                                                                                                     |
-| macchina                   | A system information fetcher, with an emphasis on performance and minimalism                                                                                                                                                                             |
-| marktext                   | A simple and elegant markdown editor                                                                                                                                                                                                                     |
-| maven                      | Software project management and comprehension tool                                                                                                                                                                                                       |
-| mdbook                     | Create a book from markdown files.                                                                                                                                                                                                                       |
-| mdcat                      | cat for markdown                                                                                                                                                                                                                                         |
-| memo                       | Take Smarter notes with GitHub Gists.                                                                                                                                                                                                                    |
-| memreduct                  | Lightweight, real-time memory management application to monitor and clean system memory.                                                                                                                                                                 |
-| mi-assistant               | 小米助手.                                                                                                                                                                                                                                                |
-| micro                      | A terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the full capabilities of modern terminals.                                                                                                        |
-| miniconda3                 | A cross-platform, Python-agnostic binary package manager                                                                                                                                                                                                 |
-| monolith                   | Saves complete web pages as a single HTML file.                                                                                                                                                                                                          |
-| mpxplay                    | Commander-style console audio player.                                                                                                                                                                                                                    |
-| msys2                      | A software distro and building platform for Windows.                                                                                                                                                                                                     |
-| mtn                        | Movie Thumbnailer - save thumbnails (screenshots) of movie or video files to image files.                                                                                                                                                                |
-| musicfox                   | go-musicfox 是用 Go 写的又一款网易云音乐命令行客户端                                                                                                                                                                                                     |
-| mvndaemon                  | The Maven (mvn) Daemon is based on GraalVM and allows for faster Maven builds.                                                                                                                                                                           |
-| mysql                      | The world's most popular open-source database, supported by an active community.                                                                                                                                                                         |
-| n-m3u8dl-cli               | A m3u8 downloader                                                                                                                                                                                                                                        |
-| nali                       | An offline tool for querying IP geographic information and CDN provider                                                                                                                                                                                  |
-| nano                       | A small and friendly GNU editor, inspired by Pico                                                                                                                                                                                                        |
-| nc                         | 快速移除或更新依赖，yarn/pnpm                                                                                                                                                                                                                            |
-| ncspot                     | ncurses Spotify client written in Rust                                                                                                                                                                                                                   |
-| neofetch                   | A command-line system information tool written in bash 3.2+.                                                                                                                                                                                             |
-| neovim                     | Vim-fork focused on extensibility and usability                                                                                                                                                                                                          |
-| nero-aac                   | Nero Digital AAC Encoder (Command Line Tools)                                                                                                                                                                                                            |
-| netcat                     | Read and write from/to network connections                                                                                                                                                                                                               |
-| netch                      | Game accelerator                                                                                                                                                                                                                                         |
-| neteasemusic               | NetEase Cloud Music                                                                                                                                                                                                                                      |
-| nexusfont                  | Best font manager for Windows                                                                                                                                                                                                                            |
-| nginx                      | An HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server.                                                                                                                                                               |
-| nircmd                     | Execute various system wide tasks.                                                                                                                                                                                                                       |
-| nmap-portable              | Network exploration and security auditing utility.                                                                                                                                                                                                       |
-| notion                     | The all-in-one workspace for your notes, tasks, wikis, and databases.                                                                                                                                                                                    |
-| npm-completion             | A npm tab completion for PowerShell.                                                                                                                                                                                                                     |
-| nsis                       | A professional open source system to create Windows installers.                                                                                                                                                                                          |
-| ntop                       | htop-like system-monitor with Vi-emulation for Windows                                                                                                                                                                                                   |
-| nu                         | A modern shell written in Rust                                                                                                                                                                                                                           |
-| nvm                        | A node.js version management utility for Windows.                                                                                                                                                                                                        |
-| nvs                        | Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js                                                                                                                                                        |
-| nyagos                     | The hybrid Commandline Shell betweeeeeeen UNIX & DOS.                                                                                                                                                                                                    |
-| obs-studio                 | Video recording and live streaming software                                                                                                                                                                                                              |
-| officetoolplus             | Office Tool Plus is a tool for managing, downloading and installing Office.                                                                                                                                                                              |
-| oh-my-posh                 | A prompt theme engine for any shell                                                                                                                                                                                                                      |
-| okular                     | Universal document viewer                                                                                                                                                                                                                                |
-| ollama                     | Get up and running with large language models locally.                                                                                                                                                                                                   |
-| optipng                    | A PNG optimizer that recompresses image files to a smaller size, without losing any information.                                                                                                                                                         |
-| opus-tools                 | Command-line utilities to encode, inspect, and decode .opus files.                                                                                                                                                                                       |
-| oss-browser                | Alibaba cloud (Aliyun) oss file manager.                                                                                                                                                                                                                 |
-| oxipng                     | Multi-threaded lossless PNG optimizer                                                                                                                                                                                                                    |
-| pandoc                     | Universal markup converter                                                                                                                                                                                                                               |
-| pastel                     | A command-line tool to generate, analyze, convert and manipulate colors.                                                                                                                                                                                 |
-| phantomjs                  | A headless web browser scriptable with JavaScript.                                                                                                                                                                                                       |
-| php                        | A popular general-purpose scripting language that is especially suited to web development. (thread safe)                                                                                                                                                 |
-| php74                      | PHP is a popular general-purpose scripting language that is especially suited for web development.                                                                                                                                                       |
-| pikpak                     | PikPak is a private cloud drive that can save your favorite files at high speed.                                                                                                                                                                         |
-| png2jpeg                   | Simple command-lineimage converter from PNG to JPEG.                                                                                                                                                                                                     |
-| pngcrush                   | Optimizer for PNG (Portable Network Graphics) files.                                                                                                                                                                                                     |
-| pngquant                   | A command-line utility for lossy compression of PNG images                                                                                                                                                                                               |
-| poetry                     | Dependency Management for Python                                                                                                                                                                                                                         |
-| poppler                    | PDF rendering library                                                                                                                                                                                                                                    |
-| postman                    | Complete API development environment.                                                                                                                                                                                                                    |
-| potplayer                  | Highly customizable media player                                                                                                                                                                                                                         |
-| powerhtml                  | Provides a wrapper for HTML Agility Pack for use where the IE HTML DOM from Invoke-WebRequest is not available such as Powershell Core                                                                                                                   |
-| PowerSession               | Terminal session recorder (Asciinema format)                                                                                                                                                                                                             |
-| powertoys                  | A set of utilities for power users to tune and streamline their Windows experience for greater productivity.                                                                                                                                             |
-| prince                     | Convert HTML to PDF with CSS                                                                                                                                                                                                                             |
-| prs                        | Secure, fast & convenient password manager CLI with GPG & git sync                                                                                                                                                                                       |
-| pseverything               | Powershell access to Everything - Blazingly fast file system searches                                                                                                                                                                                    |
-| psutils                    | A collection of command line utilities written in PowerShell proudly ignoring PowerShell Verb-Noun naming conventions.                                                                                                                                   |
-| pup                        | Parsing HTML at the command line                                                                                                                                                                                                                         |
-| pure-live                  | A Flutter project can make you watch live with ease.                                                                                                                                                                                                     |
-| pwsh                       | Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data.                                                                             |
-| pyenv                      | Simple python version management tool for switching between multiple versions of Python.                                                                                                                                                                 |
-| pyflow                     | A modern Python installation and dependency manager                                                                                                                                                                                                      |
-| pypy2                      | A fast, compliant alternative implementation of the Python language.                                                                                                                                                                                     |
-| pypy3                      | A fast, compliant alternative implementation of the Python language.                                                                                                                                                                                     |
-| python                     | A programming language that lets you work quickly and integrate systems more effectively.                                                                                                                                                                |
-| qpdf                       | A command-line program that does structural, content-preserving transformations on PDF files.                                                                                                                                                            |
-| qqmusic                    | The official QQ Music client.                                                                                                                                                                                                                            |
-| qrcp                       | Transfers files over wifi from computer to mobile device by scanning a QR code without leaving the terminal.                                                                                                                                             |
-| qt-creator                 | IDE for development with the Qt framework                                                                                                                                                                                                                |
-| qtscrcpy                   | QtScrcpy connects to Android devices via USB (or via TCP/IP) for display and control. It does NOT require the root privileges.                                                                                                                           |
-| quarkpan                   | 夸克网盘                                                                                                                                                                                                                                                 |
-| quicklook                  | Bring macOS 'Quick Look' feature to Windows                                                                                                                                                                                                              |
-| rainbow                    | Print text in rainbow pattern.                                                                                                                                                                                                                           |
-| rclone-browser             | A simple rclone GUI                                                                                                                                                                                                                                      |
-| rclone                     | Sync files and directories to and from mulitple cloud / FTP / HTTP hosters.                                                                                                                                                                              |
-| recycle-bin                | Move files and folders to the Windows recycle bin within command line.                                                                                                                                                                                   |
-| redis-desktop-manager      | Cross-platform GUI management tool for Redis                                                                                                                                                                                                             |
-| redis5                     | In-memory data structure store, used as a database, cache and message broker.                                                                                                                                                                            |
-| regexp                     | Enhanced Registry editor/explorer                                                                                                                                                                                                                        |
-| registry-finder            | Registry Finder is an improved replacement for the built-in Windows registry editor.                                                                                                                                                                     |
-| restic                     | Fast, secure and simple backup program.                                                                                                                                                                                                                  |
-| rnr                        | A command-line tool to batch rename files and directories                                                                                                                                                                                                |
-| rufus                      | A utility that helps format and create bootable USB flash drives.                                                                                                                                                                                        |
-| runjs                      | A JavaScript playground that auto-evaluates as you type.                                                                                                                                                                                                 |
-| rustdesk                   | An open-source remote desktop software, written in Rust.                                                                                                                                                                                                 |
-| s                          | Open a web search in your terminal.                                                                                                                                                                                                                      |
-| say                        | An approximation of say from macOS.                                                                                                                                                                                                                      |
-| sayit                      | A text-to-speech command line tool                                                                                                                                                                                                                       |
-| scoop-completion           | Scoop tab completion, work with powershell                                                                                                                                                                                                               |
-| scoop-search               | A scoop plugin                                                                                                                                                                                                                                           |
-| scrcpy-gui                 | A simple & beautiful GUI application for scrcpy                                                                                                                                                                                                          |
-| scrcpy                     | Display and control your Android device                                                                                                                                                                                                                  |
-| screentogif                | Screen, webcam and sketchboard recorder with an integrated editor.                                                                                                                                                                                       |
-| selenium                   | A smart proxy server that allows Selenium tests to route commands to remote web browser instances                                                                                                                                                        |
-| shellcheck                 | Static analysis tool for shell scripts                                                                                                                                                                                                                   |
-| shim                       | Create shim for programs.                                                                                                                                                                                                                                |
-| shimo                      | A notes app                                                                                                                                                                                                                                              |
-| silentcmd                  | Executes a batch file without opening the command prompt window.                                                                                                                                                                                         |
-| snipaste                   | A snipping tool, which allows you to pin the screenshot back onto the screen.                                                                                                                                                                            |
-| sox                        | Command line utility that can convert various formats of computer audio files in to other formats.                                                                                                                                                       |
-| speedtest-cli              | Internet connection speed and performance tester                                                                                                                                                                                                         |
-| sudo                       | An approximation of the Unix sudo command. Shows a UAC popup window unfortunately.                                                                                                                                                                       |
-| svtplay-dl                 | Video downloader from various sites                                                                                                                                                                                                                      |
-| switchhosts                | Hosts management & switching                                                                                                                                                                                                                             |
-| tar                        | File archiver for manipulation with '.tar.\*' files.                                                                                                                                                                                                     |
-| telegram                   | A messaging app with a focus on speed and security                                                                                                                                                                                                       |
-| terminus                   | A terminal for a more modern age                                                                                                                                                                                                                         |
-| termscp                    | Terminal UI file explorer with SCP/SFTP/FTP support                                                                                                                                                                                                      |
-| tesseract-languages        | Fast integer versions of trained models for the Tesseract Open Source OCR Engine                                                                                                                                                                         |
-| tesseract                  | Open Source OCR Engine                                                                                                                                                                                                                                   |
-| Thunder                    | 迅雷 11 绿色精简版                                                                                                                                                                                                                                       |
-| TianRuoOCR                 | 天若 OCR 开源版本                                                                                                                                                                                                                                        |
-| tim                        | An lightweight instant messaging software service developed by Tencent                                                                                                                                                                                   |
-| time                       | An approximation of the Unix time command.                                                                                                                                                                                                               |
-| tldr                       | Interactive tldr pages (simplified and community-driven man pages) client                                                                                                                                                                                |
-| tokei                      | Count your code, quickly.                                                                                                                                                                                                                                |
-| tomcat8                    | Apache Tomcat is an open source implementation of the Java Servlet and JavaServer Pages technologies.                                                                                                                                                    |
-| topgrade                   | Upgrade everything, keep your system up to date by detecting which tools you use and run their appropriate package managers.                                                                                                                             |
-| touch                      | A port of the Unix touch command.                                                                                                                                                                                                                        |
-| translucenttb              | Makes the Windows taskbar translucent/transparent.                                                                                                                                                                                                       |
-| trash                      | Move files and folders to the Windows recycle bin                                                                                                                                                                                                        |
-| tup                        | A file-based build system for Linux, OSX, and Windows.                                                                                                                                                                                                   |
-| tuya                       | https://tuya.xinxiao.tech/                                                                                                                                                                                                                               |
-| typora                     | A truly minimal markdown editor                                                                                                                                                                                                                          |
-| unbound                    | A validating, recursive, caching DNS resolver                                                                                                                                                                                                            |
-| unxutils                   | GNU utilities for Win32.                                                                                                                                                                                                                                 |
-| unzip                      | Unzip compression utility                                                                                                                                                                                                                                |
-| upscaler                   | super resolution                                                                                                                                                                                                                                         |
-| upx                        | UPX is a free, portable, extendable, high-performance executable packer for several executable formats                                                                                                                                                   |
-| vcredist2008               | Microsoft Visual C++ Redistributable for Visual Studio 2008.                                                                                                                                                                                             |
-| vcredist2010               | Microsoft Visual C++ Redistributable for Visual Studio 2010                                                                                                                                                                                              |
-| vcredist2012               | Microsoft Visual C++ Redistributable for Visual Studio 2012.                                                                                                                                                                                             |
-| vcredist2013               | Microsoft Visual C++ Redistributable for Visual Studio 2013.                                                                                                                                                                                             |
-| vcredist2015               | Microsoft Visual C++ Redistributable for Visual Studio 2015.                                                                                                                                                                                             |
-| vcredist2017               | Microsoft Visual C++ Redistributable for Visual Studio 2017.                                                                                                                                                                                             |
-| vcredist2019               | Microsoft Visual C++ Redistributable for Visual Studio 2019                                                                                                                                                                                              |
-| vcredist2022               | Microsoft Visual C++ Redistributable for Visual Studio 2022                                                                                                                                                                                              |
-| vim                        | A highly configurable text editor                                                                                                                                                                                                                        |
-| vscode                     | Lightweight but powerful source code editor                                                                                                                                                                                                              |
-| warp                       | Create self-contained single binary applications                                                                                                                                                                                                         |
-| wavpack                    | Hybrid lossless audio compression                                                                                                                                                                                                                        |
-| wechat                     | Free messaging and calling app by Tencent                                                                                                                                                                                                                |
-| wechatdevtools             | The official devtool to develop and debug WeChat Mini Programs                                                                                                                                                                                           |
-| WechatWork                 | Connection Makes a Smarter Business                                                                                                                                                                                                                      |
-| wegame                     | WeGame 是国内最大的数字游戏发行平台，集游戏购买下载、游戏社区等功能于一身，为游戏开发者提供更好的服务，为游戏玩家提供更多优质游戏内容，构筑开发者和游戏玩家之间的沟通桥梁。                                                                              |
-| wegameMiniLoader           | WeGameMini DownLoader for LOL.                                                                                                                                                                                                                           |
-| wget                       | A command-line utility for retrieving files using HTTP, HTTPS, FTP, and FTPS protocols.                                                                                                                                                                  |
-| which                      | Show the full path of command.                                                                                                                                                                                                                           |
-| win32-openssh              | A suite of secure networking utilities based on the Secure Shell protocol. (Microsoft port)                                                                                                                                                              |
-| windows-application-driver | Supports Selenium-like UI Test Automation on Windows Applications.                                                                                                                                                                                       |
-| windows-terminal-quake     | Companion program for the new Windows Terminal that enables Quake-style drop down                                                                                                                                                                        |
-| windows11manager           | Windows11Manager，好用的 Win10 百宝箱，可以清理、维修、自定义系统等                                                                                                                                                                                      |
-| winfetch                   | A command-line system information utility for Windows                                                                                                                                                                                                    |
-| winxray                    | 基于 xray 核心的 windows 代理程序，采用 aardio 设计与开发！                                                                                                                                                                                              |
-| wkhtmltopdf                | Render HTML into PDF                                                                                                                                                                                                                                     |
-| wp-cli                     | Command-line interface for WordPress                                                                                                                                                                                                                     |
-| wrangler                   | Cloudflare Workers project manager                                                                                                                                                                                                                       |
-| wttop                      | System monitor for the new Windows Terminal                                                                                                                                                                                                              |
-| wx_qq_revokeMsgPatcher     | A hex editor for WeChat/QQ/TIM - PC 版微信/QQ/TIM 防撤回补丁（我已经看到了，撤回也没用了）                                                                                                                                                               |
-| wxwork                     | 企业微信                                                                                                                                                                                                                                                 |
-| x264                       | H.264/MPEG-4 AVC video encoder                                                                                                                                                                                                                           |
-| x265                       | Encodes video or images into an H.265 / HEVC bitstream.                                                                                                                                                                                                  |
-| xh                         | Friendly and fast tool for sending HTTP requests                                                                                                                                                                                                         |
-| xidel                      | command line tool to download and extract data from HTML/XML pages as well as JSON APIs.                                                                                                                                                                 |
-| xmind                      | A full-featured mind mapping and brainstorming tool                                                                                                                                                                                                      |
-| xming                      | Run X GUI applications on bash subsystem or linux VM, and have them rendered on Windows Desktop.                                                                                                                                                         |
-| xsv                        | A fast CSV command line toolkit written in Rust                                                                                                                                                                                                          |
-| xwtoolbox                  | 小丸工具箱是一款用于处理音视频等多媒体文件的软件。是一款 x264、ffmpeg 等命令行程序的图形界面。它的目标是让视频压制变得简单、轻松。                                                                                                                       |
-| yarn                       | Node.js dependency manager                                                                                                                                                                                                                               |
-| yddict                     | Youdao Dict                                                                                                                                                                                                                                              |
-| ydl-ui                     | A UI for the command-line video downloader youtube-dl                                                                                                                                                                                                    |
-| you-get                    | A video downloader written in Python                                                                                                                                                                                                                     |
-| youtube-dl-gui             | A cross platform front-end GUI of the popular youtube-dl written in wxPython.                                                                                                                                                                            |
-| youtube-dl-wpf             | A simple GUI wrapper for youtube-dl                                                                                                                                                                                                                      |
-| youtube-dl                 | Download videos from YouTube.com (and a few more sites) using command line.                                                                                                                                                                              |
-| youtubedownloader          | Download videos from YouTube.                                                                                                                                                                                                                            |
-| yq                         | A portable command-line YAML processor                                                                                                                                                                                                                   |
-| ysyy                       | YSYY, The Official PC Client of CCTV                                                                                                                                                                                                                     |
-| yt-dlp                     | A youtube-dl fork with additional features and fixes.                                                                                                                                                                                                    |
-| yuque                      | Professional note and document repositories                                                                                                                                                                                                              |
-| z                          | z lets you quickly navigate the file system in PowerShell based on your cd command history.                                                                                                                                                              |
-| zola                       | A fast static site generator in a single binary with everything built-in                                                                                                                                                                                 |
-| zoom                       | Zoom provides videotelephony and online chat services through a cloud-based peer-to-peer software platform and is used for teleconferencing, telecommuting, distance education, and social relations.                                                    |
-| zstd                       | High compression ratios compression algorithm                                                                                                                                                                                                            |
+| App | Description |
+| --- | ------- |
+| 123pan | The official client for 123 cloud dirve service |
+| 7zip | A multi-format file archiver with high compression ratios |
+| adb | Android SDK platform-tools includes tools that interface with the Android platform, such as adb, fastboot, and systrace |
+| alipan | 一款第三方的阿里云盘客户端，支持 Windows、macOS |
+| aliyundrive |  |
+| anaconda3 | The most popular Python distribution for data science. |
+| android-sdk | A component for the Android SDK, which includes the complete set of development and debugging tools for Android. |
+| aria-ng-gui | An Aria2 GUI for Windows & Linux & MacOS. |
+| aria2 | Lightweight multi-protocol & multi-source command-line download utility |
+| audacity | An easy-to-use, multi-track audio editor and recorder |
+| baiduNetdisk | 百度网盘PC版  |
+| bat2exe | A simple application which converts any windows batch file to a fully working executable .exe with an icon of your choice. |
+| bcut | 必剪，B站出品，没啥不同 |
+| bilibili-livehime | BiliBili Live Streaming tool |
+| bilibili | 哔哩哔哩客户端 |
+| biyi | 便捷的翻译和词典应用 |
+| bob | A version manager for neovim |
+| carnac | A utility to give some insight into how you use your keyboard. |
+| charles | An HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet. |
+| chromium | Browser aiming for safer, faster, and more stable way for all users to experience the web. |
+| clashrauto | A Windows GUI based on Clashr |
+| completion-predictor | The CompletionPredictor is a PowerShell command line auto-completion plugin for the PSReadLine Predictive Intellisense feature. |
+| composer | Dependency Manager for PHP |
+| cosbrowser | COSBrowser is an official tool for accessing Tencent Cloud COS. |
+| cowsay | Cowsay generates an ASCII picture of a cow saying something provided by the user. If run with no arguments, it accepts standard input, word-wraps the message given at about 40 columns, and prints the cow saying the given message on standard output. |
+| cpu-z | System information software |
+| crow-translate | A simple and lightweight translator that allows to translate and speak text. |
+| cyberduck | Multiple protocols libre file transfer client |
+| dark | WiX (Windows Installer XML) Toolset Decompiler |
+| dart | SDK for the Dart programming language |
+| deno | A secure runtime for JavaScript and TypeScript |
+| dim | realesrgan-ncnn-vulkan,realesr-ncnn-vulkan项目的可交互命令行 |
+| dim2clear | Real-ESRGAN的GUI实现，画质增强app |
+| dingtalk | An all-in-one free communication and collaboration platform |
+| directoryPredictor | The Directory Predictor permits live directory lookups for PSReadLine's auto-complete functionality. |
+| diskgenius | Utility for data recovery, disk partition management, backup & restore |
+| dismplusplus | A gatis Windows utility similar to DISM, but with a GUI and based on CBS |
+| dog | Command-line DNS client |
+| dp | A toy , bilibili downloader (only single video) |
+| draw | Professional diagramming |
+| dvm | Easy way to manage multiple active deno versions. |
+| easywsl | easyWSL makes it way easier to use the wonders of WSL functionality on Windows 10 and 11 systems.  |
+| electerm | Terminal/ssh/serial port/sftp client |
+| electron-fiddle | Create and play with small Electron experiments |
+| empty-recycle-bin | Empty the Windows recycle bin |
+| everything | Locate files and folders by name instantly. |
+| f2 | Batch renaming files and directories quickly and safely. |
+| far | A text-mode files and archives manager |
+| fastbootEnhance | A user-friendly Fastboot ToolBox & Payload Dumper for Windows. |
+| fat32format | FAT32 format tool that supports volumes greater than 32 GB |
+| feishu | Connect with teammates anytime and anywhere |
+| ffmpeg | A complete, cross-platform solution to record, convert and stream audio and video. |
+| fiddler | The free web debugging proxy for any browser, system or platform. |
+| figlet | Create large letters using ASCII art out of ordinary text. |
+| figma | Design, prototype, and gather feedback all in one place with Figma. |
+| filezilla | Fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface. |
+| firefox-zh-cn | Popular open source web browser. Cross-platform and available in many languages. |
+| fishingfunds | Display real-time trends of Chinese funds in the menubar |
+| fl980 | 东莞某厂键盘驱动 |
+| fleet | Hybrid IDE and text editor |
+| fluent-reader | Modern desktop RSS reader |
+| flutter | Google's SDK for crafting beautiful, fast user experiences for mobile, web, and desktop |
+| format-factory | Multifunctional, multimedia file conversion tool |
+| ftnn | Powerful tool facilitating trading and providing market information and data for Hong Kong, US and China A-Share Stocks |
+| fu | Cross-platform app to upload images/files in Clipboard to a remote server |
+| fx | Terminal JSON viewer |
+| fzf | A general-purpose command-line fuzzy finder |
+| gallery-dl | Command-line program to download image-galleries and -collections from several image hosting sites. |
+| gdrive | Command line utility for interacting with Google Drive. |
+| gdu | A Fast Console Disk Usage Analyzer |
+| geekuninstaller | Basic uninstaller though powerful and lightning fast. |
+| gh | Official GitHub CLI |
+| git-town | Git plugin, that adds Git commands that make collaborative software development more efficient and safe. |
+| git | Distributed version control system |
+| github | Extend your GitHub workflow beyond your browser. |
+| gitomatic | A tool to monitor git repositories and automatically pull & push changes. |
+| gitui | Terminal client for Git |
+| glow | Markdown reader for the terminal with a TUI and encrypted cloud stash |
+| go-cn | An open source programming language that makes it easy to build simple, reliable, and efficient software. |
+| gof | Fuzzy search tool written in Go |
+| googlechrome | Fast, secure, and free web browser, built for the modern web. |
+| gow | Unix command line utilities installer for Windows. |
+| gradle | An open-source build automation tool focused on flexibility and performance. (Source code and documentation boundled) |
+| grex | A regular expression generator |
+| gsudo | A Sudo for Windows |
+| handbrake-cli | A video transcoder with extensive support for multiple formats. (CLI version) |
+| hbuilderx | HBuilderX is a cross-platform GUI development tool. |
+| helix | A post-modern modal text editor |
+| hellofont | HelloFont - Font tool for designers |
+| highlight | Converts source code to formatted text with syntax highlighting. |
+| hosts | cat,add,update hosts file with powershell. |
+| httpstat | curl(1) statistics visualizer |
+| hub | An extension to command-line git that helps with everyday GitHub tasks without ever leaving the terminal. |
+| hwmonitor | A hardware monitoring program that reads PC systems main health sensors : voltages, temperatures, fans speed. |
+| imagine | 🖼️ PNG/JPEG optimization app for macOS, Windows and Linux. |
+| imewlconverter | Input Method Editor word library converter |
+| innounp | Inno Setup Unpacker |
+| innounpacker | Inno Setup Unpacker |
+| jabba | Java Version Manager |
+| jetbrains-toolbox | Toolbox App. A control panel for all JetBrains tools. |
+| jianyingpro | Video editing application produced by ByteDance |
+| kate | Multi-document editor |
+| kodi | Kodi is an award-winning free and open source software media player and entertainment hub for digital media |
+| koodo-reader | A cross-platform ebook reader |
+| landrop | Drop any files to any devices on LAN. |
+| lepton | Lepton is a lean snippet manager based on GitHub Gist |
+| lf | A terminal file manager written in Go |
+| libwebp | Encodes and decodes WebP image files. |
+| linear-desktop | Linear is a better way to build products |
+| listen1desktop | One for all free music in China |
+| llvm | Collection of modular and reusable compiler and toolchain technologies. |
+| lsd | The next gen ls command |
+| lwc | A live-updating version of the UNIX wc command. |
+| m4a-to-mp3-converter | M4a to MP3 converter |
+| macchina | A system information fetcher, with an emphasis on performance and minimalism |
+| marktext | A simple and elegant markdown editor |
+| maven | Software project management and comprehension tool |
+| mdbook | Create a book from markdown files. |
+| mdcat | cat for markdown |
+| memo | Take Smarter notes with GitHub Gists. |
+| memreduct | Lightweight, real-time memory management application to monitor and clean system memory. |
+| mi-assistant | 小米助手. |
+| micro | A terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the full capabilities of modern terminals. |
+| miniconda3 | A cross-platform, Python-agnostic binary package manager |
+| monolith | Saves complete web pages as a single HTML file. |
+| mpxplay | Commander-style console audio player. |
+| msys2 | A software distro and building platform for Windows. |
+| mtn | Movie Thumbnailer - save thumbnails (screenshots) of movie or video files to image files. |
+| musicfox | go-musicfox 是用 Go 写的又一款网易云音乐命令行客户端 |
+| mvndaemon | The Maven (mvn) Daemon is based on GraalVM and allows for faster Maven builds. |
+| mysql | The world's most popular open-source database, supported by an active community. |
+| n-m3u8dl-cli | A m3u8 downloader |
+| nali | An offline tool for querying IP geographic information and CDN provider |
+| nano | A small and friendly GNU editor, inspired by Pico |
+| nc | 快速移除或更新依赖，yarn/pnpm |
+| ncspot | ncurses Spotify client written in Rust |
+| neofetch | A command-line system information tool written in bash 3.2+. |
+| neovim | Vim-fork focused on extensibility and usability |
+| nero-aac | Nero Digital AAC Encoder (Command Line Tools) |
+| netcat | Read and write from/to network connections |
+| netch | Game accelerator |
+| neteasemusic | NetEase Cloud Music |
+| nexusfont | Best font manager for Windows |
+| nginx | An HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server. |
+| nircmd | Execute various system wide tasks. |
+| nmap-portable | Network exploration and security auditing utility. |
+| notion | The all-in-one workspace for your notes, tasks, wikis, and databases. |
+| npm-completion | A npm tab completion for PowerShell. |
+| nsis | A professional open source system to create Windows installers. |
+| ntop | htop-like system-monitor with Vi-emulation for Windows |
+| nu | A modern shell written in Rust |
+| nvm | A node.js version management utility for Windows. |
+| nvs | Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js |
+| nyagos | The hybrid Commandline Shell betweeeeeeen UNIX & DOS. |
+| obs-studio | Video recording and live streaming software |
+| officetoolplus | Office Tool Plus is a tool for managing, downloading and installing Office. |
+| oh-my-posh | A prompt theme engine for any shell |
+| okular | Universal document viewer |
+| ollama | Get up and running with large language models locally. |
+| optipng | A PNG optimizer that recompresses image files to a smaller size, without losing any information. |
+| opus-tools | Command-line utilities to encode, inspect, and decode .opus files. |
+| oss-browser | Alibaba cloud (Aliyun) oss file manager. |
+| oxipng | Multi-threaded lossless PNG optimizer |
+| pandoc | Universal markup converter |
+| pastel | A command-line tool to generate, analyze, convert and manipulate colors. |
+| phantomjs | A headless web browser scriptable with JavaScript. |
+| php | A popular general-purpose scripting language that is especially suited to web development. (thread safe) |
+| php74 | PHP is a popular general-purpose scripting language that is especially suited for web development. |
+| pikpak | PikPak is a private cloud drive that can save your favorite files at high speed. |
+| png2jpeg | Simple command-lineimage converter from PNG to JPEG. |
+| pngcrush | Optimizer for PNG (Portable Network Graphics) files. |
+| pngquant | A command-line utility for lossy compression of PNG images |
+| poetry | Dependency Management for Python |
+| poppler | PDF rendering library |
+| postman | Complete API development environment. |
+| potplayer | Highly customizable media player |
+| powerhtml | Provides a wrapper for HTML Agility Pack for use where the IE HTML DOM from Invoke-WebRequest is not available such as Powershell Core |
+| PowerSession | Terminal session recorder (Asciinema format) |
+| powertoys | A set of utilities for power users to tune and streamline their Windows experience for greater productivity. |
+| prince | Convert HTML to PDF with CSS |
+| prs | Secure, fast & convenient password manager CLI with GPG & git sync |
+| pseverything | Powershell access to Everything - Blazingly fast file system searches |
+| psutils | A collection of command line utilities written in PowerShell proudly ignoring PowerShell Verb-Noun naming conventions. |
+| pup | Parsing HTML at the command line |
+| pure-live | A Flutter project can make you watch live with ease. |
+| pwsh | Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data. |
+| pyenv | Simple python version management tool for switching between multiple versions of Python. |
+| pyflow | A modern Python installation and dependency manager |
+| pypy2 | A fast, compliant alternative implementation of the Python language. |
+| pypy3 | A fast, compliant alternative implementation of the Python language. |
+| python | A programming language that lets you work quickly and integrate systems more effectively. |
+| qpdf | A command-line program that does structural, content-preserving transformations on PDF files. |
+| qqmusic | The official QQ Music client. |
+| qrcp | Transfers files over wifi from computer to mobile device by scanning a QR code without leaving the terminal. |
+| qt-creator | IDE for development with the Qt framework |
+| qtscrcpy | QtScrcpy connects to Android devices via USB (or via TCP/IP) for display and control. It does NOT require the root privileges. |
+| quarkpan | 夸克网盘 |
+| quicklook | Bring macOS 'Quick Look' feature to Windows |
+| rainbow | Print text in rainbow pattern. |
+| rclone-browser | A simple rclone GUI |
+| rclone | Sync files and directories to and from mulitple cloud / FTP / HTTP hosters. |
+| recycle-bin | Move files and folders to the Windows recycle bin within command line. |
+| redis-desktop-manager | Cross-platform GUI management tool for Redis |
+| redis5 | In-memory data structure store, used as a database, cache and message broker. |
+| regexp | Enhanced Registry editor/explorer |
+| registry-finder | Registry Finder is an improved replacement for the built-in Windows registry editor. |
+| restic | Fast, secure and simple backup program. |
+| rnr | A command-line tool to batch rename files and directories |
+| rufus | A utility that helps format and create bootable USB flash drives. |
+| runjs | A JavaScript playground that auto-evaluates as you type. |
+| rustdesk | An open-source remote desktop software, written in Rust. |
+| s | Open a web search in your terminal. |
+| say | An approximation of say from macOS. |
+| sayit | A text-to-speech command line tool |
+| scoop-completion | Scoop tab completion, work with powershell |
+| scoop-search | A scoop plugin |
+| scrcpy-gui | A simple & beautiful GUI application for scrcpy |
+| scrcpy | Display and control your Android device |
+| screentogif | Screen, webcam and sketchboard recorder with an integrated editor. |
+| selenium | A smart proxy server that allows Selenium tests to route commands to remote web browser instances |
+| shellcheck | Static analysis tool for shell scripts |
+| shim | Create shim for programs. |
+| shimo | A notes app |
+| silentcmd | Executes a batch file without opening the command prompt window. |
+| snipaste | A snipping tool, which allows you to pin the screenshot back onto the screen. |
+| sox | Command line utility that can convert various formats of computer audio files in to other formats. |
+| speedtest-cli | Internet connection speed and performance tester |
+| spotube | A lightweight free Spotify client, which handles playback manually, streams music using Youtube & no Spotify premium account is needed. |
+| sudo | An approximation of the Unix sudo command. Shows a UAC popup window unfortunately. |
+| svtplay-dl | Video downloader from various sites |
+| switchhosts | Hosts management & switching |
+| tar | File archiver for manipulation with '.tar.*' files. |
+| telegram | A messaging app with a focus on speed and security |
+| terminus | A terminal for a more modern age |
+| termscp | Terminal UI file explorer with SCP/SFTP/FTP support |
+| tesseract-languages | Fast integer versions of trained models for the Tesseract Open Source OCR Engine |
+| tesseract | Open Source OCR Engine |
+| Thunder | 迅雷11 绿色精简版 |
+| TianRuoOCR | 天若OCR开源版本 |
+| tim | An lightweight instant messaging software service developed by Tencent |
+| time | An approximation of the Unix time command. |
+| tldr | Interactive tldr pages (simplified and community-driven man pages) client |
+| tokei | Count your code, quickly. |
+| tomcat8 | Apache Tomcat is an open source implementation of the Java Servlet and JavaServer Pages technologies. |
+| topgrade | Upgrade everything, keep your system up to date by detecting which tools you use and run their appropriate package managers. |
+| touch | A port of the Unix touch command. |
+| translucenttb | Makes the Windows taskbar translucent/transparent. |
+| trash | Move files and folders to the Windows recycle bin |
+| tup | A file-based build system for Linux, OSX, and Windows. |
+| tuya | https://tuya.xinxiao.tech/ |
+| typora | A truly minimal markdown editor |
+| unbound | A validating, recursive, caching DNS resolver |
+| unxutils | GNU utilities for Win32. |
+| unzip | Unzip compression utility |
+| upscaler | super resolution |
+| upx | UPX is a free, portable, extendable, high-performance executable packer for several executable formats |
+| vcredist2008 | Microsoft Visual C++ Redistributable for Visual Studio 2008. |
+| vcredist2010 | Microsoft Visual C++ Redistributable for Visual Studio 2010 |
+| vcredist2012 | Microsoft Visual C++ Redistributable for Visual Studio 2012. |
+| vcredist2013 | Microsoft Visual C++ Redistributable for Visual Studio 2013. |
+| vcredist2015 | Microsoft Visual C++ Redistributable for Visual Studio 2015. |
+| vcredist2017 | Microsoft Visual C++ Redistributable for Visual Studio 2017. |
+| vcredist2019 | Microsoft Visual C++ Redistributable for Visual Studio 2019 |
+| vcredist2022 | Microsoft Visual C++ Redistributable for Visual Studio 2022 |
+| vim | A highly configurable text editor |
+| vscode | Lightweight but powerful source code editor |
+| warp | Create self-contained single binary applications |
+| wavpack | Hybrid lossless audio compression |
+| wechat-work | Connection Makes a Smarter Business |
+| wechat | Free messaging and calling app by Tencent |
+| wechatdevtools | The official devtool to develop and debug WeChat Mini Programs |
+| wegame | WeGame是国内最大的数字游戏发行平台，集游戏购买下载、游戏社区等功能于一身，为游戏开发者提供更好的服务，为游戏玩家提供更多优质游戏内容，构筑开发者和游戏玩家之间的沟通桥梁。 |
+| wegameMiniLoader | WeGameMini DownLoader for LOL. |
+| wget | A command-line utility for retrieving files using HTTP, HTTPS, FTP, and FTPS protocols. |
+| which | Show the full path of command. |
+| win32-openssh | A suite of secure networking utilities based on the Secure Shell protocol. (Microsoft port) |
+| windows-application-driver | Supports Selenium-like UI Test Automation on Windows Applications. |
+| windows-terminal-quake | Companion program for the new Windows Terminal that enables Quake-style drop down |
+| windows11manager | Windows11Manager，好用的Win10百宝箱，可以清理、维修、自定义系统等 |
+| winfetch | A command-line system information utility for Windows |
+| winxray | 基于xray核心的windows代理程序，采用aardio设计与开发！ |
+| wkhtmltopdf | Render HTML into PDF |
+| wp-cli | Command-line interface for WordPress |
+| wrangler | Cloudflare Workers project manager |
+| wsc | fzf cli for windows app manager(scoop,winget,chocolatey) |
+| wttop | System monitor for the new Windows Terminal |
+| wx_qq_revokeMsgPatcher | A hex editor for WeChat/QQ/TIM - PC版微信/QQ/TIM防撤回补丁（我已经看到了，撤回也没用了） |
+| wxwork | 企业微信 |
+| x264 | H.264/MPEG-4 AVC video encoder |
+| x265 | Encodes video or images into an H.265 / HEVC bitstream. |
+| xh | Friendly and fast tool for sending HTTP requests |
+| xidel | command line tool to download and extract data from HTML/XML pages as well as JSON APIs. |
+| xmind | A full-featured mind mapping and brainstorming tool |
+| xming | Run X GUI applications on bash subsystem or linux VM, and have them rendered on Windows Desktop. |
+| xsv | A fast CSV command line toolkit written in Rust |
+| yarn | Node.js dependency manager |
+| yddict | Youdao Dict |
+| ydl-ui | A UI for the command-line video downloader youtube-dl |
+| you-get | A video downloader written in Python |
+| youtube-dl-gui | A cross platform front-end GUI of the popular youtube-dl written in wxPython. |
+| youtube-dl-wpf | A simple GUI wrapper for youtube-dl |
+| youtube-dl | Download videos from YouTube.com (and a few more sites) using command line. |
+| youtubedownloader | Download videos from YouTube. |
+| yq | A portable command-line YAML processor |
+| ysyy | YSYY, The Official PC Client of CCTV |
+| yt-dlp | A youtube-dl fork with additional features and fixes. |
+| yuque | Professional note and document repositories |
+| z | z lets you quickly navigate the file system in PowerShell based on your cd command history. |
+| zola | A fast static site generator in a single binary with everything built-in |
+| zoom | Zoom provides videotelephony and online chat services through a cloud-based peer-to-peer software platform and is used for teleconferencing, telecommuting, distance education, and social relations. |
+| zstd | High compression ratios compression algorithm |
+
