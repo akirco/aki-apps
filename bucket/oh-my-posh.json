@@ -1,13 +1,13 @@
 {
-    "version": "23.20.3",
+    "version": "24.0.3",
     "description": "A prompt theme engine for any shell",
     "homepage": "https://ohmyposh.dev",
     "license": "GPL-3.0-only",
     "notes": "Refer to 'https://ohmyposh.dev/docs/windows#replace-your-existing-prompt' for shell specific configurations.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v23.20.3/install-amd64.exe",
-            "hash": "8c7ca859e94d6c031052b524ab4ba702d888b671dfdbd8f525dc5f0caf771588"
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v24.0.3/install-amd64.exe",
+            "hash": "e41bc97398e7e18b4468b8ebb50d3960b5e87c731415918d1fa12a84c1035ab9"
         }
     },
     "bin": "bin\\oh-my-posh.exe",
