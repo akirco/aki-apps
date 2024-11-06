@@ -17,14 +17,11 @@
         ]
     ],
     "persist": "windows-terminal-quake.json",
-    "checkver": {
-        "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/releases/latest",
-        "regex": "/download/v([\\d.]+)/windows-terminal-quake-(?<full>[\\d.]+)-(?<time>\\d{4}-\\d{2}-\\d{2}_\\d{4}).zip"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/flyingpie/windows-terminal-quake/releases/download/v$version/windows-terminal-quake-$matchFull-$matchTime.zip"
+                "url": "https://github.com/flyingpie/windows-terminal-quake/releases/download/v$version/win-x64_self-contained.zip"
             }
         }
     },
