@@ -4,7 +4,7 @@
     "homepage": "https://app.bilibili.com/",
     "license": "Proprietary",
     "url": "https://dl.hdslb.com/mobile/fixed/bili_win/bili_win-install.exe#/dl.7z",
-    "hash": "sha512:14e56e73e8cddd381facfefc9d47f95dc6c537daf57a41ad478352c18114459bdd7d4b1c2b81c9bcd6736eb5f3889de217c84a079a97a52eba269c9dbcf900d8",
+    "hash": "sha512:6d876fdcfa25c781cdae58c65026bb9d11bc91962854967e6a5fde3a8d87166043f9e40209baa8e8ea6dd8457427e0afb1af386d3f01a681c1173a480fd8b741",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
