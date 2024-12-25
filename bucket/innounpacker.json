@@ -1,6 +1,5 @@
 {
-    "url": "https://www.rathlev-home.de/tools/download/innounpacker.zip",
-    "version": "1.9.2",
+    "version": "2.0.0",
     "homepage": "https://www.rathlev-home.de/index-e.html?tools/prog-e.html#unpack",
     "license": "Freeware",
     "description": "Inno Setup Unpacker",
@@ -10,7 +9,8 @@
             "innounpack"
         ]
     ],
-    "hash": "a76ab5fb40b6eb8a1886a60ac453a937ed2dd71dad7f9c51578cde9b558f88b0",
+    "url": "https://www.rathlev-home.de/tools/download/innounpacker.zip",
+    "hash": "cc84f9f6a73c94b8148366d1f5d5f469826106d99444d5ab464aca4b8ae60b4d",
     "shortcuts": [
         [
             "InnoUnpack.exe",
