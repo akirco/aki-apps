@@ -17,10 +17,17 @@
         ]
     ],
     "checkver": {
-        "url": "https://pc.qq.com/detail/19/detail_24619.html",
-        "regex": "Bcut-Win-([\\d.]+).exe"
+        "script": [
+            ". \"$pwd\\bin\\utils.ps1\"",
+            "$dl_info = get_installer_info 'Bilibili/Bcut'",
+            "\"ver:$($dl_info.PackageVersion);\"",
+            "\"x64:$($dl_info.x64.InstallerUrl);\"",
+            "\"hash:$($dl_info.x64.InstallerSha256);\""
+        ],
+        "regex": "ver:(?<version>.+?); x64:(?<x64>.+?); hash:(?<hash>.+?);"
     },
     "autoupdate": {
-        "url": "https://webcdn.m.qq.com/spcmgr/download/Bcut-Win-$version.exe"
+        "url": "$matchX64",
+        "hash": "$matchHash"
     }
 }
