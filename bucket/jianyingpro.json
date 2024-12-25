@@ -22,7 +22,7 @@
         "regex": "ver:(?<version>.+?); x64:(?<x64>.+?);"
     },
     "autoupdate": {
-        "url": "https://$matchPath/Jianying_$underscoreVersion_jianyingpro_0_creatortool.exe#/jianyingpro.7z",
+        "url": "$matchX64",
         "extract_dir": "JYPacket/$version"
     }
 }

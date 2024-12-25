@@ -6,11 +6,11 @@ function get_installer_info([string]$app) {
     Write-Host "version: $($versionList[0])"
     $url = "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/$($rootDir)/$($app)/$($versionList[0])/$($id).installer.yaml"
     Write-Host "URL:$url"
-    $installer_yaml = Invoke-WebRequest -Uri $url -Verbose
+    $installer_yaml = Invoke-WebRequest -Uri $url
 
     $installer_info = ConvertFrom-Yaml $installer_yaml.Content
 
-    Write-Host $installer_info
+    # Write-Host $installer_info
     foreach ($_ in $installer_info.Installers) {
         $arch = $_.Architecture
         $type = [regex]::Match($_.InstallerUrl, '\.(\w+)$').Groups[1].Value
