@@ -1,23 +1,23 @@
 on:
   workflow_dispatch:
   schedule:
-  - cron: '0 */3 * * *'
+    - cron: "0 */6 * * *"
 name: Excavator
 jobs:
   excavate:
     name: Excavate
     runs-on: windows-latest
     steps:
-    - name: Install and Import Module to convert yaml
-      shell: PowerShell
-      run: |
+      - name: Install and Import Module to convert yaml
+        shell: PowerShell
+        run: |
           Install-Module "powershell-yaml" -Force
           Import-Module "powershell-yaml"
-    - uses: actions/checkout@main
-    - name: Excavate
-      uses: ScoopInstaller/GithubActions@main
-      env:
-        GITH_EMAIL: 1833708553@qq.com
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SKIP_UPDATED: '1'
-        TERM: xterm-256color
+      - uses: actions/checkout@main
+      - name: Excavate
+        uses: ScoopInstaller/GithubActions@main
+        env:
+          GITH_EMAIL: 1833708553@qq.com
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKIP_UPDATED: "1"
+          TERM: xterm-256color
