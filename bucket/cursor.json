@@ -5,14 +5,12 @@
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://download.todesktop.com/230313mzl4w4u92/Cursor%20Setup%200.44.8%20-%20Build%20241222ooktny8mh-x64.exe",
+            "url": "https://download.todesktop.com/230313mzl4w4u92/Cursor%20Setup%200.44.8%20-%20Build%20241222ooktny8mh-x64.exe#/dl.7z",
             "hash": "489adf2ccb38aa89a88da8262113bb2572e50ee63df3cf0135d182770a24acaf"
         }
     },
     "installer": {
         "script": [
-            "$file = (Get-ChildItem \"$dir\" 'x64' | Select-Object -First 1).FullName",
-            "Expand-7ZipArchive \"$file\" \"$dir\\\" -Removal",
             "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
             "Remove-Item \"$dir\\`$PLUGINSDIR\",\"$dir\\`$R0\",\"$dir\\`$LOCALAPPDATA\"  -Force -Recurse"
         ]
@@ -36,7 +34,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "$matchX64",
+                "url": "$matchX64#/dl.7z",
                 "hash": "$matchHash"
             }
         }
