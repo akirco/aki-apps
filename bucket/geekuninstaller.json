@@ -12,6 +12,11 @@
             "Geek Uninstaller"
         ]
     ],
+    "post_uninstall": [
+        "$runtimeCache=\"$env:APPDATA\\Geek Uninstaller\"",
+        "write-host `nRemoving runtimeCache: $runtimeCache -ForegroundColor Yellow",
+        "Remove-Item $runtimeCache -Recurse -Force -ErrorAction SilentlyContinue"
+    ],
     "checkver": {
         "url": "https://geekuninstaller.com/download",
         "regex": "<b>([\\d.]+)"
