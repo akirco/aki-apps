@@ -16,7 +16,6 @@
             "wtq"
         ]
     ],
-    "persist": "windows-terminal-quake.json",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
