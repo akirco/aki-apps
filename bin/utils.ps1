@@ -55,10 +55,6 @@ function AddToPath {
     if ($global) {
         AddPath $pathToAdd ([EnvironmentVariableTarget]::Machine)
     }
-
-    $userPath = [System.Environment]::GetEnvironmentVariable("Path", "User")
-    $machinePath = [System.Environment]::GetEnvironmentVariable("Path", "Machine")
-    $env:Path = ($userPath + ";" + $machinePath) -split ";" | Select-Object -Unique | ForEach-Object { $_ } -join ";"
 }
 
 function RemoveFromPath {
@@ -94,8 +90,4 @@ function RemoveFromPath {
     if ($global) {
         RemovePath $pathToRemove ([EnvironmentVariableTarget]::Machine)
     }
-
-    $userPath = [System.Environment]::GetEnvironmentVariable("Path", "User")
-    $machinePath = [System.Environment]::GetEnvironmentVariable("Path", "Machine")
-    $env:Path = ($userPath + ";" + $machinePath) -split ";" | Select-Object -Unique | ForEach-Object { $_ } -join ";"
 }
