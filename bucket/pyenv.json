@@ -9,11 +9,14 @@
         "https://github.com/pyenv-win/pyenv-win/archive/v3.1.1.zip"
     ],
     "hash": [
-        "352c10b6cd628d5da14bea8cc780c4a8970ea82188e11ba09e26d5737186bce7",
+        "95167dd3b92e06f9bc682fe2b90c5efd86e2a4776062694627805f13fa499318",
         "a7481ccaf1f2328702e4a854a65793e95639f40dc63dd89782d160536f6b1ed0"
     ],
     "extract_dir": "pyenv-win-3.1.1",
-    "pre_install": "if (!(Test-Path \"$persist_dir\\pyenv-win\\version\")) { New-Item \"$dir\\pyenv-win\\version\" | Out-Null }",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\pyenv-win\\version\")) { New-Item \"$dir\\pyenv-win\\version\" -ItemType Directory -Force | Out-Null }",
+        "New-Item \"$dir\\pyenv-win\\shims\" -ItemType Directory -Force | Out-Null"
+    ],
     "post_install": [
         ". \"$dir\\utils.ps1\"",
         "$BIN_PATH = Resolve-Path \"$dir\\..\\$version\\pyenv-win\\bin\"",
@@ -38,12 +41,6 @@
         "PYENV_HOME": "$dir\\pyenv-win",
         "PYTHON_BUILD_MIRROR_URL": "https://mirrors.huaweicloud.com/python/"
     },
-    "persist": [
-        "pyenv-win\\version",
-        "pyenv-win\\shims",
-        "pyenv-win\\versions",
-        "pyenv-win\\install_cache"
-    ],
     "checkver": {
         "github": "https://github.com/pyenv-win/pyenv-win"
     },
