@@ -21,3 +21,82 @@ function get_installer_info([string]$app) {
     }
     $installer_info
 }
+
+function AddToPath {
+    param (
+        [Parameter(Mandatory = $true)]
+        [string]$pathToAdd,
+
+        [Parameter(Mandatory = $false)]
+        [bool]$global = $false
+    )
+
+    function CheckPathExists {
+        param ([string]$path, [EnvironmentVariableTarget]$target)
+        $currentPath = [Environment]::GetEnvironmentVariable("Path", $target)
+        return $currentPath.Split(';') -contains $path
+    }
+
+    function AddPath {
+        param([string]$path, [EnvironmentVariableTarget]$target)
+
+        if (-not (CheckPathExists -path $path -target $target)) {
+            $currentPath = [Environment]::GetEnvironmentVariable("Path", $target)
+            $newPath = if ($currentPath) { "$currentPath;$path" } else { $path }
+            [Environment]::SetEnvironmentVariable("Path", $newPath, $target)
+            Write-Host "Path added to $target environment variable."
+        } else {
+            Write-Host "Path already exists in $target environment variable."
+        }
+    }
+
+    AddPath $pathToAdd ([EnvironmentVariableTarget]::User)
+
+    if ($global) {
+        AddPath $pathToAdd ([EnvironmentVariableTarget]::Machine)
+    }
+
+    $userPath = [System.Environment]::GetEnvironmentVariable("Path", "User")
+    $machinePath = [System.Environment]::GetEnvironmentVariable("Path", "Machine")
+    $env:Path = ($userPath + ";" + $machinePath) -split ";" | Select-Object -Unique | Join-String ";"
+}
+
+function RemoveFromPath {
+    param (
+        [Parameter(Mandatory = $true)]
+        [string]$pathToRemove,
+
+        [Parameter(Mandatory = $false)]
+        [bool]$global = $false
+    )
+
+    function CheckPathExists {
+        param ([string]$path, [EnvironmentVariableTarget]$target)
+        $currentPath = [Environment]::GetEnvironmentVariable("Path", $target)
+        return $currentPath.Split(';') -contains $path
+    }
+
+    function RemovePath {
+        param([string]$path, [EnvironmentVariableTarget]$target)
+
+        $currentPath = [Environment]::GetEnvironmentVariable("Path", $target)
+        if (CheckPathExists -path $path -target $target) {
+            $newPath = ($currentPath.Split(';') | Where-Object { $_ -ne $path }) -join ';'
+            [Environment]::SetEnvironmentVariable("Path", $newPath, $target)
+            Write-Host "Path removed from $target environment variable."
+        } else {
+            Write-Host "Path not found in $target environment variable."
+        }
+    }
+
+    RemovePath $pathToRemove ([EnvironmentVariableTarget]::User)
+
+    if ($global) {
+        RemovePath $pathToRemove ([EnvironmentVariableTarget]::Machine)
+    }
+
+    $userPath = [System.Environment]::GetEnvironmentVariable("Path", "User")
+    $machinePath = [System.Environment]::GetEnvironmentVariable("Path", "Machine")
+    $env:Path = ($userPath + ";" + $machinePath) -split ";" | Select-Object -Unique | Join-String ";"
+}
+
