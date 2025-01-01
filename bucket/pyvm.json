@@ -4,7 +4,7 @@
     "homepage": "https://github.com/akirco/pyvm/",
     "license": "Freeware",
     "url": "https://github.com/akirco/pyvm/archive/master.zip",
-    "hash": "8b815df0b41642d98460158dbafa4d7d4f9073760b57ff1691804a69b4b65905",
+    "hash": "9ad3f5693c00e88113cf92c649b65ada723227dd61af08fd62dc47c3adcce55a",
     "extract_dir": "pyvm-main",
     "env_add_path": [
         "\\python\\current\\Scripts",
