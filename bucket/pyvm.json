@@ -1,0 +1,23 @@
+{
+    "version": "0.1.0",
+    "description": "Python Version Manager for Windows, inspired by pyenv.",
+    "homepage": "https://github.com/akirco/pyvm/",
+    "license": "Freeware",
+    "url": "https://github.com/akirco/pyvm/archive/master.zip",
+    "hash": "2b76fdbf4aabd87d5d3b5ba9bdeb1bebe6b9724a74bdf90a6ae750df9614b0dd",
+    "extract_dir": "pyvm-main",
+    "env_add_path": [
+        "\\python\\current\\Scripts",
+        "\\python\\current"
+    ],
+    "persist": [
+        "\\python\\caches"
+    ],
+    "bin": "bin\\pyvm.ps1",
+    "depends": [
+        "main/gpg"
+    ],
+    "notes": [
+        "it's developing now."
+    ]
+}
