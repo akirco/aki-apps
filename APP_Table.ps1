@@ -9,6 +9,8 @@ $results= Get-ChildItem -Path .\bucket\ -Recurse -Filter *.json | ForEach-Object
 } | Select-Object App, Description -Unique
 
 $markdown = @"
+## app count: $($results.Count)
+
 | App | Description |
 | --- | ------- |
 "@

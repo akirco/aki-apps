@@ -1,16 +1,17 @@
+## app count: 301
+
 | App | Description |
-| --- | ------- |
-| 123pan | The official client for 123 cloud dirve service |
+| --- | ------- || 123pan | The official client for 123 cloud dirve service |
 | 7zip | A multi-format file archiver with high compression ratios |
 | adb | Android SDK platform-tools includes tools that interface with the Android platform, such as adb, fastboot, and systrace |
 | alipan | 一款第三方的阿里云盘客户端，支持 Windows、macOS |
-| aliyundrive |  |
+| aliyundrive | Aliyun Drive offical client |
 | anaconda3 | The most popular Python distribution for data science. |
 | android-sdk | A component for the Android SDK, which includes the complete set of development and debugging tools for Android. |
 | aria-ng-gui | An Aria2 GUI for Windows & Linux & MacOS. |
 | aria2 | Lightweight multi-protocol & multi-source command-line download utility |
 | audacity | An easy-to-use, multi-track audio editor and recorder |
-| baiduNetdisk | 百度网盘PC版  |
+| baidudisk | 百度网盘PC版  |
 | bat2exe | A simple application which converts any windows batch file to a fully working executable .exe with an icon of your choice. |
 | bcut | 必剪，B站出品，没啥不同 |
 | bilibili-livehime | BiliBili Live Streaming tool |
@@ -27,18 +28,17 @@
 | cowsay | Cowsay generates an ASCII picture of a cow saying something provided by the user. If run with no arguments, it accepts standard input, word-wraps the message given at about 40 columns, and prints the cow saying the given message on standard output. |
 | cpu-z | System information software |
 | crow-translate | A simple and lightweight translator that allows to translate and speak text. |
+| cursor | The AI Code Editor |
 | cyberduck | Multiple protocols libre file transfer client |
 | dark | WiX (Windows Installer XML) Toolset Decompiler |
 | dart | SDK for the Dart programming language |
 | deno | A secure runtime for JavaScript and TypeScript |
 | dim | realesrgan-ncnn-vulkan,realesr-ncnn-vulkan项目的可交互命令行 |
-| dim2clear | Real-ESRGAN的GUI实现，画质增强app |
 | dingtalk | An all-in-one free communication and collaboration platform |
-| directoryPredictor | The Directory Predictor permits live directory lookups for PSReadLine's auto-complete functionality. |
+| directory-predictor | The Directory Predictor permits live directory lookups for PSReadLine's auto-complete functionality. |
 | diskgenius | Utility for data recovery, disk partition management, backup & restore |
 | dismplusplus | A gatis Windows utility similar to DISM, but with a GUI and based on CBS |
 | dog | Command-line DNS client |
-| dp | A toy , bilibili downloader (only single video) |
 | draw | Professional diagramming |
 | dvm | Easy way to manage multiple active deno versions. |
 | easywsl | easyWSL makes it way easier to use the wonders of WSL functionality on Windows 10 and 11 systems.  |
@@ -57,13 +57,10 @@
 | figma | Design, prototype, and gather feedback all in one place with Figma. |
 | filezilla | Fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface. |
 | firefox-zh-cn | Popular open source web browser. Cross-platform and available in many languages. |
-| fishingfunds | Display real-time trends of Chinese funds in the menubar |
-| fl980 | 东莞某厂键盘驱动 |
 | fleet | Hybrid IDE and text editor |
 | fluent-reader | Modern desktop RSS reader |
 | flutter | Google's SDK for crafting beautiful, fast user experiences for mobile, web, and desktop |
 | format-factory | Multifunctional, multimedia file conversion tool |
-| ftnn | Powerful tool facilitating trading and providing market information and data for Hong Kong, US and China A-Share Stocks |
 | fu | Cross-platform app to upload images/files in Clipboard to a remote server |
 | fx | Terminal JSON viewer |
 | fzf | A general-purpose command-line fuzzy finder |
@@ -72,7 +69,7 @@
 | gdu | A Fast Console Disk Usage Analyzer |
 | geekuninstaller | Basic uninstaller though powerful and lightning fast. |
 | gh | Official GitHub CLI |
-| git-town | Git plugin, that adds Git commands that make collaborative software development more efficient and safe. |
+| git-town | Git plugin that adds Git commands that make collaborative software development more efficient and safe. |
 | git | Distributed version control system |
 | github | Extend your GitHub workflow beyond your browser. |
 | gitomatic | A tool to monitor git repositories and automatically pull & push changes. |
@@ -95,13 +92,12 @@
 | hub | An extension to command-line git that helps with everyday GitHub tasks without ever leaving the terminal. |
 | hwmonitor | A hardware monitoring program that reads PC systems main health sensors : voltages, temperatures, fans speed. |
 | imagine | 🖼️ PNG/JPEG optimization app for macOS, Windows and Linux. |
-| imewlconverter | Input Method Editor word library converter |
 | innounp | Inno Setup Unpacker |
 | innounpacker | Inno Setup Unpacker |
+| instaloader | Download media along with their captions and metadata from Instagram |
 | jabba | Java Version Manager |
 | jetbrains-toolbox | Toolbox App. A control panel for all JetBrains tools. |
 | jianyingpro | Video editing application produced by ByteDance |
-| kate | Multi-document editor |
 | kodi | Kodi is an award-winning free and open source software media player and entertainment hub for digital media |
 | koodo-reader | A cross-platform ebook reader |
 | landrop | Drop any files to any devices on LAN. |
@@ -134,7 +130,6 @@
 | n-m3u8dl-cli | A m3u8 downloader |
 | nali | An offline tool for querying IP geographic information and CDN provider |
 | nano | A small and friendly GNU editor, inspired by Pico |
-| nc | 快速移除或更新依赖，yarn/pnpm |
 | ncspot | ncurses Spotify client written in Rust |
 | neofetch | A command-line system information tool written in bash 3.2+. |
 | neovim | Vim-fork focused on extensibility and usability |
@@ -184,14 +179,14 @@
 | pseverything | Powershell access to Everything - Blazingly fast file system searches |
 | psutils | A collection of command line utilities written in PowerShell proudly ignoring PowerShell Verb-Noun naming conventions. |
 | pup | Parsing HTML at the command line |
-| pure-live | A Flutter project can make you watch live with ease. |
 | pwsh | Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data. |
-| pyenv | Simple python version management tool for switching between multiple versions of Python. |
 | pyflow | A modern Python installation and dependency manager |
 | pypy2 | A fast, compliant alternative implementation of the Python language. |
 | pypy3 | A fast, compliant alternative implementation of the Python language. |
 | python | A programming language that lets you work quickly and integrate systems more effectively. |
+| pyvm | Python Version Manager for Windows, inspired by pyenv and nvm. |
 | qpdf | A command-line program that does structural, content-preserving transformations on PDF files. |
+| qq-nt | An instant messaging tool that gives you the best way to keep in touch with your friends and family, Build with Electron |
 | qqmusic | The official QQ Music client. |
 | qrcp | Transfers files over wifi from computer to mobile device by scanning a QR code without leaving the terminal. |
 | qt-creator | IDE for development with the Qt framework |
@@ -224,21 +219,19 @@
 | shim | Create shim for programs. |
 | shimo | A notes app |
 | silentcmd | Executes a batch file without opening the command prompt window. |
+| simple-live | A Flutter project can make you watch live with ease. |
 | snipaste | A snipping tool, which allows you to pin the screenshot back onto the screen. |
 | sox | Command line utility that can convert various formats of computer audio files in to other formats. |
 | speedtest-cli | Internet connection speed and performance tester |
 | spotube | A lightweight free Spotify client, which handles playback manually, streams music using Youtube & no Spotify premium account is needed. |
 | sudo | An approximation of the Unix sudo command. Shows a UAC popup window unfortunately. |
 | svtplay-dl | Video downloader from various sites |
-| switchhosts | Hosts management & switching |
 | tar | File archiver for manipulation with '.tar.*' files. |
 | telegram | A messaging app with a focus on speed and security |
 | terminus | A terminal for a more modern age |
 | termscp | Terminal UI file explorer with SCP/SFTP/FTP support |
 | tesseract-languages | Fast integer versions of trained models for the Tesseract Open Source OCR Engine |
 | tesseract | Open Source OCR Engine |
-| Thunder | 迅雷11 绿色精简版 |
-| TianRuoOCR | 天若OCR开源版本 |
 | tim | An lightweight instant messaging software service developed by Tencent |
 | time | An approximation of the Unix time command. |
 | tldr | Interactive tldr pages (simplified and community-driven man pages) client |
@@ -272,13 +265,11 @@
 | wechat | Free messaging and calling app by Tencent |
 | wechatdevtools | The official devtool to develop and debug WeChat Mini Programs |
 | wegame | WeGame是国内最大的数字游戏发行平台，集游戏购买下载、游戏社区等功能于一身，为游戏开发者提供更好的服务，为游戏玩家提供更多优质游戏内容，构筑开发者和游戏玩家之间的沟通桥梁。 |
-| wegameMiniLoader | WeGameMini DownLoader for LOL. |
 | wget | A command-line utility for retrieving files using HTTP, HTTPS, FTP, and FTPS protocols. |
 | which | Show the full path of command. |
 | win32-openssh | A suite of secure networking utilities based on the Secure Shell protocol. (Microsoft port) |
 | windows-application-driver | Supports Selenium-like UI Test Automation on Windows Applications. |
 | windows-terminal-quake | Companion program for the new Windows Terminal that enables Quake-style drop down |
-| windows11manager | Windows11Manager，好用的Win10百宝箱，可以清理、维修、自定义系统等 |
 | winfetch | A command-line system information utility for Windows |
 | winxray | 基于xray核心的windows代理程序，采用aardio设计与开发！ |
 | wkhtmltopdf | Render HTML into PDF |
