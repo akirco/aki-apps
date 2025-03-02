@@ -1,29 +1,29 @@
 {
-    "version": "6.6.0",
-    "homepage": "https://www.aliyundrive.com/",
-    "license": "Freeware",
-    "description": "Aliyun Drive offical client",
-    "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/update/6.6.0/win32/x64/aDrive-6.6.0.exe?_=sourceforge.net",
-    "hash": "sha512:e9acebf2b75c5e1a6ff00c67976194f7371c280b2099583388f3867122fbf398be157773f78d3a44b805c0696a27297fa007e6e25d0e79ca6a8c804a073c5120",
-    "installer": {
-        "script": "Expand-7zipArchive -Path \"$dir\\$fname\" -Removal"
+    "version": "6.8.5",
+    "description": "The official client for Alibaba's cloud dirve service",
+    "homepage": "https://www.alipan.com/",
+    "license": {
+        "identifier": "EULA",
+        "url": "https://www.alipan.com/protocol/service"
     },
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$TEMP\" -Force -Recurse",
+    "url": "https://dorado-api.deno.dev/alipan?version=6.8.5&dl#/aDrive-6.8.5.7z",
+    "hash": "9d24f969b0c9fe4f6a6f4537f86a3970b2257b813f40d6a787b877e0f52c6816",
+    "post_install": [
+        "@('$PLUGINSDIR', '$TEMP') | ForEach-Object {",
+        "    Remove-Item \"$dir\\$_\" -Recurse -Force",
+        "}"
+    ],
     "shortcuts": [
         [
             "aDrive.exe",
-            "aliyun drive"
+            "阿里云盘"
         ]
     ],
     "checkver": {
-        "url": "https://api.nicoconi.com/updater/aliyundrive",
-        "regex": "version: ([\\d.]+)"
+        "url": "https://dorado-api.deno.dev/alipan",
+        "jsonpath": "$.version"
     },
     "autoupdate": {
-        "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/update/$version/win32/x64/aDrive-$version.exe?_=sourceforge.net",
-        "hash": {
-            "url": "https://api.nicoconi.com/updater/aliyundrive",
-            "regex": "sha512: $base64"
-        }
+        "url": "https://dorado-api.deno.dev/alipan?version=$version&dl#/aDrive-$version.7z"
     }
 }
