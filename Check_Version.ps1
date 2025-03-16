@@ -1,0 +1,1 @@
+(Get-ChildItem .\bucket).FullName | ForEach-Object { .\bin\checkver.ps1 $_ }
