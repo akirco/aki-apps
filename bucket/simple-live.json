@@ -18,6 +18,6 @@
         "Remove-Item $runtimeCache -Recurse -Force -ErrorAction SilentlyContinue"
     ],
     "autoupdate": {
-        "url": "https://github.com/xiaoyaocz/dart_simple_live/releases/download/v$version/simple_live_app-$version+10703-windows.zip"
+        "url": "https://github.com/xiaoyaocz/dart_simple_live/releases/download/v$version/simple_live_app-$version+10706-windows.zip"
     }
 }

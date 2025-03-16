@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Macchina-CLI/macchina/releases/download/v$version/macchina-windows-x86_64.exe#/macchina.exe"
+                "url": "https://github.com/Macchina-CLI/macchina/releases/download/v$version/macchina-v$version-windows-x86_64.exe#/macchina.exe"
             }
         }
     }
