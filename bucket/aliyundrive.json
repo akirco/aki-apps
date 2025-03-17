@@ -24,6 +24,6 @@
         "jsonpath": "$.version"
     },
     "autoupdate": {
-        "url": "https://dorado-api.deno.dev/alipan?version=$version&dl#/aDrive-$version.7z"
+        "url": "($.url)dl#/aDrive-$version.7z"
     }
 }
