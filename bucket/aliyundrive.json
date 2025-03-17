@@ -20,10 +20,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://dorado-api.deno.dev/alipan",
-        "jsonpath": "$.version"
+        "url": "https://www.aliyundrive.com/download",
+        "regex": "aDrive-([\\d\\.]+[\\dA-Za-z-]*)\\.exe"
     },
     "autoupdate": {
-        "url": "($.url)dl#/aDrive-$version.7z"
+        "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/aDrive-$version.exe#/dl.7z"
     }
 }
