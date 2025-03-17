@@ -24,6 +24,6 @@
         "regex": "aDrive-([\\d\\.]+[\\dA-Za-z-]*)\\.exe"
     },
     "autoupdate": {
-        "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/aDrive-$version.exe#/dl.7z"
+        "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/aDrive-$version.exe"
     }
 }
