@@ -1,5 +1,5 @@
 {
-    "version": "0.47.5",
+    "version": "0.47.7",
     "description": "The AI Code Editor",
     "homepage": "https://www.cursor.com/",
     "license": {
@@ -9,8 +9,8 @@
     "depends": "aki/innounpacker",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.cursor.com/production/53d6da1322f934a1058e7569ee0847b24879d18c/win32/x64/user-setup/CursorUserSetup-x64-0.47.5.exe#/dl.7z",
-            "hash": "5df2c647c4b4a195f27b61ca657b483bd8bf561053ecac2878d63b3d777b6d83"
+            "url": "https://downloads.cursor.com/production/33ec0dad159bc0ad620f6bbda539efe90c39748d/win32/x64/user-setup/CursorUserSetup-x64-0.47.7.exe#/dl.7z",
+            "hash": "5df931ed2119403e227b3e6468a8ce82ea4f8edf7b1f8234674ec3d5127dba93"
         }
     },
     "pre_install": [
