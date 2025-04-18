@@ -6,12 +6,7 @@
     "url": "https://pdds.quark.cn/download/stfile/aageheigeabeacick/QuarkCloudDrive_v3.18.1_release2_(Build2093077-20250225112636).exe",
     "hash": "8c55cc3f093bdda33a481ebe298a94efdf5ed9293f184ecb77095420e45cbd7d",
     "innosetup": true,
-    "shortcuts": [
-        [
-            "QuarkCloudDrive.exe",
-            "QuarkCloudDrive"
-        ]
-    ],
+    "shortcuts": [["QuarkCloudDrive.exe", "QuarkCloudDrive"]],
     "pre_install": [
         "Move-Item -Force -Path \"$dir\\app-$version\\*\" -Destination \"$dir\"",
         "Remove-Item -Force -Recurse -Path \"$dir\\app-$version\""
@@ -27,10 +22,10 @@
     "checkver": {
         "url": "https://pan.quark.cn/api/client_version",
         "jsonpath": "$.data.clouddrive_backup_packages[0].winInstallerUrl",
-        "re": "pdds.quark.cn/download/stfile/(?<release>\\w+)/QuarkCloudDrive_v(?<version>[\\d.]+)_release2_\\(Build(?<build>\\d+)-(?<timestamp>\\d+)\\).exe",
+        "re": "pdds.quark.cn/download/stfile/(?<release>\\w+)/QuarkCloudDrive_v(?<version>[\\d.]+)_release_\\(Build(?<build>\\d+)-(?<timestamp>\\d+)\\).exe",
         "replace": "${version}"
     },
     "autoupdate": {
-        "url": "https://pdds.quark.cn/download/stfile/$matchRelease/QuarkCloudDrive_v$matchVersion_release2_(Build$matchBuild-$matchTimestamp).exe"
+        "url": "https://pdds.quark.cn/download/stfile/$matchRelease/QuarkCloudDrive_v$matchVersion_release_(Build$matchBuild-$matchTimestamp).exe"
     }
 }
