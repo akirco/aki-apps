@@ -1,12 +1,17 @@
 {
-    "version": "3.18.1",
+    "version": "3.19.0",
     "description": "夸克网盘",
     "homepage": "https://pan.quark.cn/",
     "license": "Proprietary",
-    "url": "https://pdds.quark.cn/download/stfile/aageheigeabeacick/QuarkCloudDrive_v3.18.1_release2_(Build2093077-20250225112636).exe",
-    "hash": "8c55cc3f093bdda33a481ebe298a94efdf5ed9293f184ecb77095420e45cbd7d",
+    "url": "https://pdds.quark.cn/download/stfile/yy647988yyz4y282d/QuarkCloudDrive_v3.19.0_release_(Build2135883-20250328111434).exe",
+    "hash": "9aab6c9d22d5b555b5e2eb4c2516ba58c679a78c59d8b754e993605d7fd2f2eb",
     "innosetup": true,
-    "shortcuts": [["QuarkCloudDrive.exe", "QuarkCloudDrive"]],
+    "shortcuts": [
+        [
+            "QuarkCloudDrive.exe",
+            "QuarkCloudDrive"
+        ]
+    ],
     "pre_install": [
         "Move-Item -Force -Path \"$dir\\app-$version\\*\" -Destination \"$dir\"",
         "Remove-Item -Force -Recurse -Path \"$dir\\app-$version\""
