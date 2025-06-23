@@ -17,7 +17,10 @@
         }
     },
     "installer": {
-        "script": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
+        "script": [
+            "Move-Item \"$dir\\Chrome-bin\\*\" \"$dir\\.\" -Force",
+            "Remove-Item \"$dir\\Chrome-bin\" -Force"
+        ]
     },
     "bin": [["chrome.exe", "chrome", "--user-data-dir=\"$dir\\User Data\""]],
     "shortcuts": [
