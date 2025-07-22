@@ -19,7 +19,13 @@ function get_installer_info([string]$app) {
             $installer_info.$res = $_
         }
     }
+    Write-Host "Installer information for $app retrieved successfully."
+    Write-Host "URL: $($installer_info.x64_exe.InstallerUrl)"
+    Write-Host "SHA256: $($installer_info.x64_exe.InstallerSha256)"
+
     $installer_info
+
+    # format $installer_info to a readable table
 }
 
 function AddToPath {
