@@ -13,15 +13,11 @@
         "(Get-ChildItem $dir '*.7z').Fullname | Rename-Item -NewName 'app.7z'",
         "Expand-7zipArchive \"$dir\\app.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\",\"$dir\\app.7z\",\"$dir\\plugin_compress.ini\" -Force -Recurse",
-        "$contentDir=Get-ChildItem -Name -Path \"$dir\" -Directory",
+        "$contentDir=Get-ChildItem -Name -Path \"$dir\" -Directory | Where-Object { $_ -match \"^\\d+(\\.\\d+)+$\" }",
+        "Write-Host \"\nContent directory: $contentDir\"",
         "7z.exe a -tzip -mx=6 \"$dir\\$contentDir\\content.pkg\" \"$dir\\$contentDir\\content.pkg.nsisbin\\*\" | Out-Null"
     ],
-    "shortcuts": [
-        [
-            "yuanbao.exe",
-            "yuanbao"
-        ]
-    ],
+    "shortcuts": [["yuanbao.exe", "yuanbao"]],
     "checkver": {
         "script": [
             ". \"$pwd\\bin\\utils.ps1\"",
