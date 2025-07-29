@@ -25,6 +25,12 @@
         "pnpm config set state-dir $persist_dir\\.pnpm-state",
         "pnpm config set cache-dir $persist_dir\\.pnpm-cache"
     ],
+    "post_uninstall": [
+        "$pnpm_config_dir = $env:LOCALAPPDATA\\pnpm",
+        "if (Test-Path $pnpm_config_dir) {",
+        "    Remove-Item -Recurse -Force $pnpm_config_dir",
+        "}"
+    ],
     "env_add_path": [".pnpm-global\\.bin"],
     "persist": [".pnpm-cache", ".pnpm-store", ".pnpm-global", ".pnpm-state"],
     "bin": ["pnpm.exe", ["pnpm.exe", "pnpx", "dlx"]],
