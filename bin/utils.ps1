@@ -10,7 +10,6 @@ function get_installer_info([string]$app) {
 
     $installer_info = ConvertFrom-Yaml $installer_yaml.Content
 
-    # Write-Host $installer_info
     foreach ($_ in $installer_info.Installers) {
         $arch = $_.Architecture
         $type = [regex]::Match($_.InstallerUrl, '\.(\w+)$').Groups[1].Value
