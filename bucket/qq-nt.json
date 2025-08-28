@@ -1,5 +1,5 @@
 {
-    "version": "9.9.20.37625",
+    "version": "9.9.21.38711",
     "description": "An instant messaging tool that gives you the best way to keep in touch with your friends and family, Build with Electron",
     "homepage": "https://im.qq.com",
     "license": {
@@ -11,8 +11,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.20_250724_x64_01.exe#/dl.7z",
-            "hash": "59b097078bd5b3bc6e1029a1dc617559c2d82a8d79fc60798fad5104dc44883c"
+            "url": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.21_250822_x64_01.exe#/dl.7z",
+            "hash": "6b880332e6407f088834ce185ada9f1d0b4c7f6ba7ee266005b5c5179a9d2f74"
         }
     },
     "installer": {
@@ -24,7 +24,12 @@
             "Set-Content -NoNewline -Path \"$configpath\\UserDataInfo.ini\" -Value \"[UserDataSet]`nUserDataSavePathType=2`nUserDataSavePath=$persist_dir\\QQ Files\""
         ]
     },
-    "shortcuts": [["Files\\QQ.exe", "QQ-NT"]],
+    "shortcuts": [
+        [
+            "Files\\QQ.exe",
+            "QQ-NT"
+        ]
+    ],
     "persist": "QQ Files",
     "uninstaller": {
         "script": "Remove-Item -Path \"$env:PUBLIC\\Documents\\Tencent\" -Recurse -Force | Out-Null"
