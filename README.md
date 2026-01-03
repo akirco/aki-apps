@@ -2,6 +2,10 @@
 
 [Reading dotfiles](https://github.com/akirco/dotfiles)
 
+## Tip
+
+换archlinux了，更新有问题提交issue就行
+
 ## Scoop Bucket `aki`
 
 `scoop bucket add aki 'https://github.com/akirco/aki-apps.git'`
