@@ -1,12 +1,12 @@
 {
-    "version": "6",
+    "version": "0.0.112",
     "description": "Agentic Coding Platform",
     "homepage": "https://qoder.com/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
             "url": "https://download.qoder.com/release/latest/QoderUserSetup-x64.exe",
-            "hash": "cc344b29d31cf05dbebcc911edd330bccdc722b476610ad88cef3bfded50b325",
+            "hash": "878af0139a60bcebaeee121c678d5c793d5c521b247a3b7fd83bdf41f977c93d",
             "extract_dir": "{code_GetDestDir}"
         }
     },
