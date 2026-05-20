@@ -1,10 +1,10 @@
 {
-    "version": "11.0.0.4909",
+    "version": "16.4.0.3497",
     "description": "搜狗输入法是一款由搜狗公司开发的中文输入法软件，提供了丰富的词库和智能输入功能，支持多种输入方式，包括拼音、五笔、手写等，帮助用户高效地进行中文输入。",
     "homepage": "https://shurufa.sogou.com/",
     "license": "Proprietary",
-    "url": "http://cdn2.ime.sogou.com/dl/index/1628388424/sogou_pinyin_110b.exe#/dl.7z",
-    "hash": "2D94D08015769713009F16C0E280BEBDFCB4CE64CE4C582B78D02EEB8DD4AC12",
+    "url": "https://ime.gtimg.com/pc/build/_sogou_pinyin_16.4.0.3497_0.exe#/dl.7z",
+    "hash": "218fd0ddeaeabdf3c0fe8b25e7d309d3f851224fe72ceae8a1cd6501d3655781",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\app.7z\" \"$dir\"",
         "Move-Item \"$dir\\$version\\*\" \"$dir\" -Force -Recurse",
