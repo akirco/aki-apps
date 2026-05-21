@@ -8,7 +8,7 @@
     "pre_install": [
         "Get-ChildItem -Path \"$dir\" -Directory | Where-Object { $_.Name -like '$*' } | Remove-Item -Recurse -Force",
         "Move-Item \"$dir\\$version\\*\" \"$dir\" -Force -Recurse",
-        "\"$dir\\Install64.exe\" /S"
+        "\"$dir\\Install64.exe\" \"/S\""
     ],
     "checkver": {
         "script": [
