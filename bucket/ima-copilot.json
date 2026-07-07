@@ -1,9 +1,9 @@
 {
-    "version": "147.0.7727.4784",
+    "version": "147.0.7727.4791",
     "homepage": "https://ima.qq.com/",
     "license": "Freeware",
-    "url": "https://app-dl.ima.qq.com/win_channel/ima.copilot_win_x64_1018_2.6.0_4645.exe#/dl.7z",
-    "hash": "019e2c18f67fc5b1045edaa6aa6d8aa72d2b2868afc5cb260b166355ee8a2643",
+    "url": "https://app-dl.ima.qq.com/win_channel/ima.copilot_win_x64_1018_2.6.0_4652.exe#/dl.7z",
+    "hash": "a7bb710ecae897fb0dcbb42986efa9aad5a94c4b84e809619ec29b0d36df73b5",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\chrome.7z\" \"$dir\"",
         "Move-Item \"$dir\\Chrome-bin\\*\" \"$dir\""
