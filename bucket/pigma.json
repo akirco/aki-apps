@@ -1,10 +1,10 @@
 {
-    "version": "0.2.11",
+    "version": "0.2.12",
     "description": "A NetEase Cloud Music or local audio playback TUI client built with Ratatui. ",
     "homepage": "https://github.com/akirco/pigma",
     "license": "Freeware",
-    "url": "https://github.com/akirco/pigma/releases/download/v0.2.11/pigma-x86_64-pc-windows-msvc.zip",
-    "hash": "7b2c26dd86d1e2ab9b493ee29c211e9db693ba25c04b3f1e0d9486e280c05e93",
+    "url": "https://github.com/akirco/pigma/releases/download/v0.2.12/pigma-x86_64-pc-windows-msvc.zip",
+    "hash": "70271c1b5c6f589a5500e93a71bab30950dece09e4501860c07aa5cff7560512",
     "bin": "pigma.exe",
     "checkver": "github",
     "autoupdate": {
